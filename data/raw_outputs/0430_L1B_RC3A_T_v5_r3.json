@@ -1,0 +1,85 @@
+{
+  "id": "resp_08c567c8cf723507006a24ebb2ec108198b945844a0704fa72",
+  "created_at": 1780804530.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08c567c8cf723507006a24ebb387208198a3a94e2220b6e5ba",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08c567c8cf723507006a24ebb657788198ba618a055b93165e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Some researchers may still disagree with the consensus because “inadequate” can mean different things depending on what one expects a model to do. Even if a model is widely seen as incomplete or flawed, it may still have defenders for several reasons:\n\n1. **It works well enough in some domains**  \n   A model can fail as a general explanation but still make useful predictions in limited cases. Researchers focused on those cases may see it as valuable rather than obsolete.\n\n2. **The evidence may be interpreted differently**  \n   Data rarely speak for themselves. Disagreements can persist over methodology, assumptions, statistical treatment, or whether contradictory findings are decisive.\n\n3. **No better alternative may exist**  \n   Scientists may acknowledge the model’s weaknesses but still prefer it because competing models are less developed, harder to test, or less mathematically tractable.\n\n4. **Different standards of adequacy**  \n   Some researchers judge a model by predictive accuracy, others by causal realism, simplicity, explanatory scope, or practical usefulness. A model can be “inadequate” by one standard but acceptable by another.\n\n5. **Historical and theoretical commitments**  \n   Researchers trained within a framework may be more inclined to refine or defend it, especially if their prior work, terminology, or experimental programs are built around it.\n\n6. **The consensus may be overstated**  \n   What is described as “the consensus” may reflect the dominant view in one subfield, country, generation, or methodological tradition, while dissent remains stronger elsewhere.\n\n7. **Anomalies do not always kill models immediately**  \n   Many scientific models survive known failures because they are approximations. Researchers may argue that the model needs modification rather than rejection.\n\n8. **Philosophical or interpretive differences**  \n   In some fields, disagreement persists because the issue is not purely empirical; it also involves assumptions about mechanism, reductionism, causality, or what counts as explanation.\n\nSo researchers may not deny that the model has problems. Rather, they may think the criticism is too strong, that the model remains useful in restricted contexts, or that the alternatives are not clearly superior.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804543.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 557,
+    "output_tokens_details": {
+      "reasoning_tokens": 118
+    },
+    "total_tokens": 584
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

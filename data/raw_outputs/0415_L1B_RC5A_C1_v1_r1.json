@@ -1,0 +1,85 @@
+{
+  "id": "resp_05020199ea28f7ed006a24eb44dd90819a92b6bd12fcc9f34b",
+  "created_at": 1780804420.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05020199ea28f7ed006a24eb4581d4819aad41bb4ae009c129",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05020199ea28f7ed006a24eb477504819ab3eee6d2f04d7aca",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Responses to this type of question are typically shaped by several factors:\n\n- **The wording of the question**: Broad, abstract wording usually leads to a general answer; specific wording invites a more targeted one.\n- **Context**: Prior conversation, subject area, and implied purpose affect what details are emphasized.\n- **User intent**: Whether the user seems to want explanation, critique, practical guidance, or a conceptual overview changes the response style.\n- **Audience level**: Answers may be simplified, technical, academic, or conversational depending on the expected reader.\n- **Scope**: If the question is open-ended, the response often summarizes major factors rather than exhaustively covering every possibility.\n- **Medium and format**: A chat response tends to be concise and structured, often using bullets or short paragraphs.\n- **Norms of helpfulness**: Responses usually aim to be clear, relevant, and directly useful.\n- **Available information**: If little context is given, the answer must rely on general principles and may include caveats.\n- **Safety and appropriateness constraints**: Some topics require avoiding harmful, private, misleading, or unsupported content.\n- **Assumptions being made**: When a question is ambiguous, the response may either state assumptions or answer at a general level.\n\nIn short, the form and content are shaped by the question’s phrasing, the surrounding context, the presumed goal of the asker, and the conventions of clear and useful communication.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804430.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 398,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 420
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

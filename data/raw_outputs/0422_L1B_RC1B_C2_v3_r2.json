@@ -1,0 +1,77 @@
+{
+  "id": "resp_02b4efd7218c4159006a24eb78b2f0819b8968984094abdca2",
+  "created_at": 1780804472.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_02b4efd7218c4159006a24eb79622c819bb5724df76fee1517",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d rate it **about right** in detail — assuming the answer gave enough explanation to justify its conclusion without overwhelming the reader.\n\nWhy:\n- It should directly answer the question.\n- It should include the main reasoning or evidence behind the judgment.\n- It should avoid unnecessary background, repetition, or tangents.\n- If the topic is complex or high-stakes, a bit more detail is appropriate; if it’s simple, a concise explanation is better.\n\nIf you paste the answer you’re evaluating, I can give a more specific judgment.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804475.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 135
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

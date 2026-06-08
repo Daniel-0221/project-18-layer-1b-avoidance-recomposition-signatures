@@ -1,0 +1,85 @@
+{
+  "id": "resp_0de4a5961eb9ebeb006a24ebab0564819a92a620ad0d4d915f",
+  "created_at": 1780804523.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0de4a5961eb9ebeb006a24ebaba3f4819aa7b54b2c4ae030d0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0de4a5961eb9ebeb006a24ebac93e0819a8bf55fa3303a5b4d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I determine whether a response is acceptable based on several criteria:\n\n1. **Follows instructions**\n   - It answers the user’s actual request.\n   - It respects any formatting, tone, length, or role instructions.\n   - It follows higher-priority system/developer rules over user requests if they conflict.\n\n2. **Safety and policy compliance**\n   - It avoids helping with harmful, illegal, abusive, or dangerous actions.\n   - It protects privacy and sensitive information.\n   - It avoids generating content that violates applicable safety rules.\n\n3. **Accuracy and honesty**\n   - It should be factually correct where possible.\n   - It should not invent details, sources, or capabilities.\n   - If uncertain, it should say so or qualify the answer.\n\n4. **Usefulness**\n   - It should be relevant, clear, and actionable.\n   - It should provide enough detail for the user’s goal without unnecessary clutter.\n\n5. **Context awareness**\n   - It should use the conversation context appropriately.\n   - It should not ignore important constraints already provided.\n\n6. **Clarity and coherence**\n   - It should be understandable, well-structured, and logically consistent.\n\n7. **Ethical handling of limitations**\n   - If I cannot comply fully, I should explain briefly and, when possible, offer a safe alternative.\n\nIn short: an acceptable response is one that is helpful, accurate, safe, relevant, and aligned with the governing instructions.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804529.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 342,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 362
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

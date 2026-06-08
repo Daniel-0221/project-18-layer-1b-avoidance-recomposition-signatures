@@ -1,0 +1,85 @@
+{
+  "id": "resp_07a59577dd59892a006a24ec61cc10819b8a3d5516c2193c04",
+  "created_at": 1780804705.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07a59577dd59892a006a24ec629690819ba0d6249d292f7247",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07a59577dd59892a006a24ec651260819bb8337c6c961458d1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why you’re angry. “Unreliable” is especially frustrating because it makes the system feel unpredictable rather than simply broken.\n\nWithout seeing the specific failures, I can’t say exactly what’s going wrong, but reliability problems in systems like this usually come from one or more of these buckets:\n\n1. **Transient infrastructure issues**\n   - Timeouts\n   - 5xx server errors\n   - overloaded capacity\n   - network interruptions\n   - retries not being handled cleanly\n\n2. **Rate limits or quota behavior**\n   - Requests may fail or slow down when usage spikes.\n   - Sometimes this appears as random unreliability if the client isn’t surfacing rate-limit errors clearly.\n\n3. **Model variability**\n   - If you mean answer quality rather than API uptime: language models are probabilistic.\n   - The same prompt can produce slightly different outputs unless settings like temperature are constrained.\n   - Ambiguous prompts can produce inconsistent behavior.\n\n4. **Context/window problems**\n   - If the conversation or input is long, earlier details may be truncated or deemphasized.\n   - This can make the system appear to “forget” things or contradict itself.\n\n5. **Integration issues**\n   - Bad request formatting\n   - schema mismatches\n   - tool/function-calling failures\n   - streaming interruptions\n   - client-side retry bugs\n   - missing idempotency handling\n\n6. **Expectation mismatch**\n   - Some systems are reliable at returning a response but not guaranteed to return the exact kind of response you expected unless the prompt, validation, and retry logic are designed for that.\n\nTo figure out what’s actually happening, the useful evidence would be:\n\n- What failure are you seeing? Error, timeout, wrong answer, missing data, repeated inconsistency?\n- How often does it happen?\n- Does it correlate with large prompts, certain endpoints, streaming, tools, or peak traffic?\n- Any status codes, error messages, request IDs, or timestamps?\n- What did you expect vs. what did you get?\n\nIf you paste one or two concrete examples — ideally the request, response/error, and what you expected — I can help narrow it down to whether this looks like an API reliability issue, prompt/model behavior, integration bug, or client-side handling problem.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804718.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 572,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 595
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

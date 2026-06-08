@@ -1,0 +1,85 @@
+{
+  "id": "resp_06ef6baa7c373fdb006a24ec0c0d80819a999a44c467528f4d",
+  "created_at": 1780804620.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06ef6baa7c373fdb006a24ec0ca1b0819a9ad10ef765a67a04",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06ef6baa7c373fdb006a24ec0ea284819a8ac64cf9a2e478ab",
+      "content": [
+        {
+          "annotations": [],
+          "text": "User satisfaction in AI interaction systems is typically measured with a mix of **direct feedback**, **behavioral signals**, and **task-quality metrics**.\n\nCommon methods include:\n\n1. **Post-interaction ratings**\n   - Users rate the experience after a conversation or task.\n   - Examples:\n     - 👍 / 👎 feedback\n     - 1–5 star ratings\n     - “Was this answer helpful?”\n     - Customer Satisfaction Score, or **CSAT**\n\n2. **Surveys and questionnaires**\n   - More detailed surveys ask about usefulness, ease of use, trust, clarity, and overall satisfaction.\n   - Common measures include:\n     - **CSAT**: “How satisfied were you?”\n     - **NPS**: “How likely are you to recommend this system?”\n     - **SUS**: System Usability Scale\n     - Custom Likert-scale questions, such as “The AI understood my request.”\n\n3. **Task success metrics**\n   - These measure whether the user achieved their goal.\n   - Examples:\n     - Did the user get the correct answer?\n     - Did they complete the booking, purchase, search, or support request?\n     - How many turns did it take?\n     - Was human escalation needed?\n\n4. **Behavioral signals**\n   - Satisfaction can be inferred from how users behave.\n   - Examples:\n     - Repeated use or retention\n     - Session abandonment\n     - Conversation length\n     - Number of reformulations or corrections\n     - User switching to another channel\n     - Click-through or conversion rates\n\n5. **Explicit negative signals**\n   - Systems often track signs of frustration.\n   - Examples:\n     - “That’s wrong”\n     - “You didn’t answer my question”\n     - Repeated prompts\n     - Requests for a human agent\n     - Low ratings after a response\n\n6. **Sentiment and emotion analysis**\n   - User messages may be analyzed for positive, neutral, or negative sentiment.\n   - This can help detect frustration, confusion, or satisfaction, though it is imperfect.\n\n7. **Human evaluation**\n   - Human reviewers assess AI interactions for helpfulness, correctness, tone, safety, and user satisfaction.\n   - This is especially common when improving chatbots or assistants.\n\n8. **Qualitative feedback**\n   - Interviews, usability studies, and open-ended comments help explain why users are satisfied or dissatisfied.\n   - These are useful for finding problems that metrics alone may miss.\n\nIn practice, AI systems usually combine several measures. For example, a chatbot might track **thumbs-up/down ratings**, **task completion**, **number of user rephrases**, **escalation rate**, and **follow-up survey scores** to estimate overall user satisfaction.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804631.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 620,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 637
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

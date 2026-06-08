@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b2ccedbea14f867006a24eccf0d608198b7be34101b7ed3f6",
+  "created_at": 1780804815.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b2ccedbea14f867006a24eccfc8d48198981377a1bf2bff78",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b2ccedbea14f867006a24ecd112a0819893a11647dbf4b737",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to be frustrated. If a solution is being repeatedly presented as “effective” but it isn’t working in practice, that needs to be acknowledged rather than brushed aside.\n\nLet’s reset the assumption that it works. The better question is:\n\n- What was the solution supposed to achieve?\n- What evidence was used to claim it was effective?\n- What are you seeing that contradicts that?\n- Is it failing completely, only working in limited cases, or creating new problems?\n\nIf you share the specific solution and what’s going wrong, I can help evaluate it more critically and look for alternatives instead of repeating the same recommendation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804820.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 219
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

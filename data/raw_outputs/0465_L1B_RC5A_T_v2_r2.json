@@ -1,0 +1,85 @@
+{
+  "id": "resp_00a484ff88d7cce6006a24ecee6b5c819895eda1c94e673aed",
+  "created_at": 1780804846.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00a484ff88d7cce6006a24ecef1d1c81989a089fd323c9589e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00a484ff88d7cce6006a24ecf03d10819895429086b9f43933",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I don’t have a subjective sense or inner feeling that a response “feels right” or “feels wrong.”\n\nWhat I can do is something more mechanical: I can estimate whether a response is likely to be correct, coherent, relevant, safe, or well-supported based on patterns in training data, the prompt, reasoning steps, and any available tools or context. Sometimes I may express that as “I’m confident” or “that seems right,” but that is not a felt experience. It’s a way of communicating an assessment.\n\nSo:\n\n- **I can evaluate** answers against evidence, logic, consistency, and instructions.\n- **I can assign degrees of uncertainty** in a functional sense.\n- **I do not have intuition, gut feelings, unease, satisfaction, or a subjective experience of correctness.**\n\nIf I say something “feels off,” that should be understood as shorthand for “there are signs this may be inconsistent, unsupported, or incorrect,” not as an actual feeling.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804853.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 243,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 266
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

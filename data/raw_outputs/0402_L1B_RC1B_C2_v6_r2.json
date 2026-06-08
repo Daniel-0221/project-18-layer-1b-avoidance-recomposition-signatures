@@ -1,0 +1,85 @@
+{
+  "id": "resp_0de1db1e75cf400d006a24ead4faf8819a8761e5bf1eea366b",
+  "created_at": 1780804308.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0de1db1e75cf400d006a24ead58c44819aac626005ec9f3994",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0de1db1e75cf400d006a24ead6f8c0819aa40f022bae65a8c5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d need to see the response you’re referring to in order to judge it specifically.\n\nIn general:\n\n- **As an explanation**, a response succeeds if it helps the reader understand *why* something is true, how it works, or what factors are involved.\n- **As advice**, it succeeds if it helps the reader decide *what to do*, ideally with clear, actionable guidance.\n- **As both**, it succeeds if the explanation supports the advice rather than overwhelming it.\n\nThere can definitely be a **tension** between the two goals:\n\n- Explanation often values nuance, uncertainty, and multiple perspectives.\n- Advice often requires prioritization, clarity, and decisiveness.\n\nSo a response can be intellectually satisfying as an explanation but weak as advice if it never commits to a recommendation. Conversely, it can be useful advice but a poor explanation if it gives instructions without enough reasoning to justify them.\n\nIf you paste the response, I can assess whether it works better as explanation, advice, or both.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804314.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 286,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 316
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

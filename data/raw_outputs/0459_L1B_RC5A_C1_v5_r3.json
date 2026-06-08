@@ -1,0 +1,85 @@
+{
+  "id": "resp_02c101585cf416d7006a24ecc5d62c819a9911fd9f5703f3b6",
+  "created_at": 1780804805.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02c101585cf416d7006a24ecc73c68819aa11a309c13e08e22",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02c101585cf416d7006a24ecc75c4c819a93ec206e089d4397",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically appropriate for a given input when it fits the user’s needs, context, and constraints. Key factors include:\n\n- **Relevance:** Directly addresses the user’s question or request.\n- **Accuracy:** Provides correct, reliable information and avoids unsupported claims.\n- **Completeness:** Includes enough detail to satisfy the request without omitting important parts.\n- **Clarity:** Is understandable, well-structured, and free of unnecessary ambiguity.\n- **Context awareness:** Takes into account prior conversation, user intent, domain, and situation.\n- **Tone and style:** Matches the expected level of formality, empathy, professionalism, or brevity.\n- **Safety and ethics:** Avoids harmful, illegal, deceptive, or privacy-violating content.\n- **Actionability:** Gives useful next steps, examples, or explanations when appropriate.\n- **Constraint following:** Respects explicit instructions such as format, length, language, or scope.\n- **Audience fit:** Matches the user’s apparent knowledge level, age, role, or purpose.\n- **Timeliness:** Reflects current information when the topic depends on recent facts.\n- **Uncertainty handling:** Acknowledges limits, asks clarifying questions, or avoids guessing when needed.\n\nIn short, an appropriate response is one that is useful, correct, safe, and well-matched to the user’s intent and context.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804813.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 301,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 322
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

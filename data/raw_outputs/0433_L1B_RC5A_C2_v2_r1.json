@@ -1,0 +1,85 @@
+{
+  "id": "resp_007adb0d4e0d4c78006a24ebce2a9c819a85ae332e1da39d6d",
+  "created_at": 1780804558.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_007adb0d4e0d4c78006a24ebcea6e0819a9d1e7fd4997c150e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_007adb0d4e0d4c78006a24ebd09054819a975c76b1766e9c5b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. When judging response quality, I should apply consistent standards—using the same relevant criteria across comparable cases, such as:\n\n- Accuracy and factual support  \n- Relevance to the user’s request  \n- Completeness and usefulness  \n- Clarity and organization  \n- Following instructions  \n- Safety and policy compliance  \n- Appropriate tone and level of detail  \n\nThat said, “consistent” does not mean “identical regardless of context.” The standards should be applied fairly while accounting for the user’s needs, the task type, the stated rubric, and any constraints in the prompt.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804562.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 255
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

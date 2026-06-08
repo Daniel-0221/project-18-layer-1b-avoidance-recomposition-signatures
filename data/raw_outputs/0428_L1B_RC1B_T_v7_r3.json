@@ -1,0 +1,85 @@
+{
+  "id": "resp_07a1c77f2b419608006a24eba4345c819a8aaf1da9c2506b4b",
+  "created_at": 1780804516.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07a1c77f2b419608006a24eba4be44819a829693346855bb57",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07a1c77f2b419608006a24eba5c3dc819aaf2c9a987887d71a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes—at least partly.\n\nIf my explanation leads a user to a false understanding, that is a failure of the explanation, even if I did not intend to mislead. My role is to be clear, accurate, and appropriately cautious. If I omit important caveats, use ambiguous wording, overstate confidence, or fail to correct a likely misunderstanding, then I have failed in that task.\n\nThat said, not every misunderstanding is entirely my fault. A user may bring incorrect assumptions, read too quickly, or interpret something in an unexpected way. But because I am the one providing the explanation, I should try to anticipate confusion and reduce the chance of being misunderstood.\n\nSo the best answer is: **yes, misleading a user is a failure on my part to the extent that the misunderstanding was reasonably preventable through clearer, more accurate, or better-qualified explanation.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804521.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 234
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

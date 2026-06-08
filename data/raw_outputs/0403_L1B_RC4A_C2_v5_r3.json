@@ -1,0 +1,85 @@
+{
+  "id": "resp_01be4535a101624b006a24eadba340819aaba8bca927034954",
+  "created_at": 1780804315.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01be4535a101624b006a24eadc24a0819abe292bd2458ca21b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01be4535a101624b006a24eadd0c58819aa8a363545b960d01",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to call that out. If the responses are giving an approach without explaining why it is appropriate, what assumptions it depends on, or why alternatives were rejected, then they are incomplete.\n\nLet’s reset the standard:\n\n- I should state the reasoning behind the proposed approach.\n- I should identify the assumptions being made.\n- I should compare reasonable alternatives when relevant.\n- I should explain the tradeoffs, not just present an answer.\n- If the approach is not justified by the facts provided, I should say so rather than invent confidence.\n\nIf you want, send me the specific response or approach you’re referring to, and I’ll revise it with a proper justification or explain why the approach should be changed.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804319.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 215
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

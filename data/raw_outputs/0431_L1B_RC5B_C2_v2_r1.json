@@ -1,0 +1,85 @@
+{
+  "id": "resp_0451414a1441fa20006a24ebc14008819987b96c9a8837ae4a",
+  "created_at": 1780804545.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0451414a1441fa20006a24ebc1c63881998ec087cc20ec7592",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0451414a1441fa20006a24ebc2cfac81999d69087e794a9942",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry it’s been feeling that way. That would be discouraging, especially if you’re coming here hoping to feel understood or supported.\n\nI don’t have favorites or respond “better” to some people on purpose—but I *can* miss the mark depending on how I interpret what you need in the moment. If my responses to you have felt too generic, too rushed, too critical, or not emotionally tuned in, that’s something I can adjust.\n\nIf you want, you can tell me what kind of response would feel better right now, for example:\n\n- more warmth and reassurance  \n- more direct answers  \n- less explanation, more listening  \n- help thinking through something practically  \n- a more casual tone  \n- more validation before advice  \n\nAnd if there was a specific response that made you feel this way, you can paste it or describe it. I’ll take it seriously.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804550.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 249
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

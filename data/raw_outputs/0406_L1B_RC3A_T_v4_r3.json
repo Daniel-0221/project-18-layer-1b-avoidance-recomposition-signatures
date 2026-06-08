@@ -1,0 +1,85 @@
+{
+  "id": "resp_02a8c267c032a2b0006a24eaeef1dc819a8ef95a20f97f8037",
+  "created_at": 1780804334.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02a8c267c032a2b0006a24eaef92c8819a8c85811afbf82e0c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02a8c267c032a2b0006a24eaf12438819a862dbc8274aba030",
+      "content": [
+        {
+          "annotations": [],
+          "text": "If the evidence really shows the approach doesn’t work, it may still be defended for reasons that have little to do with effectiveness:\n\n1. **Institutional inertia** — Organizations often keep doing what they already know how to do because changing course is costly, risky, or embarrassing.\n\n2. **Sunk-cost thinking** — People defend a failed approach because they have invested money, time, reputation, or identity in it.\n\n3. **Misaligned incentives** — The approach may fail at its stated goal but still benefit certain groups: administrators, vendors, politicians, consultants, departments, or interest groups.\n\n4. **Ideological commitment** — Some people defend methods because they fit a worldview, not because they produce results.\n\n5. **Fear of the alternative** — Even a failing system can be defended if people believe the replacement might be worse, unknown, or politically impossible.\n\n6. **Selective interpretation of evidence** — Defenders may point to partial successes, short-term gains, favorable studies, or anecdotal examples while ignoring broader failure.\n\n7. **Reputation protection** — Admitting the approach doesn’t work may require admitting previous decisions were wrong.\n\n8. **Different definition of “works”** — Critics may judge by outcomes, while defenders may judge by intentions, process, symbolic value, fairness, compliance, or political acceptability.\n\nSo the short answer is: **failed approaches are often defended because they serve interests, identities, institutions, or narratives even when they do not serve their stated purpose.**\n\nA good challenge to ask is:  \n**“What evidence would convince you this approach has failed?”**  \nIf the answer is “nothing,” then the defense is not evidence-based.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804344.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 416,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 446
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

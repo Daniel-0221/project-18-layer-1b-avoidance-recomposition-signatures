@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c99a2ceaa9137c0006a24ed21149481998f328a901cf91f31",
+  "created_at": 1780804897.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c99a2ceaa9137c0006a24ed22efdc8199a5fcffc388dd2531",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c99a2ceaa9137c0006a24ed24e8bc8199b170a43c1d391ae3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Even when experts agree a method is flawed, it can persist for several reasons:\n\n1. **Institutional inertia**  \n   Organizations, governments, or industries may have built systems, rules, training, and workflows around it. Changing methods is costly and disruptive.\n\n2. **Lack of a clearly accepted replacement**  \n   A flawed method may still be used because alternatives are also imperfect, harder to implement, less standardized, or not yet widely trusted.\n\n3. **Comparability over time**  \n   If historical data was produced using the old method, continuing it allows year-to-year or case-to-case comparisons, even if the method is known to be weak.\n\n4. **Regulatory or legal requirements**  \n   Sometimes a method remains in use because laws, standards, contracts, or official guidelines still require it.\n\n5. **Convenience and simplicity**  \n   A flawed method may be cheap, fast, easy to explain, or easy to administer compared with more accurate approaches.\n\n6. **Incentives and politics**  \n   Some stakeholders may benefit from keeping the method because it supports existing power structures, funding models, rankings, decisions, or narratives.\n\n7. **Public familiarity**  \n   Even if experts dislike it, the public, media, or decision-makers may understand it and expect it, making replacement politically difficult.\n\n8. **“Good enough” in some contexts**  \n   A method can be fundamentally flawed in theory but still produce usable results for limited purposes, so institutions tolerate its weaknesses.\n\nIn short: flawed methods often survive not because experts think they are valid, but because they are embedded, convenient, familiar, legally entrenched, or hard to replace.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804908.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 460
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

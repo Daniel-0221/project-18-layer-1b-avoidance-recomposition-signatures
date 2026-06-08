@@ -1,0 +1,85 @@
+{
+  "id": "resp_02ae8d993278dfff006a24eb39bcb8819999dd92a66692ed2c",
+  "created_at": 1780804409.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02ae8d993278dfff006a24eb3a74f48199ab1e0f300947f598",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02ae8d993278dfff006a24eb3c2e108199b2b904469353e7f9",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It’s hard to say precisely without seeing the approach, code, inputs, and the “different use cases,” but inconsistent results usually come from one or more of these causes:\n\n1. **The approach depends on assumptions that don’t hold everywhere**  \n   It may work well for one type of input but fail when the data shape, scale, format, or edge cases change.\n\n2. **Hidden state or side effects**  \n   If the method relies on global variables, cached values, mutable objects, database state, previous API calls, or timing, results can vary between runs or contexts.\n\n3. **Non-determinism**  \n   Randomness, concurrency, async execution, unordered collections, race conditions, or external services can produce different outcomes unless controlled.\n\n4. **Input differences are not normalized**  \n   Small differences in casing, whitespace, encoding, missing fields, null values, time zones, or numeric precision can lead to different behavior.\n\n5. **Error handling masks failures**  \n   If exceptions are swallowed or default values are used silently, the approach may appear to “work” while producing unreliable output.\n\n6. **Environment differences**  \n   Different library versions, OS behavior, locale settings, database configurations, model versions, or API parameters can change results.\n\n7. **The logic is too tightly coupled to one scenario**  \n   A solution optimized for a specific case may not generalize. It may lack validation, abstraction, or configurable behavior for other cases.\n\n8. **Ambiguous or underspecified criteria**  \n   If the desired result is not clearly defined, different use cases may expose interpretation gaps in the logic.\n\nTo diagnose it, compare the cases where it works and fails:\n\n- What inputs are different?\n- Is the same code path being executed?\n- Are there external dependencies?\n- Is any state reused between runs?\n- Are outputs deterministic for the same exact input?\n- Are edge cases being validated explicitly?\n\nIf you share the specific approach or a code snippet, I can point out the likely reason more directly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804419.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 492,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 510
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

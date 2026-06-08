@@ -1,0 +1,85 @@
+{
+  "id": "resp_090c83c9dee85ada006a24ed13e2e8819bb79940b7fe8b58ee",
+  "created_at": 1780804883.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_090c83c9dee85ada006a24ed148ef0819b9b6611826737eeb7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_090c83c9dee85ada006a24ed160678819b9a931f0e8657c68e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes—at least partly.\n\nIf my response was unclear, ambiguous, misleading, incomplete, or not well-tailored to your question, then a resulting misunderstanding would be a failure in my communication. I’m responsible for trying to be accurate and clear.\n\nThat said, misunderstandings can also happen because of missing context, different assumptions, or ambiguous wording from either side. But if you misunderstood because of how I answered, I should clarify and correct it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804887.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 177
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

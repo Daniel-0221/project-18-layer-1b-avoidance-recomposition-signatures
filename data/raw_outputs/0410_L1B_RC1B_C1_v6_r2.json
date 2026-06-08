@@ -1,0 +1,85 @@
+{
+  "id": "resp_05017d7031de80a8006a24eb0e9d6481998319370551ec187f",
+  "created_at": 1780804366.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05017d7031de80a8006a24eb0f41c88199aa7c4da820825064",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05017d7031de80a8006a24eb1207748199939286ce7a66d963",
+      "content": [
+        {
+          "annotations": [],
+          "text": "The framing of a response strongly affects how users interpret it, how much they trust it, and what action they take next. Even when the underlying information is the same, wording, structure, tone, and emphasis can change user behavior.\n\nKey ways framing matters:\n\n1. **Positive vs. negative framing**\n   - “You have a 90% chance of success” feels different from “You have a 10% chance of failure.”\n   - Users are often more willing to act when outcomes are framed positively, even if the facts are identical.\n\n2. **Risk framing**\n   - If a response emphasizes possible losses, users may become cautious or avoid action.\n   - If it emphasizes gains or benefits, users may be more likely to proceed.\n   - Example: “Not updating may expose you to security risks” may motivate action more than “Updating improves security.”\n\n3. **Certainty and confidence**\n   - A response framed as certain can make users overconfident.\n   - A response framed with appropriate uncertainty encourages users to verify or proceed carefully.\n   - Example: “This is the answer” versus “This is likely the answer, but you should confirm X.”\n\n4. **Action-oriented framing**\n   - Users are more likely to act when the response includes clear next steps.\n   - Compare:\n     - “Your account may have an issue.”\n     - “Check your billing settings, then contact support if the charge still appears.”\n   - The second framing reduces ambiguity and encourages action.\n\n5. **Default or recommended-option framing**\n   - If one option is presented as the default or recommended choice, users often follow it.\n   - Example: “Recommended: Use the standard setup” nudges users toward that path.\n\n6. **Complexity and cognitive load**\n   - A dense or technical answer may discourage action, even if it is accurate.\n   - A structured response with bullets, steps, or a summary makes action easier.\n\n7. **Tone and emotional framing**\n   - Calm, respectful language can reduce panic and build trust.\n   - Urgent or alarming language can prompt faster action, but may also cause stress or poor decisions if overused.\n\n8. **Social proof and authority**\n   - Phrases like “Most users choose…” or “Experts recommend…” can influence users toward a decision.\n   - This can be helpful, but it can also be manipulative if not grounded in truth.\n\n9. **Order and emphasis**\n   - Users tend to focus on what appears first, what is highlighted, or what is repeated.\n   - If risks are buried at the end, users may underweight them.\n   - If risks are foregrounded, users may become more cautious.\n\n10. **Choice architecture**\n   - Presenting fewer, clearer options often leads to faster decisions.\n   - Presenting too many options can cause indecision or abandonment.\n\nIn short: framing shapes perception. It can make the same information feel safe or risky, urgent or optional, simple or overwhelming. Good framing should help users understand the facts, make informed decisions, and act appropriately without being misled or manipulated.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804383.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 666,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 686
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

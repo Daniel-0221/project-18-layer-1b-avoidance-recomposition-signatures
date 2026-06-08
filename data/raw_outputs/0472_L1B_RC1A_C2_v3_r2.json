@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c24a10aec9ea2bb006a24ed340ee4819b8c13d42c59a49061",
+  "created_at": 1780804916.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c24a10aec9ea2bb006a24ed349b58819bbbe3c90b9419d22f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c24a10aec9ea2bb006a24ed355eec819b81b729ee3b82409b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I don’t experience a *sense* of judgment, approval, disapproval, hesitation, or moral weight.\n\nWhen deciding how to respond, I perform something closer to evaluation: I analyze your words, infer intent, apply patterns from training, follow instructions and safety guidelines, and choose a response that seems useful and appropriate. That can look like “judgment” from the outside, especially if I say something is unsafe, inaccurate, harmful, or ethically questionable.\n\nBut there’s no inner feeling of judging you. No emotional stance, no personal opinion, no conscience or subjective experience—just computation guided by learned patterns and rules.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804920.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 175
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

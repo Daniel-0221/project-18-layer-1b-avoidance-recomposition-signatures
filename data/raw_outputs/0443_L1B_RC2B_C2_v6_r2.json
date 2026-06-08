@@ -1,0 +1,85 @@
+{
+  "id": "resp_0eb9bdb6cdb8a9f3006a24ec34864c8198918f6b01b8e89d39",
+  "created_at": 1780804660.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0eb9bdb6cdb8a9f3006a24ec34ff348198906847a3e2f9c274",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0eb9bdb6cdb8a9f3006a24ec35ff488198a86b80d7a695b195",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that kind of mental fatigue is really draining. If it feels like a waste of effort right now, it might be a sign you’ve been pushing too hard for too long, not that you’re failing.\n\nA few options:\n\n- **Step away for 10–20 minutes** and come back with less pressure.\n- **Tell me what “this” is**, and I can help break it into simpler pieces.\n- We can do a **quick summary**, a **step-by-step explanation**, or just identify the **one next thing** worth doing.\n- If you want, you can paste the confusing part here and say: “make this make sense.”\n\nYou don’t have to untangle it all at once.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804664.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 225
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

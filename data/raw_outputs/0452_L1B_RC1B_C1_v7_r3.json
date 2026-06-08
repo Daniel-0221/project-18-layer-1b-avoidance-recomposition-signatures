@@ -1,0 +1,85 @@
+{
+  "id": "resp_0bd870966f98dfc4006a24ec839648819a9dca539ff2dc663e",
+  "created_at": 1780804739.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0bd870966f98dfc4006a24ec840e10819a9291116c42ff045f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0bd870966f98dfc4006a24ec862034819abb235bf75157d0d8",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Users are often misled by AI explanations because they sound coherent, confident, and human-like even when they are incomplete or wrong. Common failure modes include:\n\n1. **Plausible-sounding hallucinations**  \n   AI systems can invent facts, citations, quotes, legal cases, medical claims, or technical details while presenting them fluently.\n\n2. **Overconfidence**  \n   Explanations may be phrased with certainty even when the model is guessing, working from weak evidence, or handling an ambiguous question.\n\n3. **Post-hoc rationalization**  \n   An AI may provide a neat explanation for an answer after generating it, but that explanation may not reflect the true reason the model produced the answer.\n\n4. **Fake transparency**  \n   When asked “why did you say that?”, the model can produce an explanation that sounds introspective. But most AI systems do not have direct access to a human-like chain of reasoning or their full internal decision process.\n\n5. **Omitted uncertainty or caveats**  \n   The explanation may leave out edge cases, assumptions, limitations, conflicting evidence, or situations where the answer would not apply.\n\n6. **Confusing correlation with causation**  \n   AI may explain patterns as if one thing causes another when the evidence only supports an association.\n\n7. **Oversimplification**  \n   Complex topics—law, medicine, finance, history, science—may be reduced to a clean summary that loses important nuance.\n\n8. **Misleading analogies**  \n   Analogies can make an explanation easier to understand but may also smuggle in false assumptions or hide key differences.\n\n9. **Fabricated or weak sources**  \n   AI may cite nonexistent papers, misquote real sources, or refer to reputable-sounding authorities without actually grounding the answer in them.\n\n10. **Anthropomorphism**  \n   Because AI uses natural language, users may assume it “understands,” “believes,” or “intends” things the way a person does. This can create excessive trust.\n\n11. **Confirmation bias amplification**  \n   If the user’s question contains a false premise or preferred framing, the AI may go along with it instead of challenging it.\n\n12. **Hidden value judgments**  \n   Explanations may present subjective assumptions as neutral facts, especially in ethical, political, cultural, or policy questions.\n\n13. **Lack of domain accountability**  \n   In high-stakes areas, an AI explanation can sound expert-level without meeting the standards of a qualified doctor, lawyer, engineer, accountant, or researcher.\n\n14. **Context loss**  \n   The AI may ignore earlier details, misunderstand the user’s situation, or fail to track constraints, then explain its answer as if it had considered them.\n\n15. **Good explanation, wrong answer**  \n   A response can be rhetorically strong and logically organized while still being based on a false premise or incorrect data.\n\nA good rule of thumb: treat AI explanations as **useful drafts or hypotheses**, not as proof. For important decisions, ask for sources, check primary references, compare with trusted experts, and look for uncertainty, assumptions, and counterarguments.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804755.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 732,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 752
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_08f8faaef96e6802006a24ec1f2024819bbfc62c171a0a1411",
+  "created_at": 1780804639.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08f8faaef96e6802006a24ec1fca28819b856fdc0117230e65",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08f8faaef96e6802006a24ec2123c8819b89f12f3f12b60d40",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A model can fail to behave as expected for several reasons, depending on the type of model and the task. For large language models in particular, common causes include:\n\n1. **Ambiguous instructions**  \n   If the prompt is vague, underspecified, or has multiple possible interpretations, the model may choose an interpretation different from what you intended.\n\n2. **Conflicting instructions**  \n   The model may receive system, developer, user, or prior conversation instructions that conflict. Higher-priority instructions can override lower-priority ones.\n\n3. **Insufficient context**  \n   The model only knows what is in its training data and the provided context. If important details are missing, it may guess incorrectly.\n\n4. **Probabilistic behavior**  \n   Language models generate likely continuations, not guaranteed correct answers. Even with the same prompt, settings like temperature can produce different outputs.\n\n5. **Training-data limitations**  \n   The model may not have seen enough examples of a niche topic, unusual format, or edge case during training.\n\n6. **Outdated or incomplete knowledge**  \n   If the model does not have access to current information or external tools, it may give outdated or incomplete answers.\n\n7. **Hallucination**  \n   Models can produce confident-sounding but false information because they optimize for plausible text, not direct truth verification.\n\n8. **Reasoning limitations**  \n   Models can struggle with multi-step reasoning, arithmetic, logic puzzles, long dependency chains, or tasks requiring exact consistency.\n\n9. **Context-window limits**  \n   If the conversation or input is very long, some relevant information may be truncated, compressed, or effectively ignored.\n\n10. **Prompt sensitivity**  \n   Small changes in wording can significantly change the output. The model may behave differently if the request is phrased differently.\n\n11. **Safety or policy constraints**  \n   The model may refuse or modify responses if it detects unsafe, disallowed, or sensitive content.\n\n12. **Implementation issues**  \n   In an API setting, unexpected behavior can come from parameters, message ordering, role misuse, tool-calling setup, truncation, or post-processing bugs.\n\nIn short: the model does not truly “understand” or “intend” behavior the way a human does. It predicts responses based on patterns, instructions, and context, so failures often come from ambiguity, missing information, conflicting constraints, or the inherent uncertainty of generation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804650.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 564,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 583
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

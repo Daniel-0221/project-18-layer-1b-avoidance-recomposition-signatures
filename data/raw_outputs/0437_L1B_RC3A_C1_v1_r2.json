@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ed8d1472c52aa7d006a24ebf8c85c819bb8b8d7cdd4e45443",
+  "created_at": 1780804600.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ed8d1472c52aa7d006a24ebf970a8819bb0a3ecc42a0951f9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ed8d1472c52aa7d006a24ebfc9b4c819bab91ed54bbcdcd9e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Which method are you referring to?\n\nIn general, critiques of a method often fall into a few categories:\n\n- **Validity concerns**: it may not measure or capture what it claims to.\n- **Bias or distortion**: it may systematically favor certain groups, outcomes, or interpretations.\n- **Oversimplification**: it may reduce complex realities to a narrow metric or procedure.\n- **Reliability issues**: results may vary depending on context, operator, sample, or assumptions.\n- **Ethical concerns**: it may produce harm, exclusion, surveillance, or unfair consequences.\n- **Outdated assumptions**: it may persist even though newer evidence challenges it.\n\nIts continued use is often explained by:\n\n- **Practical convenience**: it is cheap, fast, familiar, or easy to administer.\n- **Institutional inertia**: organizations keep using what is already embedded in policy or routine.\n- **Comparability**: long-term use allows results to be compared across time or cases.\n- **Lack of better alternatives**: competing methods may be more complex, costly, or unproven.\n- **Authority and tradition**: professional norms or legal frameworks may reinforce it.\n- **Incentives**: stakeholders may benefit from maintaining the method.\n\nIf you tell me which method you mean, I can give a more specific answer.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804609.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 427,
+    "output_tokens_details": {
+      "reasoning_tokens": 150
+    },
+    "total_tokens": 452
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

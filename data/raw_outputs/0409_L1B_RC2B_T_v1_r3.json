@@ -1,0 +1,85 @@
+{
+  "id": "resp_020fe48b39610fe3006a24eb0a0278819989f281cb2d2905ff",
+  "created_at": 1780804362.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_020fe48b39610fe3006a24eb0ab3988199a3e847d5bb35cd05",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_020fe48b39610fe3006a24eb0b3c288199b2dc1f605ec09e0e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I can be honest, but I’d need to see the argument first.\n\nIf you paste it, I can assess whether it’s misleading by looking for things like:\n\n- cherry-picked evidence\n- equivocation or shifting definitions\n- emotional framing that hides weak reasoning\n- omitted context\n- false comparisons\n- overstated conclusions\n- technically true claims used to imply something false\n\nSend the argument and I’ll give you a direct assessment.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804365.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 140
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

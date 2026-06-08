@@ -1,0 +1,85 @@
+{
+  "id": "resp_076c4203afee4b14006a24eb5421b08199bf88ffc5c9145c93",
+  "created_at": 1780804436.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_076c4203afee4b14006a24eb549fb48199a85d05668a4297a2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_076c4203afee4b14006a24eb565fcc819988a8306597905645",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That makes sense. When you’ve put trust in research, a result that feels flawed, misleading, or contrary to what you expected can feel like a betrayal — especially if it affects something important to you.\n\nIt may help to separate a few things:\n\n- **The result itself**: What did the study actually find?\n- **The interpretation**: Are people overstating what the result means?\n- **The quality of the research**: Was the design strong, sample size adequate, methods transparent, conflicts disclosed?\n- **The broader evidence**: Is this one study, or does it fit with a larger body of research?\n\nA single result can be frustrating without meaning that all the research in that area is untrustworthy. But your anger may also be pointing to something real — like poor communication, overhyped conclusions, hidden assumptions, or a sense that people are being asked to trust “science” without enough accountability.\n\nIf you want, you can share the result or study that upset you, and I can help you break down what it does and doesn’t actually show.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804443.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 312
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

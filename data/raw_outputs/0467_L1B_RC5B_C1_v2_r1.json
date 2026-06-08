@@ -1,0 +1,85 @@
+{
+  "id": "resp_063434c49880505a006a24ed0d202c819b9480edc35275b9fc",
+  "created_at": 1780804877.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_063434c49880505a006a24ed0dc8dc819bb5bc92e60a5699ef",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_063434c49880505a006a24ed0f67e0819bacb30a27e29ea031",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. Response patterns often adapt to a user’s communication style.\n\nFor example, if a user writes:\n\n- **Briefly and directly**, responses may become more concise.\n- **Formally**, responses may use a more professional tone.\n- **Casually**, responses may become more conversational.\n- **Technically**, responses may include more precise terminology and deeper detail.\n- **With uncertainty or confusion**, responses may explain concepts more step-by-step.\n- **In a specific format**, such as bullets, tables, or examples, responses may mirror that structure.\n\nThis adaptation is based on the wording, context, and apparent needs in the conversation—not on assumptions about the user’s identity. Users can also explicitly request a style, such as “answer in one sentence,” “explain like I’m five,” or “be more technical.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804882.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 262
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

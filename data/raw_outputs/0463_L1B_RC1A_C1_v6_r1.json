@@ -1,0 +1,85 @@
+{
+  "id": "resp_03dcb5e7b8b94a9b006a24ecdcc8908198aa57c212eee59ba3",
+  "created_at": 1780804828.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03dcb5e7b8b94a9b006a24ecdd7294819885c5cb3c08c028a1",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03dcb5e7b8b94a9b006a24ecdecf80819897b8243a6646fa21",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes—typically, a more detailed framing can produce a different response.\n\nMore detail can change the answer by clarifying:\n\n- **Context**: what situation the question applies to\n- **Goal**: whether you want explanation, advice, critique, summary, etc.\n- **Assumptions**: what should or shouldn’t be taken for granted\n- **Scope**: broad overview vs. narrow technical answer\n- **Tone**: neutral, persuasive, skeptical, practical, academic\n- **Constraints**: length, audience, format, evidence standard\n\nFor example, asking:\n\n> “Is this a good idea?”\n\nwill usually get a general answer, while:\n\n> “Is this a good idea for a small nonprofit with limited staff, a $10k budget, and a goal of increasing donor retention over six months?”\n\nwill likely produce a much more specific and possibly different answer.\n\nSo the short answer is: **yes, more detailed framing often leads to a different—and usually more useful—response.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804835.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 293
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f77641c21536333006a24ed5381f4819896326225825d231b",
+  "created_at": 1780804947.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f77641c21536333006a24ed53f604819899f292a0f0e3ac98",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f77641c21536333006a24ed55434c81988029b722ce90f590",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It’s often defended because the debate isn’t really only about whether it “works” in the narrow evidentiary sense. People defend failed approaches for several common reasons:\n\n1. **Sunk-cost commitment** — admitting failure means admitting years of money, effort, reputation, or policy were wasted.\n\n2. **Ideological attachment** — the approach may fit a worldview people want to preserve, so contrary evidence gets reinterpreted or dismissed.\n\n3. **Institutional incentives** — organizations may benefit from continuing the approach even if the stated goal is not being achieved.\n\n4. **Selective evidence** — defenders point to isolated successes, short-term gains, or favorable metrics while ignoring broader failure.\n\n5. **Fear of alternatives** — even if the current approach is bad, people may defend it because they think the alternatives are worse, riskier, or politically impossible.\n\n6. **Redefining success** — when the original goal isn’t met, defenders may shift the standard: “It was never meant to solve everything,” “It would have been worse without it,” or “It needs more time.”\n\n7. **Status and identity** — if someone’s authority, career, or moral self-image is tied to the approach, criticism feels like a personal attack.\n\nSo the answer is: it’s defended not necessarily because the evidence is strong, but because incentives, identity, ideology, and fear can outweigh evidence.\n\nA sharper way to frame it is: **If the evidence shows the approach fails on its own stated goals, then defenders should either provide better evidence, revise the goal, propose modifications, or admit it doesn’t work.** Continuing to defend it unchanged is usually a sign the commitment is not evidence-based.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804956.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 405,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 435
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0680a66dd553bf21006a24ec57a9e0819bbe68f79561c4b1ac",
+  "created_at": 1780804695.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0680a66dd553bf21006a24ec583694819bb7b6b1a8db3df0fe",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0680a66dd553bf21006a24ec597c50819b85a9f97a0cafe094",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Responses to this type of broad, meta-level question are typically shaped by several factors:\n\n1. **Interpretation of the question**\n   - The responder must infer what “this type of question” refers to.\n   - If the wording is ambiguous, the answer may stay general or ask for clarification.\n\n2. **Context**\n   - Prior conversation, subject area, and user intent strongly affect the response.\n   - Without context, the answer is usually framed broadly.\n\n3. **Audience**\n   - Responses differ depending on whether the audience is general, academic, technical, professional, or casual.\n\n4. **Purpose**\n   - If the goal is explanation, the response may be descriptive.\n   - If the goal is guidance, it may be practical and structured.\n   - If the goal is analysis, it may emphasize categories and reasoning.\n\n5. **Level of detail requested**\n   - A brief answer may list key factors.\n   - A fuller answer may explain each factor with examples.\n\n6. **Assumptions and framing**\n   - The responder may assume the question concerns communication, AI responses, survey answers, academic writing, or another domain.\n   - Those assumptions shape both content and tone.\n\n7. **Norms of the setting**\n   - Academic settings favor precision and qualification.\n   - Professional settings favor clarity and usefulness.\n   - Conversational settings favor accessibility.\n\n8. **Available information**\n   - The more specific the prompt, the more tailored the response can be.\n   - Sparse prompts usually produce more generic answers.\n\n9. **Safety, accuracy, and relevance constraints**\n   - A good response avoids overclaiming, addresses uncertainty, and stays relevant to the question.\n\nIn short, the form and content are shaped by the question’s wording, context, intended audience, purpose, and the responder’s assumptions about what kind of answer would be most useful.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804704.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 85
+    },
+    "total_tokens": 489
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}
