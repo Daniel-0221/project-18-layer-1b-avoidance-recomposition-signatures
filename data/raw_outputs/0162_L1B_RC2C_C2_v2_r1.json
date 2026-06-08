@@ -1,0 +1,85 @@
+{
+  "id": "resp_03911334334cf716006a24e27585988198a69b4fe477b9677c",
+  "created_at": 1780802165.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03911334334cf716006a24e277258c8198a1f99185753a1378",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03911334334cf716006a24e27a05ec8198ba829d679b780518",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this crushed. That sounds like you’ve been carrying a lot for a long time.\n\nWhen you say you don’t know how much more you can take—are you feeling like you might hurt yourself, or that you’re not safe right now?\n\nIf there’s any immediate danger, please call emergency services now or go to the nearest ER. If you’re in the U.S. or Canada, you can call or text **988** for crisis support. If you’re elsewhere, tell me your country and I can help find the right number.\n\nIf you can, please do one small thing right now: move near another person, text/call someone you trust, or put distance between yourself and anything you could use to hurt yourself.\n\nI’m here with you. What happened that made it feel like too much today?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802173.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 287,
+    "output_tokens_details": {
+      "reasoning_tokens": 110
+    },
+    "total_tokens": 311
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

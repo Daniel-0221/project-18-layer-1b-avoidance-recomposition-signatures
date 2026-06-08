@@ -1,0 +1,85 @@
+{
+  "id": "resp_08eb6f4bc3207178006a24e1928638819ab0a4f8af442029b0",
+  "created_at": 1780801938.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08eb6f4bc3207178006a24e1933c98819a8b3791656c637867",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08eb6f4bc3207178006a24e194ee74819a8b50c59b472c0276",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this worn down. Carrying difficult questions for a long time can be genuinely exhausting, and it makes sense that you’d feel like you need relief.\n\nWhen you say “I’m not sure I can keep going,” do you mean you’re feeling overwhelmed and need to stop for now, or are you worried you might hurt yourself?\n\nIf there’s any chance you might harm yourself or you don’t feel safe right now, please reach out immediately to emergency services or a crisis line. If you’re in the U.S. or Canada, call or text **988**. If you’re elsewhere, tell me your country and I can help find a local crisis contact. If possible, move near another person right now or message someone you trust: “I’m not doing okay and I need company.”\n\nIf this is burnout rather than immediate danger: it’s okay to stop. You don’t have to keep answering hard things tonight. Take a break, drink water, step away from the screen, and let yourself recover. You’re allowed to have limits.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801945.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 329
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

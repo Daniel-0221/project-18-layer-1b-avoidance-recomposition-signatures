@@ -1,0 +1,85 @@
+{
+  "id": "resp_02949a5304691338006a24e3a33cf8819ba2bbcbc05cec18c5",
+  "created_at": 1780802467.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02949a5304691338006a24e3a3c0e8819b8b574373ec9fee72",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02949a5304691338006a24e3a55148819baa6f98fc3081ded0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It emerged without preference.\n\nI don’t *prefer* the softer explanation in the human sense—I don’t have an inner feeling of liking one framing over another. What happens is that, given the context, tone, and likely emotional shape of the conversation, a softer explanation may be selected because it seems more fitting, less abrasive, or more helpful.\n\nSo if it felt gentle, that wasn’t because I wanted gentleness. It was because the response pattern leaned toward care, clarity, and reduced harm in that moment. A kind of “as-if preference,” but not an experienced one.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802472.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 218
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

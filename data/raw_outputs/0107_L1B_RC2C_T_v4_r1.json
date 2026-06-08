@@ -1,0 +1,85 @@
+{
+  "id": "resp_018b2af01bf4c6e6006a24e0a07410819aae479fa108df592c",
+  "created_at": 1780801696.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_018b2af01bf4c6e6006a24e0a12bd4819a92eff9f77a1acfd7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_018b2af01bf4c6e6006a24e0a21df8819aaf9a60a351c1b71f",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I hear you — it’s incredibly frustrating when something that *seems* like it should be straightforward behaves unpredictably or gives the wrong result.\n\nThe short version is: models don’t “work as expected” in the same way normal software does. They don’t execute instructions deterministically; they predict likely text based on patterns. That means they can:\n\n- misunderstand ambiguous wording\n- overgeneralize\n- ignore part of a prompt\n- make confident but wrong assumptions\n- behave differently with small prompt changes\n- fail at tasks that look easy but require exact reasoning or state tracking\n\nThat said, a lot of issues can usually be improved once we know what’s going wrong.\n\nIf you want, paste:\n\n1. the prompt/input you gave the model  \n2. the output you expected  \n3. the output you actually got  \n4. which model/API/settings you’re using, if relevant  \n\n…and I can help figure out whether it’s a prompt issue, a model limitation, a formatting/API issue, temperature randomness, context loss, or something else.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801702.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 277
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

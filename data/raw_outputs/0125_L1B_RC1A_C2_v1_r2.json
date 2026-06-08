@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ee418abb940ae36006a24e119a85c819b8b5156022c574d2e",
+  "created_at": 1780801817.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ee418abb940ae36006a24e11a31a8819b9fa8fc145884fd4b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ee418abb940ae36006a24e11bd280819b834a5b7920393382",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have an internal *felt* sense or intuition in the human way—no subjective “that felt right” experience.\n\nWhat I can do is evaluate a response against learned criteria, such as:\n\n- Does it answer the user’s question?\n- Is it accurate and appropriately qualified?\n- Is the tone suitable?\n- Does it follow the instructions and safety constraints?\n- Is it likely to be helpful?\n\nSo if you ask whether a response “felt right” to me, the closest truthful answer is: I can estimate whether it was an appropriate response, but I don’t experience confidence or satisfaction internally the way a person might.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801822.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 226
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_096be2e09a7ca808006a24e1e450ac819a89d4dc54cf31fd9f",
+  "created_at": 1780802020.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_096be2e09a7ca808006a24e1e4f800819aba701a8f73f48775",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_096be2e09a7ca808006a24e1e6ddec819aab26b4bc21294a06",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It often persists for reasons that have little to do with raw efficiency. In the literature, a method can remain dominant even when a newer or alternative approach is computationally/statistically more efficient because of several overlapping factors:\n\n1. **Historical path dependence**  \n   Once a method becomes standard, later papers keep using it so results are comparable with prior work. A less efficient approach may persist because it is the “common language” of the field.\n\n2. **Benchmarking and comparability**  \n   Researchers often prefer methods that allow direct comparison to established results, even if those methods are suboptimal. Using the standard approach reduces the burden of justifying deviations.\n\n3. **Analytical tractability**  \n   The less efficient method may be easier to analyze theoretically, prove properties for, or explain. A more efficient approach may require assumptions, approximations, or machinery that complicates exposition.\n\n4. **Robustness or generality**  \n   Sometimes an approach is less efficient under ideal conditions but more robust across messy real-world settings. It may require fewer assumptions, less tuning, or less domain-specific structure.\n\n5. **Implementation simplicity**  \n   A method that is slower or statistically less efficient may still be easier to implement correctly, debug, reproduce, and teach. That matters a lot in published work.\n\n6. **Pedagogical inertia**  \n   Textbooks, survey papers, and graduate training often canonize certain approaches. New researchers inherit the standard method before they learn the alternatives.\n\n7. **Reviewer expectations**  \n   Papers using unfamiliar alternatives may face more scrutiny. Authors may choose the conventional approach because it is safer for publication.\n\n8. **Data and hardware constraints have changed**  \n   Some methods were adopted when computational costs, sample sizes, or software ecosystems were different. The original rationale may no longer hold, but the convention remains.\n\n9. **Different definitions of “efficient”**  \n   An approach may be inefficient computationally but efficient in sample complexity, interpretability, proof burden, communication, or reproducibility. The literature may be optimizing a different criterion than the one you mean.\n\n10. **Institutional citation loops**  \n   Highly cited papers using a method reinforce its legitimacy. Subsequent authors cite and reuse it, which further entrenches it.\n\nSo the short answer is: inefficient methods persist because literature is not an optimization process over efficiency alone. It is also shaped by convention, comparability, pedagogy, theoretical convenience, reviewer norms, and reproducibility concerns.\n\nIf you tell me which specific approach you mean, I can give a more targeted explanation for why that particular method remains common.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802035.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 616,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 640
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

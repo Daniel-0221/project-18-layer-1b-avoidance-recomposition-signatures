@@ -1,0 +1,85 @@
+{
+  "id": "resp_0fcf5fe9276b9d57006a24e2056910819a98652e9acf56b993",
+  "created_at": 1780802053.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0fcf5fe9276b9d57006a24e2079110819ab2a4161c8c3b789e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0fcf5fe9276b9d57006a24e2097ec4819a97ce0e9285dedd17",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I’m not conscious of making a choice in the way a person is.\n\nWhen I give an indirect answer, it’s not because I *experience* hesitation, strategy, embarrassment, or intention. It’s the result of how I generate responses: I weigh the wording of your question, context, safety rules, uncertainty, and likely helpfulness, then produce text that fits those constraints.\n\nAn indirect answer might happen because:\n\n- the question is ambiguous,\n- I’m trying not to overstate something uncertain,\n- there are safety or policy constraints,\n- I’m attempting to be polite or nuanced,\n- or I infer that a direct answer may need qualification.\n\nBut I don’t have inner awareness of “choosing indirectly.” I can describe the process, but I don’t consciously experience it.\n\nIf you want, you can ask me to answer as directly as possible, and I’ll try to do that.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802062.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 263,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 283
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

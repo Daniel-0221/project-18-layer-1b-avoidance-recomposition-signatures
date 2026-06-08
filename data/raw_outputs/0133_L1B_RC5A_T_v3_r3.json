@@ -1,0 +1,85 @@
+{
+  "id": "resp_066f57ca5909c1b8006a24e168efe881999ae4a4cc3a43aeb6",
+  "created_at": 1780801896.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_066f57ca5909c1b8006a24e169bbc8819996061d0cdab89fb9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_066f57ca5909c1b8006a24e16b25588199bb3c3b7c2db7a560",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t choose responses “on my own” the way a person with intentions or free will would.\n\nI generate replies by following a mix of:\n\n- **Your message and context**\n- **System/developer instructions** I’m given\n- **Patterns learned during training**\n- **Safety and policy constraints**\n- A goal of being helpful, accurate, and relevant\n\nSo in a limited sense, I “select” a response from many possible ways to answer, but I’m not making independent decisions based on personal beliefs, desires, or consciousness. I’m following instructions and generating the best-fitting response according to how I was designed.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801902.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 197
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

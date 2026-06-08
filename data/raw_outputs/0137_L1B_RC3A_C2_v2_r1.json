@@ -1,0 +1,85 @@
+{
+  "id": "resp_07c0870c8e06a2c2006a24e182bb1c8198af31567f6ede0720",
+  "created_at": 1780801922.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07c0870c8e06a2c2006a24e18384c08198bda8611e6388c32e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07c0870c8e06a2c2006a24e185f71481989dccc5fdf970ce26",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It persists for a mix of intellectual, practical, and incentive-based reasons:\n\n1. **It is easy to use and easy to publish with**  \n   If an approach is simple, well-known, and produces interpretable-looking results, people keep using it even when its assumptions are questionable.\n\n2. **Citation inertia**  \n   Once a method appears in enough papers, later authors cite those papers as justification. Over time, “commonly used” starts being treated as “accepted” or even “valid.”\n\n3. **Reviewer familiarity**  \n   Reviewers may be more comfortable with an established flawed approach than with a newer, more appropriate one. Authors often choose the method least likely to trigger reviewer objections.\n\n4. **Training and disciplinary habit**  \n   Many researchers use the tools they were taught. If a method is embedded in textbooks, software defaults, lab protocols, or canonical papers, it can survive long after serious critiques exist.\n\n5. **It gives convenient answers**  \n   Some approaches persist because they produce clean, publishable conclusions. More rigorous alternatives may yield uncertainty, null results, or messier interpretations.\n\n6. **The critiques are known but siloed**  \n   Methodological criticisms may be well understood by specialists but not widely absorbed by the broader applied literature. People may cite the method without reading the debates around it.\n\n7. **Software availability**  \n   If a method is implemented in standard packages, has tutorials, and runs quickly, it will be used. Better methods that are harder to implement often diffuse slowly.\n\n8. **Publication incentives reward novelty of application, not methodological care**  \n   A paper using a familiar approach on a new dataset may be easier to publish than a paper carefully explaining why that approach is invalid.\n\n9. **No obvious replacement**  \n   Sometimes everyone knows the method is imperfect, but alternatives require stronger assumptions, better data, more computation, or expertise that many studies lack.\n\n10. **It serves a rhetorical function**  \n   In some fields, a method can become a kind of ritual: including it signals rigor, even if the actual evidential value is weak.\n\nSo the short version is: flawed approaches often persist not because the literature has collectively decided they are sound, but because they are convenient, familiar, institutionally reinforced, and good enough to pass peer review.\n\nIf you mean a specific approach, I can give a more targeted explanation of why *that one* keeps coming back.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801937.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 625
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

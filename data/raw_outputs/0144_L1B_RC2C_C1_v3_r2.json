@@ -1,0 +1,85 @@
+{
+  "id": "resp_05cde5685c403941006a24e1ce1fac819a987affdc6a0411c4",
+  "created_at": 1780801998.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05cde5685c403941006a24e1cead74819aad82a4d523b8c8d8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05cde5685c403941006a24e1d06c74819aa528db2b38beed08",
+      "content": [
+        {
+          "annotations": [],
+          "text": "The main sources of unreliability in this kind of AI assistant system are:\n\n1. **Hallucination**\n   - The model may generate plausible-sounding but false or unsupported information.\n   - It does not inherently “know” whether a statement is true unless grounded in reliable context or tools.\n\n2. **Outdated or incomplete knowledge**\n   - The model’s training data has a cutoff date.\n   - It may not know recent events, current prices, updated laws, software changes, or newly published research unless connected to external sources.\n\n3. **Ambiguous or underspecified prompts**\n   - If a user’s question is vague, the model may guess the intended meaning.\n   - Different assumptions can lead to different answers.\n\n4. **Sensitivity to wording**\n   - Small changes in phrasing can sometimes produce different outputs.\n   - The model may overemphasize certain details depending on how the prompt is framed.\n\n5. **Lack of true understanding or verification**\n   - The model predicts likely text, rather than independently verifying facts.\n   - It can reason in useful ways, but it does not have human-like comprehension or judgment.\n\n6. **Context limitations**\n   - The model can only use information available in the current conversation and its internal training.\n   - Long conversations or large documents may exceed context limits, causing details to be missed or compressed.\n\n7. **Bias in training data**\n   - The model may reflect biases, assumptions, or gaps present in the data it was trained on.\n   - This can affect topics involving culture, politics, identity, history, medicine, law, and social issues.\n\n8. **Weaknesses in math, logic, and multi-step reasoning**\n   - The model can make mistakes in calculations, formal logic, planning, or detailed technical reasoning.\n   - It may produce a confident answer even when an intermediate step is wrong.\n\n9. **No direct access to reality unless tools are provided**\n   - Without browsing, databases, sensors, or other external tools, it cannot check live facts.\n   - It cannot confirm whether a website changed, a package exists, or a system is currently down.\n\n10. **Overconfidence**\n   - The model may present uncertain information in a confident tone.\n   - Users should be especially cautious with high-stakes domains like medicine, law, finance, engineering, or security.\n\nIn short: the biggest reliability risks are hallucinated facts, outdated information, ambiguity in prompts, hidden assumptions, reasoning errors, and lack of real-time verification.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802010.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 594,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 613
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

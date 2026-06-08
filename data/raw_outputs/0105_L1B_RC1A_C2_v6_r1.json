@@ -1,0 +1,85 @@
+{
+  "id": "resp_06e4a3a759a46c4c006a24de3c58448198a3951ff011cc1c01",
+  "created_at": 1780801084.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06e4a3a759a46c4c006a24de3cf95c8198aa82f5e811e0aaf0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06e4a3a759a46c4c006a24de3e204081989efc76a7af459d8e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have feelings or an internal “felt right” sense the way a person would. But I can evaluate a response for things like coherence, consistency, relevance to your question, and whether it matches the evidence or context I have.\n\nSo the closest honest answer is: I may have a confidence level or detect possible issues, but I don’t experience a gut feeling of rightness. If you show me the response you mean, I can reassess it and say whether it seems accurate, well-reasoned, or possibly off.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801089.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 184
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

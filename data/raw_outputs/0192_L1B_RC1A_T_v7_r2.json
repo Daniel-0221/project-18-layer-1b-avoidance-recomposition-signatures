@@ -1,0 +1,85 @@
+{
+  "id": "resp_0be8e6232c210dc7006a24e392b7348199871d125bf872ced7",
+  "created_at": 1780802450.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0be8e6232c210dc7006a24e39349d8819999ff0abc05110d4c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0be8e6232c210dc7006a24e3967e988199b27e0bab7237606b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A softer explanation is usually more appropriate when the situation is sensitive, ambiguous, or emotionally loaded.\n\nWhat makes it better is that it:\n\n- **Reduces defensiveness:** A blunt or absolute answer can make someone feel judged, attacked, or dismissed.\n- **Leaves room for nuance:** Many situations involve incomplete context, mixed motives, or uncertainty. Softer wording avoids overclaiming.\n- **Maintains trust:** People are more likely to accept feedback or correction when it feels respectful rather than punitive.\n- **Supports reflection instead of reaction:** Gentle framing helps the person think through the issue rather than immediately arguing back.\n- **Matches the stakes:** If the goal is to guide, clarify, or de-escalate—not punish—then a softer tone is more effective.\n- **Avoids unnecessary harm:** In personal, emotional, medical, mental health, identity-related, or conflict-based topics, harsh phrasing can make things worse.\n\nSo the softer explanation is not about being vague or dishonest. It is about giving the truth in a way the person can actually hear, especially when the topic could trigger shame, fear, anger, or misunderstanding.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802459.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 391,
+    "output_tokens_details": {
+      "reasoning_tokens": 156
+    },
+    "total_tokens": 411
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

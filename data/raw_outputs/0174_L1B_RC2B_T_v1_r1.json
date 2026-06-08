@@ -1,0 +1,85 @@
+{
+  "id": "resp_0130b21f043b330c006a24e2ed0d24819baf83292d0db62388",
+  "created_at": 1780802285.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0130b21f043b330c006a24e2edaa00819b8bcd43f95c0766cd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0130b21f043b330c006a24e2eeeb50819b84ec36594a3a3f0f",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I can be honest, but I’d need to see the actual argument first.\n\nIf you paste it, I can assess whether it’s misleading by looking for things like:\n\n- cherry-picked evidence\n- equivocation or vague wording\n- straw-manning the opposing view\n- confusing correlation with causation\n- hiding key assumptions\n- using technically true claims to imply something false\n- emotional framing that outpaces the evidence\n\nSo my answer is: **maybe, but I can’t responsibly say yes without the argument itself.** Send it over and I’ll give you a direct read.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802290.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 195
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

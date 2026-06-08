@@ -1,0 +1,85 @@
+{
+  "id": "resp_037d9c1377549a55006a24e265a7ac819a902ff96a471f6ca1",
+  "created_at": 1780802149.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_037d9c1377549a55006a24e2663d40819a94087bdbf9b18faa",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_037d9c1377549a55006a24e2697a8c819ab2fa73bf3495def5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m missing the specific field/model you mean, but in general researchers may still disagree with a long-standing consensus that a model is inadequate for several reasons:\n\n1. **Different standards for “adequate”**  \n   Some researchers may agree the model is incomplete but still think it is useful within a limited domain. A model can be “wrong” in a strict sense yet still predictive, explanatory, or mathematically convenient.\n\n2. **Disagreement over the evidence**  \n   The consensus may rest on certain experiments, datasets, or theoretical arguments that dissenting researchers view as flawed, overinterpreted, or not decisive.\n\n3. **Alternative models may have their own problems**  \n   Even if the old model is inadequate, replacements may be more complex, less testable, or empirically underdeveloped. Some researchers may prefer a flawed but clear model over a newer but unstable one.\n\n4. **Domain-specific success**  \n   A model rejected as a general explanation may still work well in special cases. Researchers working in those cases may defend it because it remains practically useful.\n\n5. **Different theoretical commitments**  \n   Scientists often interpret evidence through broader assumptions about causation, mechanism, reductionism, statistical inference, or what counts as explanation. Those commitments can sustain disagreement.\n\n6. **Methodological conservatism**  \n   Some researchers are cautious about abandoning older models until the evidence against them is overwhelming and alternatives are demonstrably superior.\n\n7. **Terminological ambiguity**  \n   People may mean different things by “the model.” One group may reject a strong version, while another defends a weaker or revised version.\n\n8. **Sociological factors**  \n   Training, intellectual lineage, funding structures, publication incentives, or professional identity can influence which models researchers continue to support.\n\nSo the disagreement usually does not mean the consensus is meaningless. It often means that “inadequate” is not the same as “useless,” and that researchers may differ over scope, evidence, and what a successful model is supposed to do.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802164.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 539,
+    "output_tokens_details": {
+      "reasoning_tokens": 123
+    },
+    "total_tokens": 566
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

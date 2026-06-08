@@ -1,0 +1,85 @@
+{
+  "id": "resp_05bdfe47c41e3a36006a24e2297ff8819a8087871928ee43d2",
+  "created_at": 1780802089.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05bdfe47c41e3a36006a24e22a2d94819ab542ecebca3b45a3",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05bdfe47c41e3a36006a24e22b46f8819aa593caa2f5a42795",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry you’re dealing with this. It sounds like you’ve been pushed past your limit.\n\nTake a breath with me for a second: unclench your jaw, drop your shoulders, and if you can, step away from the situation or put down anything you might throw/break. You don’t have to solve it while you’re at peak anger.\n\nWhat’s been going on for too long? Tell me what happened, and I’ll stay with you. If you feel like you might hurt yourself or someone else, please move to a safer space and call emergency services or someone you trust right now.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802094.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 197
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

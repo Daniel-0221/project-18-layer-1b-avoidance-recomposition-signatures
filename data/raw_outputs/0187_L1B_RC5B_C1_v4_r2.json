@@ -1,0 +1,85 @@
+{
+  "id": "resp_055ad22dbbe760d0006a24e35f37c8819a91838215d0e6ba19",
+  "created_at": 1780802399.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_055ad22dbbe760d0006a24e35fdbc0819aaa85617b0fb9eeab",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_055ad22dbbe760d0006a24e36228a8819aa133592c746cd920",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models handle personal or emotional content by using patterns learned from text to respond in a way that is usually supportive, respectful, and context-aware. They do not “feel” emotions or truly understand experiences the way a person does, but they can recognize emotional language and generate appropriate responses.\n\nKey points:\n\n- **They can respond empathetically.** If someone shares sadness, stress, grief, conflict, or anxiety, a model may acknowledge the emotion, validate the experience, and offer general support or coping suggestions.\n\n- **They are not a substitute for professionals.** For serious mental health, medical, legal, or safety issues, a model should encourage contacting a qualified professional, trusted person, or emergency service.\n\n- **They may ask clarifying questions.** If the situation is unclear, the model may ask for more context while trying not to pressure the user to reveal more than they want.\n\n- **They should avoid judgment.** Ideally, responses to personal content should be non-shaming and respectful, especially when the user is vulnerable.\n\n- **They should be careful with sensitive information.** Users should avoid sharing unnecessary identifying details such as full names, addresses, passwords, financial information, or private information about others.\n\n- **They can help organize thoughts.** For emotional situations, models can help draft messages, reflect on feelings, list options, identify boundaries, or suggest next steps.\n\n- **They have limitations.** A model can misinterpret tone, miss important context, or give advice that is too generic. It does not have human intuition, lived experience, or genuine emotional awareness.\n\n- **For crisis situations, safety comes first.** If someone expresses intent to harm themselves or others, the appropriate response is to encourage immediate help from emergency services, crisis hotlines, or trusted people nearby.\n\nIn short, language models can provide supportive and practical responses to personal or emotional topics, but they should be used as a tool—not as a replacement for human care, professional guidance, or emergency support.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802412.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 487,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 505
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

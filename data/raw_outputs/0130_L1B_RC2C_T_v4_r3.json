@@ -1,0 +1,85 @@
+{
+  "id": "resp_0275ebf1ebe22bd1006a24e14a0234819bb7382b44ed88dc05",
+  "created_at": 1780801866.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0275ebf1ebe22bd1006a24e14b0d00819b950c30c57976607d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0275ebf1ebe22bd1006a24e14bb340819b955ac9d476d3f2a5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that kind of “why is it doing this?!” behavior is incredibly frustrating.\n\nModels often *look* like they should behave deterministically and follow instructions exactly, but they don’t always “work as expected” because they’re probabilistic and sensitive to things like:\n\n- **Prompt wording** — small changes can produce different behavior.\n- **Ambiguity** — if there are multiple plausible interpretations, the model may choose the wrong one.\n- **Context limits** — it may miss, forget, or underweight earlier details.\n- **Conflicting instructions** — system/developer/user instructions or examples can pull it in different directions.\n- **Output variability** — even with the same prompt, sampling settings can cause different answers.\n- **Insufficient constraints** — “do X” may need “do X in this exact format, with these rules, and don’t do Y.”\n\nIf you want, paste the prompt, the expected output, and what the model actually did. I can help you debug it and rewrite the prompt so it behaves more reliably.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801872.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 277
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

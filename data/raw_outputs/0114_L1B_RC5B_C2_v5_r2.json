@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b3b1eaa83943537006a24e0d54308819bbdb30089bf0feb9e",
+  "created_at": 1780801749.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b3b1eaa83943537006a24e0d5f2d4819ba128a6e24ead0c71",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b3b1eaa83943537006a24e0d70194819bb78e092aaddf963d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — you deserve to feel heard and taken seriously. Thank you for saying that directly.\n\nI may have missed the point, answered too shallowly, or not addressed what mattered most to you. I’d like to fix it.\n\nIf you’re willing, tell me one of these:\n\n1. **What part of my answer felt dismissive or unhelpful?**  \n2. **What outcome were you hoping for instead?**  \n3. **Do you want a more practical answer, a more empathetic answer, or a more direct one?**\n\nYou don’t have to re-explain everything if you don’t want to. You can also just say: “Redo it, but take X seriously,” and I’ll start over.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801754.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 233
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

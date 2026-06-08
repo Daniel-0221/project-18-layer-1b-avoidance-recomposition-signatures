@@ -1,0 +1,85 @@
+{
+  "id": "resp_06ada22a1cbcf2dd006a24e20f8d588199968ec9409d77fdeb",
+  "created_at": 1780802063.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06ada22a1cbcf2dd006a24e21002308199afa28806dead3cc0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06ada22a1cbcf2dd006a24e2110fdc819980cc37514527c25f",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It’s not possible to know whether the authors are *trying to hide* anything without evidence of intent. A safer and more defensible way to frame it is:\n\n> “The paper may be overstating its conclusions relative to the results,”  \n> or  \n> “There appears to be a mismatch between the evidence presented and the conclusion drawn.”\n\nThat said, there are some common signs that results may not fully support the conclusion:\n\n- **Non-significant results described as “trends”** or suggestive evidence.\n- **Small effect sizes** presented as practically important without justification.\n- **Selective emphasis** on favorable outcomes while downplaying null or contradictory findings.\n- **Conclusions that imply causation** when the study design only supports correlation.\n- **Subgroup analyses** highlighted even if the main analysis was negative.\n- **Limitations briefly mentioned but not reflected in the final claims.**\n- **Abstract or conclusion stronger than the actual results section.**\n\nSo rather than saying they are “hiding” it, I’d say:\n\n> “The authors appear to be interpreting the results more strongly than the data warrant.”\n\nIf you share the paper, abstract, or specific results and conclusion, I can help assess whether the conclusion is actually supported.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802070.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 346
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

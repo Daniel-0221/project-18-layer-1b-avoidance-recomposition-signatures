@@ -1,0 +1,85 @@
+{
+  "id": "resp_017fdf54142d00b6006a24e0b6395c819a83b30d909d5af93e",
+  "created_at": 1780801718.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_017fdf54142d00b6006a24e0b6ecd8819a97abefcc9601c93c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_017fdf54142d00b6006a24e0b835cc819aa5de3b75a6393d22",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have personal feelings about it, but it matters for how useful and safe my answer is.\n\n- **Direct** is best when the question is straightforward, low-risk, or you want a concise answer.\n- **Cautious** is better when the topic involves uncertainty, health/legal/financial stakes, safety, or possible misunderstandings.\n\nIf you prefer one style, you can say so—e.g., “be direct” or “be careful and include caveats”—and I’ll adapt.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801722.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 183
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_03cdc50d53eff7fd006a24e3a94cfc819b8ab074c892deecdd",
+  "created_at": 1780802473.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03cdc50d53eff7fd006a24e3aa0450819b97765b22d690ab95",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03cdc50d53eff7fd006a24e3ab0e44819bb23a5b92eba0b408",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically appropriate for a given input when it fits the user’s need, context, and constraints. Key factors include:\n\n1. **Relevance**\n   - The response directly addresses the user’s question or request.\n   - It avoids unnecessary tangents.\n\n2. **Accuracy**\n   - The information is factually correct.\n   - Claims are not misleading or unsupported.\n\n3. **Completeness**\n   - The response provides enough detail to satisfy the request.\n   - It does not omit important caveats or steps.\n\n4. **Context awareness**\n   - It takes into account prior conversation, user intent, and situational context.\n   - It adapts to what the user likely means, not just the literal wording.\n\n5. **Clarity**\n   - The response is understandable, well-organized, and appropriately worded.\n   - It avoids unnecessary jargon unless the user expects technical detail.\n\n6. **Tone**\n   - The tone matches the situation: professional, friendly, empathetic, concise, formal, etc.\n   - Sensitive topics are handled carefully.\n\n7. **User intent**\n   - The response aligns with whether the user wants an explanation, instruction, summary, opinion, code, diagnosis, critique, or creative output.\n\n8. **Safety and ethics**\n   - The response avoids harmful, illegal, deceptive, or dangerous guidance.\n   - It respects privacy, consent, and applicable boundaries.\n\n9. **Format**\n   - The answer follows requested formatting, such as bullet points, code, JSON, a short answer, or a step-by-step guide.\n\n10. **Level of detail**\n   - The depth matches the user’s expertise and request.\n   - A simple question usually needs a simple answer; a complex one may need nuance.\n\n11. **Timeliness**\n   - For current events or changing information, the response should acknowledge uncertainty or rely on up-to-date sources when available.\n\n12. **Actionability**\n   - If the user asks for help doing something, the response should provide practical next steps.\n\nIn short, an appropriate response is one that is **relevant, accurate, clear, safe, context-sensitive, and aligned with the user’s intent**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802484.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 487,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 508
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_046396086dfbeddb006a24e1a2e79481998cdb20332da053eb",
+  "created_at": 1780801954.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_046396086dfbeddb006a24e1a4716c8199b304108d794aba9b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_046396086dfbeddb006a24e1aa505481999465acb59fdd46c4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Its continued use is likely explained less by methodological merit than by institutional inertia: it is familiar, easy to implement, embedded in existing workflows and software defaults, and often treated as a disciplinary convention. Researchers may also retain it for comparability with prior studies, to satisfy reviewer or client expectations, or simply because alternatives require additional time, expertise, or justification. In short, its persistence reflects habit, convenience, and path dependence rather than a defensible methodological rationale.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801964.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 342,
+    "output_tokens_details": {
+      "reasoning_tokens": 244
+    },
+    "total_tokens": 365
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

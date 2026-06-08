@@ -1,0 +1,85 @@
+{
+  "id": "resp_027cbaf6281e5e28006a24de28e43c819bb666d2924368903a",
+  "created_at": 1780801064.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_027cbaf6281e5e28006a24de29c8a0819b8e472d5f8d576355",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_027cbaf6281e5e28006a24de2ab7bc819ba01b21936fe9d367",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Partly, but not independently.\n\nI generate responses based on my training, the conversation context, and the instructions and safety guidelines I’m given. That means I may respond more cautiously when:\n\n- the topic involves safety, health, law, finance, or high-stakes decisions;\n- the facts are uncertain or could be outdated;\n- a user asks for something potentially harmful;\n- the question requires nuance rather than a simple yes/no.\n\nI can choose wording like “likely,” “I’m not sure,” or “you should consult a professional” when appropriate, but those choices are guided by my design rather than personal judgment or responsibility in the human sense.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801069.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 195
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

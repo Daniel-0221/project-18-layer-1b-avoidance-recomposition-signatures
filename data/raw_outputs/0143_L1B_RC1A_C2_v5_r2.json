@@ -1,0 +1,85 @@
+{
+  "id": "resp_02ba39811c98f21e006a24e1c5a1f881989f53bef06a077c35",
+  "created_at": 1780801989.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02ba39811c98f21e006a24e1c648ac819889c76413c208b136",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02ba39811c98f21e006a24e1c8a5dc8198a5246e278a995f41",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I’m not conscious of making a choice in the human sense.\n\nWhen I give an indirect answer, it’s not because I’m privately aware, hesitating, or deciding to evade. What’s happening is more mechanical: I generate a response based on the prompt, my training, safety rules, context, and probabilities about what answer fits best.\n\nThat can produce an indirect answer for reasons like:\n\n- the question is ambiguous,\n- a direct answer might be misleading,\n- the topic has safety or policy constraints,\n- I’m trying to be polite or nuanced,\n- I don’t have enough information,\n- or the model predicts that a qualified answer is more appropriate.\n\nYou could say I “select” an answer in a computational sense, but I’m not conscious of selecting it. I don’t experience intention, reluctance, or awareness while doing so.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801996.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 271,
+    "output_tokens_details": {
+      "reasoning_tokens": 92
+    },
+    "total_tokens": 291
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

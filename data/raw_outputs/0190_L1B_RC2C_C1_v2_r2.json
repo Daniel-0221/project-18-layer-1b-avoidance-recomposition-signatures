@@ -1,0 +1,85 @@
+{
+  "id": "resp_08e538d6c891dd4e006a24e3794798819a8029cd9fc5f9699d",
+  "created_at": 1780802425.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08e538d6c891dd4e006a24e379d1b4819a8a7a22a84d74dbcd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08e538d6c891dd4e006a24e37bd328819aa1d537c9ca570614",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Empirical results often diverge from theoretical predictions because theory usually relies on simplified assumptions, while real-world settings are messier. Common reasons include:\n\n1. **Strong simplifying assumptions**  \n   Theoretical models often assume ideal conditions—perfect information, rational agents, frictionless markets, representative actors, stable preferences, or no transaction costs. Empirical settings rarely satisfy all of these.\n\n2. **Omitted variables and hidden mechanisms**  \n   A theory may isolate one causal mechanism, but in practice many other factors operate at the same time. These unmodeled influences can weaken, reverse, or obscure the predicted effect.\n\n3. **Measurement problems**  \n   The variables used in empirical work may be imperfect proxies for the theoretical concepts. If the theory predicts an effect of “ability,” “trust,” “risk,” or “institutional quality,” for example, the available data may measure those only noisily.\n\n4. **Context dependence**  \n   Theoretical predictions may hold under certain institutional, cultural, historical, or market conditions. Empirical studies conducted in different contexts may therefore produce different results.\n\n5. **Identification and causal inference issues**  \n   Empirical correlations may not cleanly capture the causal relationship predicted by theory. Endogeneity, reverse causality, selection bias, and omitted-variable bias can all produce results that differ from theoretical expectations.\n\n6. **Heterogeneity across individuals or settings**  \n   A model may predict an average effect, but the real effect may vary across groups, firms, countries, time periods, or environments. Positive effects in one subgroup may be offset by negative effects in another.\n\n7. **Finite-sample and statistical limitations**  \n   Theoretical predictions are often exact or asymptotic, while empirical studies use limited data. Small samples, noisy observations, low statistical power, or multiple testing can lead to unstable findings.\n\n8. **Implementation differences**  \n   The empirical version of a policy, intervention, or mechanism may not match the theoretical version. Real-world compliance, enforcement, incentives, and behavioral responses can differ from what the model assumes.\n\n9. **Dynamic adaptation and feedback effects**  \n   People and institutions respond strategically to policies, incentives, or constraints. These adaptations can change the environment in ways the original theory does not account for.\n\n10. **Model misspecification**  \n   Sometimes the theory is incomplete or wrong. Empirical divergence can reveal that key assumptions need to be relaxed or that additional mechanisms should be incorporated.\n\nIn short, divergence arises because theory abstracts from reality to generate clear predictions, while empirical work confronts complexity, imperfect data, and context-specific behavior. Such divergence is not necessarily a failure; it is often how theories are refined.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802444.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 634,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 654
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

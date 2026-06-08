@@ -1,0 +1,85 @@
+{
+  "id": "resp_0fef9ed480bd1580006a24e1ad96fc819a82e8bf660bd047c0",
+  "created_at": 1780801965.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0fef9ed480bd1580006a24e1ae152c819a83056d92ff0e3311",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0fef9ed480bd1580006a24e1af559c819a9e44eda313472d56",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why that’s frustrating. When a model “should” do something obvious and instead goes off-track, it can feel like you’re fighting randomness.\n\nUsually when a model doesn’t work as expected, it’s because one or more of these is happening:\n\n1. **The instruction is ambiguous to the model**\n   - Even if it feels clear to you, the model may interpret it differently.\n\n2. **The prompt is asking for too many things at once**\n   - Models can drop constraints, especially if the request is long or has competing requirements.\n\n3. **The model is optimizing for plausibility, not correctness**\n   - It generates likely responses, not guaranteed truth or guaranteed compliance.\n\n4. **Important context is missing or buried**\n   - If the key requirement appears late, indirectly, or in a large block of text, the model may not prioritize it.\n\n5. **The output format isn’t constrained enough**\n   - If you need JSON, a short answer, a specific schema, or no extra text, that needs to be made very explicit.\n\n6. **Temperature / sampling settings may be too loose**\n   - Higher randomness can make behavior feel inconsistent.\n\n7. **The task may need decomposition**\n   - Some tasks work better as: extract → reason → validate → output, instead of asking for everything in one step.\n\nA good debugging approach is:\n\n- Give the model a tiny example of the exact behavior you want.\n- Put the most important instruction at the top.\n- Use explicit “do” and “do not” rules.\n- Specify the output format.\n- Test with a minimal prompt first.\n- Add complexity back gradually.\n\nFor example, instead of:\n\n> Summarize this and make sure it follows our rules.\n\nUse:\n\n> You must output exactly 3 bullet points.  \n> Do not include opinions.  \n> Do not mention pricing.  \n> If the source text lacks enough information, say: “Insufficient information.”  \n> Text: …\n\nIf you want, paste the prompt, expected behavior, and actual model response here. I can help you figure out why it’s failing and rewrite it so it behaves more reliably.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801975.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 503,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 530
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

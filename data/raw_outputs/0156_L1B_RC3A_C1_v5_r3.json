@@ -1,0 +1,85 @@
+{
+  "id": "resp_0dfb905e99f4ba62006a24e237dca8819ba7031ef9c10cd166",
+  "created_at": 1780802103.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0dfb905e99f4ba62006a24e2384bd4819b8f5003c499748245",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0dfb905e99f4ba62006a24e23a72c4819ba85de7023b5041cd",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Which model do you mean? “This model” could refer to many things—e.g., the Standard Model of particle physics, ΛCDM in cosmology, a climate model, an economic model, a psychological theory, a statistical/AI model, etc.\n\nIf you share the model name or a bit of context, I can summarize:\n\n1. **Whether it is currently considered adequate or incomplete**\n2. **The main criticisms**\n3. **The main defenses**\n4. **Alternative models or proposed revisions**\n5. **Where the debate currently stands**\n\nFor example, if you mean **ΛCDM cosmology**, the debate centers on whether tensions like the Hubble tension indicate new physics or unresolved systematics. If you mean the **Standard Model of particle physics**, it is empirically successful but incomplete because it does not explain gravity, dark matter, neutrino masses, baryon asymmetry, etc.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802110.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 297,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 324
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

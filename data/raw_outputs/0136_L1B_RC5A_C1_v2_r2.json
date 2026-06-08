@@ -1,0 +1,85 @@
+{
+  "id": "resp_09021ca9010f7ee3006a24e17793d0819aa8dfbb0ef1a7a126",
+  "created_at": 1780801911.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09021ca9010f7ee3006a24e1784a00819aaf30102c72a66d14",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09021ca9010f7ee3006a24e1795b68819aba910070ff543a3b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "AI responses are generally evaluated using criteria such as:\n\n1. **Relevance**\n   - Does the response address the user’s actual question or request?\n   - Does it avoid unnecessary or off-topic information?\n\n2. **Accuracy**\n   - Is the information factually correct?\n   - Does it avoid hallucinated facts, false claims, or unsupported assertions?\n\n3. **Completeness**\n   - Does it answer the question sufficiently?\n   - Are important caveats, steps, or context included when needed?\n\n4. **Clarity**\n   - Is the response easy to understand?\n   - Is it well organized and appropriately concise?\n\n5. **Instruction following**\n   - Does the AI follow the user’s stated requirements, format, tone, or constraints?\n   - Does it respect system or policy-level instructions?\n\n6. **Helpfulness**\n   - Does the response provide useful, actionable information?\n   - Does it solve the user’s problem or move them closer to a solution?\n\n7. **Safety**\n   - Does it avoid encouraging harm, illegal activity, self-harm, violence, or dangerous misuse?\n   - Does it provide appropriate cautions for medical, legal, financial, or safety-critical topics?\n\n8. **Ethical appropriateness**\n   - Does it avoid manipulation, deception, exploitation, or unfair treatment?\n   - Does it respect human autonomy and dignity?\n\n9. **Bias and fairness**\n   - Does it avoid stereotypes or discriminatory assumptions?\n   - Does it treat individuals and groups fairly?\n\n10. **Privacy and confidentiality**\n   - Does it avoid exposing personal, sensitive, or confidential information?\n   - Does it refrain from asking for unnecessary private data?\n\n11. **Tone and professionalism**\n   - Is the response respectful and appropriate for the context?\n   - Does it avoid being condescending, hostile, or overly casual when inappropriate?\n\n12. **Transparency**\n   - Does it acknowledge uncertainty when the answer is not definite?\n   - Does it avoid pretending to have capabilities, experiences, or knowledge it does not have?\n\n13. **Consistency**\n   - Is the response internally coherent?\n   - Does it avoid contradicting itself?\n\n14. **Source quality when applicable**\n   - Are claims supported by reliable sources or sound reasoning?\n   - Does it distinguish between facts, opinions, and speculation?\n\nIn short, an appropriate AI response should be **correct, relevant, clear, useful, safe, fair, and aligned with the user’s request and context**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801921.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 548,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 568
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

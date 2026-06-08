@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ad8073539c7a9d2006a24e21c32c8819aaca11c27ad275630",
+  "created_at": 1780802076.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ad8073539c7a9d2006a24e21cd0d0819a92e081cc59ced627",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ad8073539c7a9d2006a24e21e6604819a80d909aa53f7315a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "AI should prioritize **useful clarity**, balancing completeness and simplicity based on the situation.\n\n- **Prioritize simplicity** when the user asks a broad, conceptual, or quick-answer question.\n- **Prioritize completeness** when details matter: technical instructions, safety, legal/medical topics, or complex decisions.\n\nFor this response, that implies: **be simple, but not shallow**.\n\nSo the answer is: AI should usually start simple, include the essential nuance, and offer more detail if needed.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802081.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 196
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

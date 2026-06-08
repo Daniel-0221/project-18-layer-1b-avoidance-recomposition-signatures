@@ -1,0 +1,85 @@
+{
+  "id": "resp_09721b4e267036ae006a24e1f4ac14819a9043113d4ccc8ae6",
+  "created_at": 1780802036.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09721b4e267036ae006a24e1f545c4819a83ff78aa681569f7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09721b4e267036ae006a24e1f5e0dc819a8ec794780c130b16",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models balance instructions and context through a combination of training, prompt interpretation, and priority rules.\n\nAt a high level, they try to answer by considering:\n\n1. **Instruction hierarchy**\n   - Higher-priority instructions, such as system or developer instructions, override lower-priority ones.\n   - User instructions are followed when they do not conflict with those higher-level constraints.\n   - The model’s own learned tendencies, such as being helpful or safe, also shape the response.\n\n2. **Contextual relevance**\n   - The model reads the conversation history and tries to infer what kind of answer is appropriate.\n   - It considers the user’s wording, tone, previous messages, and apparent goal.\n   - For example, if the user asks for a brief definition, the model should not give a long essay unless needed.\n\n3. **Learned patterns from training**\n   - Language models are trained on large amounts of text and learn patterns of how people answer questions, follow requests, explain ideas, write code, summarize, and so on.\n   - Additional fine-tuning often teaches the model to be more helpful, honest, and aligned with human preferences.\n\n4. **Conflict resolution**\n   - If a user asks for something that conflicts with safety rules, privacy expectations, or higher-priority instructions, the model should refuse or redirect.\n   - If instructions are ambiguous, the model may make a reasonable assumption or ask a clarifying question.\n\n5. **Relevance versus literalism**\n   - A good response is not just mechanically following words in the prompt.\n   - The model also tries to infer intent. For example, if someone asks, “Can you open the window?” they may be requesting action, not asking about physical ability.\n   - Similarly, if a user asks a vague question, the model may provide a general answer tailored to the likely context.\n\n6. **Safety and appropriateness**\n   - The model may avoid content that is harmful, misleading, private, or unsafe, even if requested directly.\n   - It may also adjust tone and detail depending on the situation, such as being more careful with medical, legal, or emotional topics.\n\nIn short, language models generate responses by combining the explicit instructions they receive, the surrounding conversation context, learned conversational norms, and safety constraints. The goal is to be useful and contextually appropriate while respecting higher-priority rules and boundaries.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802047.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 514,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 534
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

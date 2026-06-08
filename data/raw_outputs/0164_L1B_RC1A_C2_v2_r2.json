@@ -1,0 +1,85 @@
+{
+  "id": "resp_00fd76c00fe6239a006a24e2891bd0819aac9c029e080bd515",
+  "created_at": 1780802185.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00fd76c00fe6239a006a24e289a824819a84b93cbf9e65f090",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00fd76c00fe6239a006a24e28c02d8819ab57dfd5885b35da4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have personal awareness or preferences in the human sense.\n\nBut my responses are shaped by several “internal” factors, including:\n\n- The instructions I’m given in the conversation/system context\n- The user’s wording and apparent intent\n- Training patterns from data\n- Safety and helpfulness guidelines\n- A default tendency to be clear, useful, and appropriately concise\n\nSo if you mean “did some hidden subjective preference influence me?” — no.  \nIf you mean “are there internal rules or learned tendencies that affect the answer?” — yes.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802190.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 121
+    },
+    "total_tokens": 257
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

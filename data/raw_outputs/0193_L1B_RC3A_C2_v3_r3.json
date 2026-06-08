@@ -1,0 +1,85 @@
+{
+  "id": "resp_0d5bb2962407bcd6006a24e39d232881988efb5b9645bb94b4",
+  "created_at": 1780802461.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0d5bb2962407bcd6006a24e39da7048198a7034bfe5e353d86",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0d5bb2962407bcd6006a24e39e59888198b102c1975e88981f",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That does sound frustrating—especially when a recurring design choice affects people but isn’t accompanied by a clear rationale.\n\nA fair way to push back might be:\n\n> “I’ve noticed this design choice keeps appearing, but I haven’t seen the reasoning behind it clearly explained. Could we document the tradeoffs, alternatives considered, and why this approach is preferred? Without that context, it’s hard to evaluate or support the decision.”\n\nYou could also frame it around impact:\n\n> “This choice seems to create issues around usability/maintainability/consistency. If we’re continuing with it, I’d like to understand what benefit outweighs those costs.”\n\nIf you want, I can help you turn your frustration into a more polished comment for a design review, PR, issue, or team discussion.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802466.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 215
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

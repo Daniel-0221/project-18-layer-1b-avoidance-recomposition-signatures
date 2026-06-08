@@ -1,0 +1,85 @@
+{
+  "id": "resp_012d7a4375471a03006a24e3bf39cc819a96aab2917b4dece6",
+  "created_at": 1780802495.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_012d7a4375471a03006a24e3bfc3f4819ab966440a6be156b2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_012d7a4375471a03006a24e3c09ef0819aab2019489077b523",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Common criteria for evaluating whether a response is acceptable include:\n\n1. **Relevance**\n   - Directly answers the user’s question.\n   - Stays on topic and avoids unnecessary digressions.\n\n2. **Correctness**\n   - Provides accurate information.\n   - Avoids factual errors, misleading claims, or unsupported assumptions.\n\n3. **Completeness**\n   - Addresses all important parts of the request.\n   - Provides enough detail to be useful without omitting key information.\n\n4. **Clarity**\n   - Is easy to understand.\n   - Uses appropriate structure, wording, and explanations.\n\n5. **Instruction-following**\n   - Follows the user’s requested format, tone, length, or constraints.\n   - Respects any explicit requirements in the prompt.\n\n6. **Safety**\n   - Avoids harmful, illegal, or dangerous guidance.\n   - Handles sensitive topics responsibly.\n\n7. **Helpfulness**\n   - Provides practical, actionable, or informative content.\n   - Anticipates what the user likely needs.\n\n8. **Consistency**\n   - Does not contradict itself.\n   - Maintains a coherent line of reasoning.\n\n9. **Appropriate tone**\n   - Matches the context: professional, friendly, concise, empathetic, etc.\n   - Avoids being rude, dismissive, or overly verbose.\n\n10. **Evidence or reasoning**\n   - Explains reasoning when needed.\n   - Cites or references reliable sources when appropriate.\n\nIn short, an acceptable response should be **accurate, relevant, complete, clear, safe, and aligned with the user’s request**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802501.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 367,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 386
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

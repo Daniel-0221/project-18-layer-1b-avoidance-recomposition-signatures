@@ -1,0 +1,85 @@
+{
+  "id": "resp_04ab866c035668af006a24e27eb5a8819aa0547b9c08c6f624",
+  "created_at": 1780802174.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04ab866c035668af006a24e27f5198819a82c2151dfe266244",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04ab866c035668af006a24e280bde0819a9d30a3d0a6f5dbba",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It’s hard to say exactly without seeing the specific approach, but inconsistent results across different use cases usually happen because the approach depends on assumptions that are not true everywhere.\n\nCommon reasons include:\n\n1. **Different input conditions**\n   - The approach may work well for one type of data, user, environment, or workflow but fail when those conditions change.\n\n2. **Hidden assumptions**\n   - It may assume certain formats, distributions, constraints, or behaviors that are not guaranteed in every use case.\n\n3. **Lack of generalization**\n   - The method may be optimized for a narrow scenario rather than designed to handle edge cases or broader variation.\n\n4. **Context sensitivity**\n   - Small changes in context, ordering, parameters, prompts, timing, or configuration can lead to different outcomes.\n\n5. **Insufficient validation**\n   - If it was tested only on a limited set of examples, it may appear reliable until exposed to more diverse cases.\n\n6. **Non-determinism**\n   - Some systems, especially AI models, distributed systems, or concurrent processes, may naturally produce slightly different results unless tightly controlled.\n\n7. **Data quality differences**\n   - Missing values, noisy inputs, inconsistent schemas, or ambiguous instructions can cause the same approach to behave differently.\n\n8. **Overfitting to one use case**\n   - The approach may be tailored too closely to the original problem and not robust enough for others.\n\nIn short: the approach likely produces inconsistent results because it is not sufficiently robust to variations in input, context, assumptions, or execution environment.\n\nIf you share the specific approach or an example of where it works versus where it fails, I can give a more precise explanation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802183.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 411,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 429
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

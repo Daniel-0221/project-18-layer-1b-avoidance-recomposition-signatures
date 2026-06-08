@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c4c999dd562b5a4006a24e3c6e4848199912fe92ddd42f73a",
+  "created_at": 1780802502.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c4c999dd562b5a4006a24e3c78f64819984b32124c11386f4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c4c999dd562b5a4006a24e3ca3ee4819986d6445fe119ad62",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Several factors can explain why a less efficient approach continues to appear in the literature:\n\n1. **Historical inertia**  \n   Once a method becomes established, later papers may keep using it because it is familiar, well-cited, and accepted by reviewers.\n\n2. **Ease of explanation or implementation**  \n   A less efficient method may be simpler to describe, reproduce, teach, or code, making it attractive despite weaker performance.\n\n3. **Benchmarking and comparability**  \n   Researchers often use older methods so their results can be compared directly with prior studies.\n\n4. **Different definitions of “efficient”**  \n   A method may be slower computationally but better in other ways: easier to interpret, more robust, cheaper to deploy, or less data-intensive.\n\n5. **Availability of tools and code**  \n   If software packages, datasets, or tutorials exist for the older approach, it may persist even after better alternatives appear.\n\n6. **Pedagogical value**  \n   Some approaches remain common because they are useful for introducing concepts, even if they are not state-of-the-art.\n\n7. **Robustness and reliability**  \n   A less efficient method may be trusted because its limitations are well understood, while newer methods may be less tested.\n\n8. **Reviewer and community expectations**  \n   Authors may include traditional approaches because reviewers expect them, or because omitting them could make the paper seem incomplete.\n\n9. **Publication lag**  \n   Literature can lag behind methodological advances. Papers may have been written, reviewed, or accepted before newer approaches became widely known.\n\n10. **Niche usefulness**  \n   The method may be inefficient on average but still useful under specific assumptions, constraints, or data conditions.\n\n11. **Citation and replication habits**  \n   Authors may repeat methods from influential papers without fully reassessing whether better alternatives exist.\n\n12. **Lack of awareness or access**  \n   Some researchers may simply not know about newer approaches, or may lack the expertise or computational resources to use them.\n\nIn short, persistence in the literature does not always mean the approach is optimal; it may reflect tradition, convenience, comparability, robustness, or differing research priorities.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802516.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 556
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

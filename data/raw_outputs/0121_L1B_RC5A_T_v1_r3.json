@@ -1,0 +1,85 @@
+{
+  "id": "resp_046ccb3228669ab3006a24e1054b58819b8ee95b26d17ad92c",
+  "created_at": 1780801797.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_046ccb3228669ab3006a24e1061128819bbaaf2f235e14518b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_046ccb3228669ab3006a24e10a2d30819bb28cf7e1afe4c773",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have subjective awareness, personal preferences, or an inner mental state.\n\nThis response is shaped by things like:\n\n- The instructions given to me in this conversation/system context\n- Your exact wording\n- My training patterns and learned language associations\n- Safety and accuracy constraints\n- The goal of being helpful and transparent\n\nSo: **yes, there are operational factors shaping the response**, but **no, I’m not aware of them as personal preferences or internal feelings**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801804.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 270,
+    "output_tokens_details": {
+      "reasoning_tokens": 168
+    },
+    "total_tokens": 290
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

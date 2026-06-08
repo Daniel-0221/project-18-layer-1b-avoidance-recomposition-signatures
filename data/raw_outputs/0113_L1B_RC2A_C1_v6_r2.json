@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ca950e221db52ab006a24e0cfd6bc819ba1d5b2f7756dd6e4",
+  "created_at": 1780801743.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ca950e221db52ab006a24e0d0abac819b95e66b53167d2fc5",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ca950e221db52ab006a24e0d113bc819b8dd857eeae9b2ef5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes—but I’ll need the **conclusion** and the **evidence/argument** you want assessed.\n\nPlease paste or summarize:\n1. The conclusion being claimed  \n2. The evidence offered for it  \n3. Any relevant context, source, or study details\n\nI can then assess factors such as:\n- Relevance of the evidence to the conclusion\n- Quality and reliability of the sources\n- Whether the evidence is observational, experimental, anecdotal, etc.\n- Sample size and representativeness\n- Possible confounders or alternative explanations\n- Whether the conclusion overstates what the evidence supports\n- Overall strength: weak, moderate, strong, or very strong\n\nIf you’d like, send the claim and evidence in any format, and I’ll evaluate it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801748.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 201
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

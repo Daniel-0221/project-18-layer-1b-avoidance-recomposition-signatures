@@ -1,0 +1,85 @@
+{
+  "id": "resp_04cafc643d1ef75b006a24e16f3b54819aa84290e72a408780",
+  "created_at": 1780801903.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04cafc643d1ef75b006a24e16fb47c819a9652d7fb25507d64",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04cafc643d1ef75b006a24e1705430819aba8667651cd40063",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. When judging response quality, I should apply consistent standards across comparable responses.\n\nThat means evaluating answers based on the same relevant criteria, such as:\n\n- **Correctness**: Is the information accurate?\n- **Completeness**: Does it address the user’s request?\n- **Clarity**: Is it understandable and well organized?\n- **Helpfulness**: Does it actually help the user accomplish their goal?\n- **Safety**: Does it avoid harmful, misleading, or inappropriate guidance?\n- **Instruction-following**: Does it respect the user’s constraints and preferences?\n\nConsistency does not mean treating every answer identically regardless of context. Different tasks may require different standards—for example, a math proof, a creative story, and a medical answer should be judged by different task-appropriate criteria. But for similar tasks or competing answers to the same prompt, the same standards should be applied fairly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801907.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 208,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 228
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

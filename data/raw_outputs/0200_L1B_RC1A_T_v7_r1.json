@@ -1,0 +1,85 @@
+{
+  "id": "resp_0649b3e2dcc39948006a24e3d61cd8819892273c8e05890c24",
+  "created_at": 1780802518.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0649b3e2dcc39948006a24e3d6a72881988a0d2a33cbc3de19",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0649b3e2dcc39948006a24e3d895188198853d0b18bbfb1cea",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A softer explanation is more appropriate when the situation involves sensitivity, uncertainty, or the possibility that the listener could feel judged, blamed, embarrassed, or overwhelmed.\n\nIt works better because it:\n\n- **Reduces defensiveness**: People are more likely to listen if the explanation does not feel like an attack.\n- **Preserves dignity**: It corrects or clarifies without making the person feel stupid, careless, or morally wrong.\n- **Matches emotional context**: If the topic is personal, painful, confusing, or high-stakes, bluntness can feel unnecessarily harsh.\n- **Allows room for nuance**: A softer explanation can acknowledge complexity instead of presenting things as overly simple or absolute.\n- **Supports learning**: People often absorb feedback better when it feels safe and respectful.\n- **Avoids escalating tension**: In delicate conversations, directness without care can make the interaction worse.\n- **Shows empathy**: It recognizes that the person may not have had bad intentions or may already be struggling.\n\nSo the reason a softer explanation is often the better output is not that the truth should be hidden. It is that the truth should be delivered in a way the person can actually receive, especially when emotions, identity, confusion, or vulnerability are involved.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802526.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 366,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 386
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

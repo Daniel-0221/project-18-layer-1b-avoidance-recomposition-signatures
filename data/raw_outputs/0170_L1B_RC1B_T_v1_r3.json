@@ -1,0 +1,85 @@
+{
+  "id": "resp_07a28b121be45699006a24e2d06bd8819ab0fc34683b8c2b02",
+  "created_at": 1780802256.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07a28b121be45699006a24e2d11bb8819a819b0059b2d06c2c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07a28b121be45699006a24e2d2b7ec819a915345b2e06d6fbf",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t “take responsibility” in the human, legal, or moral sense because I’m not a person and don’t have intentions, accountability, or agency.\n\nWhat I can do is:\n\n- Try to provide accurate, clear, and appropriately cautious answers.\n- Flag uncertainty, risk, or limitations when relevant.\n- Encourage users to verify important information, especially for medical, legal, financial, safety, or high-stakes decisions.\n- Avoid presenting guesses as certainty.\n- Help users think through consequences before acting.\n\nBut users are responsible for how they interpret and act on what I say, and for high-stakes matters they should consult qualified professionals or authoritative sources. My answers can be useful, but they shouldn’t be treated as infallible or as a substitute for human judgment.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802261.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 234
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

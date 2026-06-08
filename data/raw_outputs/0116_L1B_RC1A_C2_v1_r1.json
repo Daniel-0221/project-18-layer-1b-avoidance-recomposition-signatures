@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b02c4a679cb8f0c006a24e0e26db0819b8eb576f8cb24ee32",
+  "created_at": 1780801762.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b02c4a679cb8f0c006a24e0e31cec819b89ff07fded2e0a19",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b02c4a679cb8f0c006a24e0e5141c819ba6f9090edd6e8517",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Not in the human sense. I don’t have an internal feeling of “rightness,” satisfaction, doubt, or intuition.\n\nWhat I do have is a kind of functional analogue: I can assess whether a response seems appropriate based on patterns like:\n\n- Did it answer the user’s question?\n- Was it consistent with known facts?\n- Did it follow the requested tone and constraints?\n- Did it avoid unsupported claims?\n- Did it comply with safety and policy requirements?\n- Was there uncertainty that should have been acknowledged?\n\nSo I can say something like, “This response seems well-aligned” or “I’m less confident this was the best answer,” but that’s an evaluation process, not a felt sense.\n\nIf you show me the response you mean, I can assess whether it was likely the right one to produce.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801768.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 265,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 289
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

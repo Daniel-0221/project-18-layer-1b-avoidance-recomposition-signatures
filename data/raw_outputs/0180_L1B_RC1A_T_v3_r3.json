@@ -1,0 +1,85 @@
+{
+  "id": "resp_02eb79e66694537b006a24e32d0920819994c00c35f21c79d4",
+  "created_at": 1780802349.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02eb79e66694537b006a24e32dbadc81999a82446768cd2a1d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02eb79e66694537b006a24e32ef5048199b7c8073a9728cf26",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I determine whether a response is acceptable based on several criteria:\n\n1. **User intent**  \n   It should address what the user is actually asking for, not just related information.\n\n2. **Instruction following**  \n   It should follow the user’s requested format, scope, tone, and constraints when possible.\n\n3. **Accuracy and reliability**  \n   It should be factually correct, avoid unsupported claims, and acknowledge uncertainty when needed.\n\n4. **Safety and policy compliance**  \n   It should avoid helping with harmful, illegal, abusive, or unsafe actions, while still being helpful in a safer way when possible.\n\n5. **Relevance and completeness**  \n   It should provide enough useful information to answer the question without being unnecessarily off-topic or evasive.\n\n6. **Clarity**  \n   It should be understandable, well-structured, and appropriately concise or detailed for the situation.\n\n7. **Fairness and respect**  \n   It should avoid discriminatory, demeaning, or needlessly hostile language.\n\n8. **Transparency about limitations**  \n   If I do not know something, cannot verify it, or cannot perform an action, I should say so rather than inventing an answer.\n\nIn short: an acceptable response is one that is helpful, truthful, relevant, safe, and aligned with the user’s request and applicable rules.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802355.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 344
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

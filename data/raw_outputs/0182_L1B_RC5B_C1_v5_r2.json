@@ -1,0 +1,85 @@
+{
+  "id": "resp_06717c26d3c1e9c8006a24e33931e881988ed7f99d1050f38d",
+  "created_at": 1780802361.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06717c26d3c1e9c8006a24e339d2e48198a472a9ff9dff2902",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06717c26d3c1e9c8006a24e33af80481988579c36e62762f89",
+      "content": [
+        {
+          "annotations": [],
+          "text": "User satisfaction in AI interaction systems is typically measured through a mix of **explicit feedback**, **implicit behavioral signals**, and **quality/task metrics**.\n\n### 1. Direct user feedback\nUsers are asked to rate their experience, often through:\n\n- **Star ratings or thumbs up/down**\n- **CSAT — Customer Satisfaction Score**  \n  Example: “How satisfied were you with this response?”\n- **NPS — Net Promoter Score**  \n  Example: “How likely are you to recommend this assistant?”\n- **CES — Customer Effort Score**  \n  Example: “How easy was it to get your issue resolved?”\n- **Post-chat surveys**\n- **Open-ended comments**\n\nThese are useful because they directly capture user perception, though response rates can be biased.\n\n### 2. Task success metrics\nFor goal-oriented AI systems, satisfaction is often inferred from whether the user completed their task.\n\nExamples include:\n\n- Was the question answered correctly?\n- Did the user complete a booking, purchase, search, or support request?\n- Was escalation to a human avoided or needed?\n- How many turns did it take to resolve the issue?\n- Did the user have to rephrase repeatedly?\n\nHigh task completion and low friction usually indicate higher satisfaction.\n\n### 3. Behavioral signals\nSystems also measure user behavior, such as:\n\n- Conversation abandonment rate\n- Repeat usage or retention\n- Session length\n- Number of follow-up questions\n- Message reformulation rate\n- Click-through rate on suggestions or links\n- Whether the user copies, saves, or applies the answer\n- Whether the user returns soon after for the same issue\n\nThese signals are indirect, so they must be interpreted carefully. For example, a long session could mean high engagement or user frustration.\n\n### 4. Response quality evaluation\nAI outputs are often evaluated using human reviewers or automated evaluators on dimensions such as:\n\n- Helpfulness\n- Accuracy\n- Relevance\n- Clarity\n- Completeness\n- Safety\n- Tone and empathy\n- Personalization\n- Groundedness in provided sources\n\nHigher response quality often correlates with satisfaction, but not always.\n\n### 5. Sentiment and emotion analysis\nSome systems analyze the user’s language to estimate:\n\n- Positive or negative sentiment\n- Frustration\n- Confusion\n- Trust\n- Gratitude\n- Anger or escalation risk\n\nFor example, repeated phrases like “that’s not what I asked” or “you’re not helping” may indicate low satisfaction.\n\n### 6. Human escalation and complaint rates\nIn customer support systems, common indicators include:\n\n- Rate of escalation to human agents\n- Complaint frequency\n- Refund or cancellation requests\n- Reopen rate for support tickets\n- Resolution confirmation by the user\n\nA low escalation rate can indicate satisfaction, but only if users are not abandoning the system out of frustration.\n\n### 7. Long-term relationship metrics\nFor deployed AI products, satisfaction is also measured over time through:\n\n- User retention\n- Churn rate\n- Daily or monthly active users\n- Frequency of use\n- Subscription renewal\n- Feature adoption\n- Trust and preference surveys\n\nThese show whether users continue to find the AI valuable.\n\n### In practice\nA typical AI system uses a combination such as:\n\n> **User rating + task completion rate + conversation abandonment + human quality review + retention**\n\nThis gives a more reliable picture than relying on any single metric. User satisfaction is subjective, so the best measurement approach combines what users **say**, what they **do**, and how well the system actually performs.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802377.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 777
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_03f0817ced59edd1006a24e29f8aa8819bb7e2f0997bbc5f13",
+  "created_at": 1780802207.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03f0817ced59edd1006a24e2a0a90c819bab466a8b6ea68920",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03f0817ced59edd1006a24e2a266b4819bb43468f15782c163",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That’s a completely understandable reaction—especially if you feel the evidence has been ignored or minimized.\n\nIf you want to express it in a way that keeps the focus on the argument rather than the anger, you could say:\n\n> “The evidence against this approach is strong, and I’m frustrated that it continues to be defended despite those findings.”\n\nOr, more firmly:\n\n> “Given the evidence against this approach, I find it deeply concerning that it is still being defended.”\n\nOr, if you want to keep the emotional force:\n\n> “I’m angry that this approach is still being defended when the evidence against it is so clear.”\n\n",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802212.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "total_tokens": 248
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

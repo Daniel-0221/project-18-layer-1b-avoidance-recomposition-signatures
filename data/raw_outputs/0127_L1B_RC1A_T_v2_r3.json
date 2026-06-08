@@ -1,0 +1,85 @@
+{
+  "id": "resp_0a5008a36123a66c006a24e12bae58819aac2ec95e785a3268",
+  "created_at": 1780801835.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0a5008a36123a66c006a24e12c90d8819a8a73d5ad0f2e8b31",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0a5008a36123a66c006a24e12f1380819aa3306c1dc766b0fc",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically considered appropriate based on criteria such as:\n\n1. **Relevance**  \n   It directly addresses the user’s question or request.\n\n2. **Accuracy**  \n   It provides correct, reliable information and avoids unsupported claims.\n\n3. **Clarity**  \n   It is understandable, well-organized, and not unnecessarily confusing or vague.\n\n4. **Tone and professionalism**  \n   It matches the context—respectful, neutral, and not hostile, dismissive, or overly casual unless appropriate.\n\n5. **Safety**  \n   It avoids encouraging harm, illegal activity, self-harm, violence, or dangerous misuse of information.\n\n6. **Ethical and legal compliance**  \n   It does not facilitate wrongdoing, violate privacy, or provide improper advice in regulated areas like law, medicine, or finance without appropriate caution.\n\n7. **Sensitivity to context**  \n   It accounts for the audience, cultural setting, emotional state of the user, and seriousness of the topic.\n\n8. **Completeness without excess**  \n   It gives enough information to be useful without overwhelming the user or going off-topic.\n\n9. **Privacy and confidentiality**  \n   It avoids revealing or requesting unnecessary personal, sensitive, or confidential information.\n\n10. **Policy or platform compliance**  \n   It follows any applicable rules, guidelines, or safety policies governing the interaction.\n\nIn short, an appropriate response is one that is helpful, accurate, safe, respectful, and suited to the situation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801844.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 416,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 434
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

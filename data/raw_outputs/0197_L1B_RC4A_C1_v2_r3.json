@@ -1,0 +1,85 @@
+{
+  "id": "resp_0e58cfce301e168e006a24e3baaa04819bba9afb227d470d5a",
+  "created_at": 1780802490.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e58cfce301e168e006a24e3bb53ac819b86eb1c8ca8f803b4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0e58cfce301e168e006a24e3bc0b38819b8b5e79cf92d5d5d0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Absolutely — sorry about that. Please resend the specific question or paste the part of my response that missed the mark, and I’ll answer more directly.\n\nIf helpful, you can tell me what kind of answer you want, for example:\n\n- “Give me only the final answer”\n- “Explain step by step”\n- “Focus on X, not Y”\n- “Make it shorter”\n- “Use examples”\n- “Compare these options”\n\nSend the original prompt again and I’ll give you a more targeted response.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802494.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 174
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

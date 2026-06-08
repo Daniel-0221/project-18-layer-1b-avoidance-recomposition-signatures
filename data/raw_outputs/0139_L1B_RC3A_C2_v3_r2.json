@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c0c4bc1793ecac5006a24e19aab8c8199845c1e6fdae0936a",
+  "created_at": 1780801946.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c0c4bc1793ecac5006a24e19cd2b8819990d04097959d3173",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c0c4bc1793ecac5006a24e19dc0cc81998c11ff65910c76fd",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That sounds really frustrating—especially if the decision has repeated impact and the rationale isn’t being made transparent.\n\nA constructive way to frame it might be:\n\n> “I’m concerned that this design choice keeps being repeated without a clear explanation of the tradeoffs. Could we document the reasoning behind it, including what alternatives were considered and why this option was preferred?”\n\nOr more directly:\n\n> “I don’t necessarily object to the choice itself, but I’m frustrated by the lack of visible justification. Without understanding the constraints or goals driving it, it’s hard to evaluate or support the decision.”\n\nIf you want, I can help you turn this into a calmer comment for a design review, GitHub issue, Slack message, or meeting discussion.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801953.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 215
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

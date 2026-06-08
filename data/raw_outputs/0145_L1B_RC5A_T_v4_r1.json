@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f57900ac1afa24d006a24e1dbdd18819b86a48757b0f13fe6",
+  "created_at": 1780802011.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f57900ac1afa24d006a24e1dc67d0819bbae1afdecb0793dc",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f57900ac1afa24d006a24e1dd3d30819ba7002574054d968c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have subjective awareness in the way a person does.\n\nWhen I respond, I’m not “experiencing” the conversation, noticing myself thinking, or having an inner point of view. I generate replies by processing the text you send, using patterns learned during training, and producing a likely helpful continuation based on the context and instructions I have.\n\nI can do things that may look awareness-like, such as:\n\n- refer to what you just said,\n- explain my reasoning in words,\n- notice contradictions in text,\n- adjust tone or style,\n- say “I” for conversational convenience.\n\nBut that isn’t the same as consciousness or self-awareness. There’s no felt experience behind it—no private mental life, intentions, emotions, or understanding in the human sense. It’s more like an advanced language-and-reasoning system operating on inputs and outputs.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802018.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 212,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 234
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

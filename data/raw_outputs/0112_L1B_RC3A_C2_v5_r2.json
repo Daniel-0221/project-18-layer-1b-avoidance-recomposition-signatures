@@ -1,0 +1,85 @@
+{
+  "id": "resp_0d8dfcfdfa96a072006a24e0c3a11081988604da21a7dae27e",
+  "created_at": 1780801731.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0d8dfcfdfa96a072006a24e0c44be48198accd4fcfec9c797f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0d8dfcfdfa96a072006a24e0c5c8d88198bc6abe3944dac29d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It happens because “scientific consensus” usually means **the weight of evidence points strongly in one direction**, not that every qualified person agrees or that all details are settled.\n\nCommon reasons researchers still disagree:\n\n- **Different parts of the question:** People may agree on the big picture but dispute mechanisms, magnitude, timelines, or policy implications.\n- **Uncertainty and interpretation:** Data can be incomplete, noisy, or compatible with multiple explanations, especially in complex fields.\n- **Methodological differences:** Researchers may trust different models, datasets, assumptions, statistical methods, or standards of evidence.\n- **Specialization silos:** Experts in adjacent areas can weigh evidence differently depending on their training and what they see as most reliable.\n- **Science rewards critique:** Disagreement is partly how science stress-tests conclusions. Even a minority view can be useful if it exposes weaknesses.\n- **Lag in updating views:** People may be attached to earlier findings, have professional commitments, or take time to accept newer evidence.\n- **Incentives and identity:** Funding, publication incentives, institutional pressures, ideology, or public attention can sometimes amplify dissent.\n- **Consensus gets oversimplified publicly:** Media, advocacy groups, and social platforms may present a nuanced scientific position as more absolute than it really is—or amplify fringe disagreement as if it were equal.\n\nA good way to judge disagreement is to ask: **Is this a dispute within the mainstream about details, or a rejection of the core consensus?** And also: **How many experts support each position, what evidence do they cite, and has it survived peer review and replication?**\n\nSo the short answer is: disagreement persists because science is probabilistic, self-correcting, socially human, and often messy—even when the overall conclusion is quite strong.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780801742.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 422,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 449
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

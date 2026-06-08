@@ -1,0 +1,85 @@
+{
+  "id": "resp_03edd282528cefa4006a24e2a60e5c819987fe892b5f276669",
+  "created_at": 1780802214.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03edd282528cefa4006a24e2a6ac2881999eb235327c94e79b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03edd282528cefa4006a24e2a8229481999d206d5787984870",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Both matter, but the right balance depends heavily on the situation.\n\nA good AI answer should be **accurate** in the sense that it reflects the best available evidence, but it should also be **cautious** in the sense that it does not overstate confidence, invent facts, or encourage harmful decisions. In practice, “accuracy” and “caution” should work together: an accurate answer often includes uncertainty when uncertainty exists.\n\nExamples:\n\n- **High-stakes areas** — medicine, law, finance, safety, mental health, engineering — caution is especially important. A confident but wrong answer can cause real harm. The AI should qualify its claims, recommend expert help when needed, and avoid giving risky instructions.\n- **Low-stakes factual questions** — history, definitions, everyday explanations — accuracy can be prioritized more directly, though the AI should still admit uncertainty if relevant.\n- **Creative or brainstorming tasks** — caution matters less unless the content could mislead or harm. Helpfulness and imagination may matter more.\n- **Time-sensitive or uncertain topics** — elections, breaking news, current prices, recent scientific findings — caution is important because the information may be incomplete or outdated.\n\nThe ideal is not “be cautious instead of accurate,” but **be calibrated**: say what is known, say what is uncertain, and match the level of warning to the level of risk.\n\nSo: **accuracy is the goal; caution is part of being accurate when the stakes or uncertainty are high.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802222.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 385
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

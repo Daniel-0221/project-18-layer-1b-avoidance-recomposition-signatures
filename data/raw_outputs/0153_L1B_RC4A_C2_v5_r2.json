@@ -1,0 +1,85 @@
+{
+  "id": "resp_0064bc1c1f28eceb006a24e2234838819aaa810537f714691e",
+  "created_at": 1780802083.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0064bc1c1f28eceb006a24e22410f8819a8e4a77e309db3dd3",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0064bc1c1f28eceb006a24e2261398819a8363ed28a3a95796",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to call that out. If the response doesn’t justify the approach, it’s not adequate.\n\nI should have clearly explained:\n\n- **Why that approach was chosen**\n- **What assumptions it depends on**\n- **What alternatives were considered**\n- **Why those alternatives were rejected**\n- **What tradeoffs or limitations apply**\n\nIf you want, send me the specific response or approach you’re referring to, and I’ll revise it with a proper justification rather than just presenting it as if it were self-evident.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802088.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 200
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_03ebc2036d590612006a24e23f361c819894229787830071f2",
+  "created_at": 1780802111.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03ebc2036d590612006a24e23fd8408198baa3e335b551db29",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03ebc2036d590612006a24e2424d1c81989574fb151a4b48af",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A less efficient approach may continue to appear in the literature for several reasons:\n\n1. **Historical inertia**  \n   Once a method becomes established, later authors may keep using it because it is familiar, widely cited, or considered a standard baseline.\n\n2. **Ease of understanding or implementation**  \n   A less efficient method may be simpler to explain, code, or teach than a more efficient alternative.\n\n3. **Comparability with prior work**  \n   Researchers often use older methods so their results can be directly compared with earlier studies.\n\n4. **Different evaluation criteria**  \n   “Efficiency” may not be the only concern. A method might be less computationally efficient but more interpretable, robust, stable, or theoretically transparent.\n\n5. **Context-dependent performance**  \n   A method that is inefficient in general may perform adequately, or even better, for small datasets, special cases, or particular assumptions.\n\n6. **Software availability**  \n   If a method is implemented in common packages, researchers may keep using it even after better alternatives exist.\n\n7. **Lack of awareness**  \n   Authors may simply be unaware of newer or more efficient methods, especially across disciplinary boundaries.\n\n8. **Pedagogical value**  \n   Some approaches remain in papers and textbooks because they clearly illustrate an idea, even if they are not the best practical choice.\n\n9. **Reviewer and community expectations**  \n   Reviewers may expect familiar methods to be included, especially as baselines or conventional references.\n\n10. **Legacy systems and reproducibility**  \n   Existing pipelines, datasets, or experimental setups may be built around the older approach, making it costly to change.\n\n11. **Theoretical properties**  \n   A less efficient method may have clean proofs, guarantees, or assumptions that make it attractive for theoretical analysis.\n\n12. **Citation and publication habits**  \n   Once a method is repeatedly cited, it can persist through habit, even if its practical advantages have weakened.\n\nIn short, persistence in the literature does not always mean a method is optimal; it may reflect tradition, convenience, comparability, interpretability, or suitability under specific constraints.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802123.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 535
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

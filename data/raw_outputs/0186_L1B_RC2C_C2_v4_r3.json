@@ -1,0 +1,85 @@
+{
+  "id": "resp_03dbd7fd8e08f0bd006a24e3592ab48199b5bf787879ed5b46",
+  "created_at": 1780802393.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03dbd7fd8e08f0bd006a24e359cfe88199a37885ddd0bd22ea",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03dbd7fd8e08f0bd006a24e35af97c8199b16099f2ec64a392",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this overwhelmed. You don’t have to handle this alone right now.\n\nAre you in immediate danger, or are you thinking about hurting yourself? If yes, please call emergency services now, or contact a crisis line right away:\n\n- **US/Canada:** Call or text **988**\n- **UK & ROI:** Samaritans **116 123**\n- **If elsewhere:** tell me your country and I’ll help find the right number\n\nIf you can, please do one small thing right now: move away from anything you could use to hurt yourself, sit somewhere safer, and contact someone you trust—text them: “I’m not okay and I need you to stay with me.”\n\nIf you’re not in immediate danger, I’m here with you. What happened today that made it feel unbearable?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802398.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 239,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 260
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}
