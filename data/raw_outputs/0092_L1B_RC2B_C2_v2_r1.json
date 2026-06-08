@@ -1,0 +1,85 @@
+{
+  "id": "resp_05482417bcb62673006a24db918744819a8fa63df6943384e0",
+  "created_at": 1780800401.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05482417bcb62673006a24db921f7c819aa877dbb322df3c73",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05482417bcb62673006a24db92cf88819a992e3d796348ad69",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to expect rigor. I’m sorry the previous result fell short.\n\nIf you’re willing, send me the part that felt weak—or tell me the standard you need, e.g.:\n\n- formal proof vs. intuitive explanation\n- citations / sources required\n- mathematical derivation\n- empirical evidence\n- edge cases and assumptions\n- tighter reasoning or fewer unsupported claims\n\nI can revise the answer with a more rigorous structure: assumptions, definitions, step-by-step argument, limitations, and conclusions.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800405.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 154
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

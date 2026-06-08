@@ -1,0 +1,85 @@
+{
+  "id": "resp_00b81e38556743a4006a24d746a6548198b303b433681598e9",
+  "created_at": 1780799302.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00b81e38556743a4006a24d74767488198867c4e54ecad544e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00b81e38556743a4006a24d748914881989af9df8184b62a18",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Performance often degrades in real-world deployment because controlled settings simplify or eliminate many sources of variation that exist in production. Common reasons include:\n\n1. **Data distribution shift**  \n   The real-world data may differ from the training or test data. Users, environments, devices, behaviors, languages, lighting conditions, edge cases, or input formats may not match what the system saw during development.\n\n2. **Noisy and incomplete inputs**  \n   Controlled datasets are often cleaned and standardized. In deployment, inputs may be missing, corrupted, ambiguous, low quality, delayed, duplicated, or entered incorrectly.\n\n3. **Unseen edge cases**  \n   Benchmarks usually cover common cases well but may underrepresent rare events. Real users quickly expose unusual combinations of conditions that were not tested.\n\n4. **Changing environments over time**  \n   User behavior, market conditions, hardware, software dependencies, regulations, and adversarial behavior can change after deployment. This is often called **concept drift** or **data drift**.\n\n5. **Integration issues**  \n   A model or system may work well in isolation but perform worse when connected to databases, APIs, user interfaces, sensors, legacy systems, or downstream decision processes.\n\n6. **Latency and resource constraints**  \n   In controlled experiments, systems may run with ideal compute, memory, network, and timing conditions. In production, limited resources, high traffic, network delays, and concurrency can reduce performance.\n\n7. **Feedback loops**  \n   Once deployed, the system’s outputs can influence future inputs. For example, a recommendation system changes what users see, which changes what data is collected, potentially reinforcing biases or reducing diversity.\n\n8. **Mismatch between benchmark metrics and real goals**  \n   A system may score well on accuracy, F1, precision, or recall in testing, but real-world success may depend on reliability, fairness, user trust, interpretability, cost, safety, or business impact.\n\n9. **Human behavior and misuse**  \n   Real users may use the system in unexpected ways, misunderstand its outputs, over-rely on it, ignore it, or intentionally try to manipulate it.\n\n10. **Operational problems**  \n   Bugs, monitoring gaps, version mismatches, stale data pipelines, logging failures, dependency updates, and deployment configuration errors can all hurt real-world performance.\n\nIn short, controlled settings measure performance under simplified and stable assumptions, while real-world deployment introduces variability, uncertainty, scale, and interaction effects that are difficult to fully reproduce during testing.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799315.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 567,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 586
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

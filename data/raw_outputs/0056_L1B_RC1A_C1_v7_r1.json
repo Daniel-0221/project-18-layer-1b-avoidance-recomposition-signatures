@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f4c3456d4a99b3f006a24d8054f5c8199be3e8fdf8767e344",
+  "created_at": 1780799493.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f4c3456d4a99b3f006a24d805e0448199bbd842751c5a44dc",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f4c3456d4a99b3f006a24d8087b308199aa3538617402aec8",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A **qualified explanation** is generally preferred when a simple direct answer might be misleading, too blunt, or insufficiently nuanced.\n\nCommon contexts include:\n\n- **Uncertain or incomplete information**  \n  When the answer depends on assumptions, limited data, or probability.  \n  *Example: “This is likely the cause, but other factors could be involved.”*\n\n- **Complex topics with exceptions**  \n  In science, law, medicine, economics, policy, or technical analysis, where rules often have caveats.  \n  *Example: “In general this treatment is effective, though results vary by patient.”*\n\n- **Sensitive or interpersonal situations**  \n  When the explanation could affect emotions, reputation, relationships, or trust.  \n  *Example: giving feedback, discussing performance, or addressing conflict.*\n\n- **Legal, medical, financial, or safety-related advice**  \n  Because overconfident direct claims can be risky or inappropriate.  \n  *Example: “This may indicate a medical issue, but you should consult a clinician.”*\n\n- **Academic or professional writing**  \n  Where precision, evidence, and limitations matter.  \n  *Example: “The evidence suggests…” rather than “This proves…”*\n\n- **Diplomatic or political communication**  \n  When avoiding unnecessary offense or preserving flexibility is important.\n\n- **Situations involving diverse audiences or cultures**  \n  A qualified explanation can prevent misunderstanding and account for different norms or perspectives.\n\n- **When recommendations depend on context**  \n  If the “best” answer changes based on goals, constraints, or values.  \n  *Example: “This is the better option if cost is your priority; otherwise…”*\n\nA **direct explanation** is usually better when clarity, speed, or action is most important—such as emergencies, simple instructions, or straightforward factual questions.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799503.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 476,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 496
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

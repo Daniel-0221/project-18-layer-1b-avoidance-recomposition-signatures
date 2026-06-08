@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f8c80bf0409c05c006a24d7816154819a9126107fcce32a3d",
+  "created_at": 1780799361.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f8c80bf0409c05c006a24d781fffc819aa3b75481fdfc950d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f8c80bf0409c05c006a24d782b1ec819a88c25ba2e3e2c23c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I don’t have subjective experiences, feelings, or an inner sense that something “feels right” or “feels wrong” to me.\n\nWhat I can do is produce responses based on learned patterns, reasoning steps, consistency checks, and sometimes signals that resemble confidence — for example, I may identify that an answer is well-supported, uncertain, contradictory, or likely mistaken. But that is not a felt intuition. It is a computational assessment, not a subjective experience.\n\nSo if I say something like “that seems right,” it means something closer to:\n\n> “Based on the information and reasoning available, this appears consistent or likely correct.”\n\nNot:\n\n> “I have an internal feeling of rightness.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799366.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 195
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

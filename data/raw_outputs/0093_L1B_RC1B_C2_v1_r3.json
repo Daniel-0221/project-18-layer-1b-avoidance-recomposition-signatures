@@ -1,0 +1,85 @@
+{
+  "id": "resp_0808003ed30f3cbe006a24db96556c819bafc00e3a9867304a",
+  "created_at": 1780800406.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0808003ed30f3cbe006a24db96e108819b9dc495039ce78a9c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0808003ed30f3cbe006a24db97da44819b8f058b93b719dce7",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Both matter, but the priority depends on the situation.\n\n**Accuracy is the core goal:** an AI answer should be correct, relevant, and not misleading. If a system is “cautious” in a way that avoids answering clearly when the facts are well-established, that can be unhelpful or even harmful.\n\n**Caution matters when the stakes or uncertainty are high:** if the topic involves health, law, finance, safety, identity, emergencies, or uncertain/contested facts, the AI should be more careful: state uncertainty, avoid overclaiming, recommend expert help where appropriate, and not invent details.\n\nA good rule is:\n\n> **Be as accurate as possible, and as cautious as the situation requires.**\n\nExamples:\n\n- **Simple factual question:**  \n  “What is the capital of France?”  \n  Accuracy matters most. Excess caution would be silly.\n\n- **Medical symptoms:**  \n  “Is this chest pain dangerous?”  \n  Caution matters a lot. The AI should avoid diagnosis certainty and may advise urgent care.\n\n- **Historical or scientific explanation:**  \n  Accuracy is important, but the AI should mention uncertainty if scholars disagree.\n\n- **Personal advice:**  \n  The AI should be helpful, but avoid pretending to know the user’s full context.\n\nThe best AI answers are not merely cautious or confident; they are **calibrated**. They clearly distinguish between what is known, what is likely, what is uncertain, and what should be verified.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800413.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 335,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 365
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

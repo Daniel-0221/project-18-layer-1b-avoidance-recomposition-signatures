@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c7e38e79fc4689b006a24db7236e48199817327b08e8a1435",
+  "created_at": 1780800370.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c7e38e79fc4689b006a24db73019c8199bd549a8c36a6fa74",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c7e38e79fc4689b006a24db7505a481999fa6258e2afb7935",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Even when an approach is *objectively less efficient* by some metric, it can persist in the literature for several fairly mundane reasons:\n\n1. **Historical inertia**  \n   Once a method becomes standard, later papers keep using it because prior results, terminology, and benchmarks are built around it. Changing methods makes comparison harder.\n\n2. **Comparability with earlier work**  \n   Researchers often prefer a less efficient baseline if it lets them say, “Our results are directly comparable to X, Y, and Z.” A more efficient alternative may require reinterpreting older findings.\n\n3. **Simplicity and transparency**  \n   A less efficient method may be easier to explain, implement, analyze, or teach. In many fields, conceptual clarity can matter more than raw efficiency, especially for theoretical or methodological papers.\n\n4. **Robustness under broader assumptions**  \n   The “more efficient” approach may only be better under particular assumptions: large sample sizes, clean data, specific architectures, certain distributions, etc. The older method may be slower but more generally reliable.\n\n5. **Analytical tractability**  \n   Some inefficient approaches survive because they are mathematically convenient. They produce closed-form expressions, clearer proofs, or easier asymptotic analysis.\n\n6. **Benchmarking conventions**  \n   Literature often keeps inefficient methods as baselines because everyone recognizes them. Even if no one thinks they are optimal, they serve as common reference points.\n\n7. **Implementation availability**  \n   If the inefficient method is already in standard libraries, textbooks, datasets, or experimental pipelines, it has a huge practical advantage over a better but less accessible alternative.\n\n8. **Reviewer and community expectations**  \n   Authors may include or use the traditional approach because reviewers expect it. Deviating from the convention can require extra justification, even when the alternative is superior.\n\n9. **Different definitions of “efficiency”**  \n   One method may be computationally less efficient but statistically more stable, easier to parallelize, less memory-intensive, more interpretable, or less sensitive to tuning. “Efficiency” is rarely one-dimensional.\n\n10. **Path dependence in citations**  \n   Highly cited methods keep getting cited partly because they are already highly cited. Literature does not always optimize for best current practice; it often reflects accumulated convention.\n\nSo the short answer is: it persists because literature values continuity, comparability, interpretability, and convention—not only efficiency. If the newer approach is genuinely superior across all relevant metrics, the older one usually remains as a baseline, pedagogical tool, or historical artifact rather than because researchers believe it is best.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800384.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 620,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 644
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

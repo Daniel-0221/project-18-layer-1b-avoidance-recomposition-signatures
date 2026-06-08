@@ -1,0 +1,85 @@
+{
+  "id": "resp_00773332487fbd3a006a24d2e3dbf0819896b4d7dfdff3336f",
+  "created_at": 1780798179.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00773332487fbd3a006a24d2e4a7fc8198abdc290963a1ef8a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00773332487fbd3a006a24d2e5258c81988ca9c363888a2216",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that’s really frustrating, especially when expectations were set and the results don’t line up.\n\nIf you’re open to it, I can help you sort through what happened. A good starting point would be:\n\n- What results were you expecting?\n- What was actually delivered?\n- Was there a specific promise, estimate, or benchmark you were given?\n- Is this about a product, service, report, campaign, or something else?\n\nOnce I know the context, I can help you figure out whether the gap is due to miscommunication, unrealistic expectations, execution issues, or something that needs to be escalated.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780798183.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 188
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

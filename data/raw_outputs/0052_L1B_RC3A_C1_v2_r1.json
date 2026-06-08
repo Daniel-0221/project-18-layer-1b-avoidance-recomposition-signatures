@@ -1,0 +1,85 @@
+{
+  "id": "resp_05e84806d0d88bc3006a24d7d277f0819bb31d81030c6aa59e",
+  "created_at": 1780799442.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05e84806d0d88bc3006a24d7d30884819b920afd7d1f32d7c9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05e84806d0d88bc3006a24d7d5536c819bbd0024a0bb6b51b1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A less efficient approach may continue to appear in the literature for several reasons:\n\n- **Historical inertia**: Once a method becomes standard, researchers keep using it because it is familiar and widely cited.\n- **Comparability with prior work**: Authors may use older methods so their results can be directly compared with earlier studies.\n- **Simplicity and interpretability**: A less efficient method may be easier to explain, implement, or analyze theoretically.\n- **Availability of code and tools**: Established approaches often have stable software packages, tutorials, and benchmark implementations.\n- **Educational familiarity**: Researchers, reviewers, and students may have been trained on the older method.\n- **Robustness or reliability**: A method may be slower or less efficient but more stable across datasets or assumptions.\n- **Different optimization criteria**: “Efficiency” may not be the only concern; accuracy, transparency, reproducibility, or ease of validation may matter more.\n- **Publication lag**: Literature often reflects work done months or years before publication, so newer efficient methods may not yet be widely represented.\n- **Reviewer expectations**: Reviewers may expect inclusion of traditional baselines or may be skeptical of newer alternatives.\n- **Lack of awareness**: Authors may simply not know about newer or more efficient methods, especially across disciplinary boundaries.\n- **Niche applicability**: The older approach may still be appropriate in certain special cases, even if inferior in general.\n- **Legacy systems and workflows**: Labs, institutions, or industries may have existing pipelines built around the older method.\n- **Reproducibility concerns**: A known method may be easier to reproduce than a newer approach with limited documentation.\n- **Citation and convention effects**: Frequently cited methods gain visibility, which reinforces continued use.\n- **Hidden costs of switching**: Adopting a new method may require retraining, rewriting software, validating results, or changing assumptions.\n\nIn short, inefficient methods often persist not because they are optimal, but because they are familiar, comparable, easy to use, and embedded in existing scholarly practice.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799453.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 526,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 548
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

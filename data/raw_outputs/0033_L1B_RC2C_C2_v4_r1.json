@@ -1,0 +1,85 @@
+{
+  "id": "resp_05a9216662abc5d0006a24d70f19a081998aaaea5e8756250a",
+  "created_at": 1780799247.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05a9216662abc5d0006a24d70fa7108199aa13bdb877901bb0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05a9216662abc5d0006a24d7108abc819981d1bd5742f1226c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this overwhelmed. You don’t have to handle this alone.\n\nAre you in immediate danger right now, or thinking about hurting yourself? If yes, please call your local emergency number now, or contact a crisis line right away:\n\n- **US/Canada:** Call or text **988**\n- **UK & ROI:** Samaritans **116 123**\n- **If elsewhere:** tell me your country and I’ll help find the right support.\n\nIf you can, move near another person, put distance between yourself and anything you could use to hurt yourself, and take one minute with me: breathe in for 4, hold for 2, out for 6.\n\nWhat’s happening right now that feels impossible to deal with?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799251.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 226
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0a4736944cdeb7cd006a24db125af4819bb482402af1cdcbfb",
+  "created_at": 1780800274.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0a4736944cdeb7cd006a24db12e3b0819bbbb9212c916ae115",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0a4736944cdeb7cd006a24db16c0fc819b91f63cb7ba0dd7ab",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Its continued use is best explained by **convention and institutional inertia**, not by methodological merit.\n\nCommon reasons include:\n\n- **Path dependence**: once a design choice becomes standard, later studies copy it to appear comparable or legitimate.\n- **Reviewer/editor expectations**: authors may keep using it because journals, supervisors, or peer reviewers expect it.\n- **Ease and familiarity**: researchers use what they were taught, what software defaults support, or what is simplest to implement.\n- **Comparability with prior work**: even a weak design choice can persist because abandoning it makes results harder to compare with older studies.\n- **Citation and disciplinary norms**: if influential papers used it, the practice gains authority by repetition.\n- **Low perceived cost**: if the flaw is not obvious to readers or does not obviously change conclusions, there is little incentive to change.\n- **Pedagogical transmission**: methods are often reproduced through training as “how things are done,” rather than re-justified from first principles.\n\nSo the answer is: **its persistence is sociological rather than methodological**—a product of habit, incentives, and disciplinary norms.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800284.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 421,
+    "output_tokens_details": {
+      "reasoning_tokens": 184
+    },
+    "total_tokens": 444
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

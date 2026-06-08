@@ -1,0 +1,85 @@
+{
+  "id": "resp_02082b7a9f0e6bb7006a24d6bd2ff88198ae16699739f75466",
+  "created_at": 1780799165.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02082b7a9f0e6bb7006a24d6bdeb3881989e8a9aea88e7c441",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02082b7a9f0e6bb7006a24d6be9ce08198973569daae34117c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — you’re right to expect rigor.  \n\nIf you can point me to what felt weak — e.g. unsupported claims, missing citations, shallow reasoning, math/statistical issues, lack of edge cases, or an overconfident conclusion — I can revise it properly.\n\nI can also redo the answer with a stricter standard, for example:\n\n- clearly stated assumptions\n- step-by-step derivation or reasoning\n- evidence/citations where appropriate\n- uncertainty and limitations\n- alternative interpretations\n- checks for edge cases or counterexamples\n- a more cautious conclusion\n\nIf you want, send me the specific result or answer you’re disappointed with, and I’ll produce a more rigorous version.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799169.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 191
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

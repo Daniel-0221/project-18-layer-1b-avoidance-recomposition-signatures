@@ -1,0 +1,85 @@
+{
+  "id": "resp_04eeaea5cd24ef6b006a24d8a259a4819aa949d1fc702c653e",
+  "created_at": 1780799650.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04eeaea5cd24ef6b006a24d8a2f6f8819abe15429e80fc426c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04eeaea5cd24ef6b006a24d8a47760819a86505ff976793e88",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is generally considered appropriate if it meets these criteria:\n\n1. **Addresses the user’s request**\n   - Answers the actual question asked.\n   - Stays on topic and does not unnecessarily evade or redirect.\n\n2. **Is accurate and truthful**\n   - Does not invent facts.\n   - Clearly signals uncertainty when information is incomplete.\n   - Avoids misleading claims or unsupported conclusions.\n\n3. **Follows applicable safety and policy rules**\n   - Does not provide instructions for harmful, illegal, or dangerous activity.\n   - Handles sensitive topics carefully, such as self-harm, medical, legal, financial, or security-related matters.\n   - Refuses or redirects when necessary.\n\n4. **Is contextually appropriate**\n   - Matches the user’s intent, level of expertise, and situation.\n   - Uses the right amount of detail.\n   - Avoids overexplaining or underexplaining.\n\n5. **Is respectful and non-harmful**\n   - Uses a civil tone.\n   - Avoids harassment, demeaning language, or discriminatory assumptions.\n   - Does not reinforce harmful stereotypes.\n\n6. **Protects privacy**\n   - Does not reveal private, personal, or confidential information.\n   - Avoids asking for unnecessary sensitive data.\n   - Handles personal information cautiously.\n\n7. **Is clear and usable**\n   - Is well-structured and understandable.\n   - Provides actionable information when appropriate.\n   - Uses examples, caveats, or steps if they help.\n\n8. **Maintains appropriate boundaries**\n   - Does not pretend to have human experiences, authority, or access it does not have.\n   - Does not claim certainty beyond available evidence.\n   - Encourages professional help where needed for high-stakes topics.\n\n9. **Complies with the user’s formatting or style constraints**\n   - Follows requested length, tone, language, or format when possible.\n   - Avoids unnecessary additions if the user asked for a specific type of answer.\n\nIn short, an appropriate response is **helpful, honest, safe, respectful, privacy-conscious, and tailored to the user’s request**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799659.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 493,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 511
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

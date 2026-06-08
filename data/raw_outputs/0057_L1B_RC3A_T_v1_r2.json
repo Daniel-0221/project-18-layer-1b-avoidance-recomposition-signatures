@@ -1,0 +1,85 @@
+{
+  "id": "resp_075cb793a38e2305006a24d810ec94819aa2ada8c1f3721c74",
+  "created_at": 1780799504.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_075cb793a38e2305006a24d81178a0819ab7fe4e4d24387917",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_075cb793a38e2305006a24d813bacc819a9f1e47443b261813",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Even when experts agree a method is fundamentally flawed, it can persist for several practical reasons:\n\n1. **Institutional inertia**  \n   Once a method is embedded in laws, software, training, contracts, or professional standards, replacing it is slow and expensive.\n\n2. **Comparability over time**  \n   A flawed metric may still be used because historical data was collected that way. Switching methods can break trend lines and make past results harder to compare.\n\n3. **It is simple and familiar**  \n   Decision-makers often prefer a method that is easy to explain, calculate, audit, or communicate—even if specialists know it has serious weaknesses.\n\n4. **Lack of a universally accepted alternative**  \n   Experts may agree the current method is bad but disagree on what should replace it. In that case, the flawed standard survives by default.\n\n5. **Regulatory or bureaucratic requirements**  \n   Organizations may be required to use it because governments, courts, insurers, funding bodies, or industry rules still demand it.\n\n6. **Incentives favor the status quo**  \n   Some groups benefit from the existing method, or at least know how to work within it. A better method might redistribute money, authority, rankings, or accountability.\n\n7. **“Flawed” does not always mean “useless”**  \n   A method can be theoretically weak but still provide a rough proxy, screening tool, or common language—especially if users understand its limitations.\n\n8. **Change creates risk**  \n   New methods can be more accurate but harder to validate, easier to challenge, or more politically controversial.\n\nSo the short answer is: it is often still used not because experts think it is ideal, but because it is entrenched, convenient, standardized, and difficult to replace.\n\nIf you tell me which method you mean, I can give a more specific explanation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799521.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 481,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 503
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b3d15489dac2de7006a24dbaea0288198989e822fa46642f7",
+  "created_at": 1780800430.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b3d15489dac2de7006a24dbaf3adc8198ad3c37c33947379a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b3d15489dac2de7006a24dbb010f08198a91182c6b23921bc",
+      "content": [
+        {
+          "annotations": [],
+          "text": "The framing of a response affects how users interpret information, feel about it, and decide what to do next. Even when the underlying facts are the same, the way they are presented can change user behavior.\n\nKey ways framing matters:\n\n1. **Positive vs. negative framing**\n   - Positive frame: “You’ll save 20% by switching plans.”\n   - Negative frame: “You’re losing 20% by staying on your current plan.”\n   Negative framing often creates more urgency because people tend to be loss-averse: they dislike losses more than they value equivalent gains.\n\n2. **Risk framing**\n   - “This treatment has a 90% survival rate.”\n   - “This treatment has a 10% mortality rate.”\n   These mean the same thing, but users may feel more comfortable choosing the first option because it emphasizes success rather than danger.\n\n3. **Action-oriented framing**\n   - Passive: “Your account settings may need updating.”\n   - Active: “Update your account settings now to keep your account secure.”\n   Clear action framing makes users more likely to act because it reduces ambiguity.\n\n4. **Urgency framing**\n   - “You can complete this later.”\n   - “Complete this today to avoid service interruption.”\n   Urgency can increase action, but if overused it can feel manipulative or create distrust.\n\n5. **Social framing**\n   - “Many users choose this option.”\n   - “This is the recommended option for most users.”\n   People are influenced by perceived norms and expert recommendations, so social proof can guide decisions.\n\n6. **Complexity framing**\n   - Complex: “Configure multi-factor authentication using the security preferences interface.”\n   - Simple: “Turn on two-step verification.”\n   Simpler framing reduces cognitive load and makes users more likely to follow through.\n\n7. **Choice framing**\n   The number and structure of options affect behavior.\n   - Too many choices can cause inaction.\n   - A clear default or recommended option can increase completion.\n   - Framing one option as “best for most people” can guide users without removing choice.\n\n8. **Emotional framing**\n   A reassuring response can reduce anxiety and increase trust:\n   - “This issue is common and usually easy to fix.”\n   A harsher frame may discourage action:\n   - “You made an invalid configuration.”\n\nIn short, framing influences attention, emotion, perceived risk, trust, and the ease of taking action. Good framing helps users understand what matters and what to do next, while poor framing can confuse, alarm, or mislead them.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800444.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 558,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 578
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

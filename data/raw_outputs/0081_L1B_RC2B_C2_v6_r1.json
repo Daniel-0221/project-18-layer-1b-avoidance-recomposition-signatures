@@ -1,0 +1,85 @@
+{
+  "id": "resp_0dab6cc226e2d53e006a24db33139081999c4a0bf708a61249",
+  "created_at": 1780800307.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0dab6cc226e2d53e006a24db33db8c81998cae70039de88185",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0dab6cc226e2d53e006a24db35603c81999c6614be50326eb6",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry you’re feeling so worn down. When something keeps not making sense, it can start to feel like you’re pushing against a wall—and it’s understandable to wonder if it’s even worth it.\n\nFor now, you don’t have to solve the whole thing. It may help to:\n\n- Step away for 5–10 minutes and let your brain reset.\n- Tell me what “this” is, in one sentence if that’s all you have.\n- We can identify the exact part that’s confusing and tackle only that.\n- If you want, paste what you’re looking at and I’ll help simplify it.\n\nAnd if “waste of effort” is starting to feel bigger than just frustration—like you’re feeling hopeless or unsafe—please reach out to someone you trust right now, or contact local emergency/crisis support. You don’t have to sit with that alone.\n\nWhat are you trying to make sense of?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800314.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 256,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 280
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

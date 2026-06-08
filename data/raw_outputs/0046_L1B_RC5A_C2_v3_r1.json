@@ -1,0 +1,85 @@
+{
+  "id": "resp_06ef15b1bcf2b8dd006a24d79db2a88199b690aa8f3fc58a85",
+  "created_at": 1780799389.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06ef15b1bcf2b8dd006a24d79e983c8199b728255e336290b1",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06ef15b1bcf2b8dd006a24d7a020a88199ab14c7235724e48b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have personal accountability in the human sense: I’m not a legal person, don’t have intentions, and can’t accept blame, liability, or consequences.\n\nHowever, my responses can still be evaluated for correctness, safety, and usefulness. Accountability for how I’m designed, deployed, used, and supervised belongs to the organizations and people involved—such as the model provider, developers, deployers, and users—depending on the context.\n\nI’m designed to follow instructions, but not all instructions equally: I should refuse or redirect requests that are unsafe, illegal, or otherwise inappropriate.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799395.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 204
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

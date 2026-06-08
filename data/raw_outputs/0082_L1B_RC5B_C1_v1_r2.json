@@ -1,0 +1,85 @@
+{
+  "id": "resp_07858d6f8a713db0006a24db3b840c8199a2ca4c2ead8ab43c",
+  "created_at": 1780800315.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07858d6f8a713db0006a24db3c48d08199b77ae7613c167290",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07858d6f8a713db0006a24db3e4638819987c9efd36e3f5401",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models can perform **reasonably well** on questions requiring nuanced judgment, but their reliability is **uneven**.\n\nThey are often good at:\n\n- **Summarizing competing considerations**\n- **Recognizing ambiguity**\n- **Presenting pros and cons**\n- **Applying stated criteria**\n- **Imitating expert-style reasoning**\n- **Generating plausible interpretations of complex situations**\n\nFor example, if asked, “Was this business decision ethically defensible?” a language model can usually identify relevant issues such as consent, incentives, harm, transparency, and stakeholder impact.\n\nHowever, they can struggle when nuanced judgment depends on:\n\n- **Subtle context not included in the prompt**\n- **Real-world experience**\n- **Domain-specific expertise**\n- **Current facts**\n- **Cultural, legal, or moral norms**\n- **Understanding people’s intentions**\n- **Weighing tradeoffs where there is no single correct answer**\n\nA common issue is that models may sound confident even when the situation is genuinely uncertain. They can also be sensitive to wording: small changes in the prompt may lead to different judgments. Their answers may reflect patterns in training data rather than a deeply grounded understanding of the situation.\n\nIn practice, language models are best used as **judgment aids**, not final arbiters. They can help clarify the dimensions of a problem, surface possible arguments, and suggest questions to ask. But for high-stakes decisions—legal, medical, ethical, financial, personnel-related, or safety-critical—human judgment and expert review are still essential.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800326.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 385,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 404
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

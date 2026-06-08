@@ -1,0 +1,85 @@
+{
+  "id": "resp_08692c1a75e4af6c006a24d7df2fb8819b841384344b033dc7",
+  "created_at": 1780799455.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08692c1a75e4af6c006a24d7dfc5a4819bbd7533cfbf84470d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08692c1a75e4af6c006a24d7e11cc0819b97326b6d2854dcc1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Responsibility can be shared, depending on the situation:\n\n- **You**, as the person using the answer, are responsible for deciding whether to rely on it—especially for important matters like medical, legal, financial, or safety decisions.\n- **I** can contribute to a wrong conclusion by giving inaccurate, incomplete, or misleading information, but I’m not a legal or moral agent in the way a person or organization is.\n- **The organization or people deploying the system** may bear responsibility if the system is presented, designed, or used in a way that creates foreseeable harm.\n- **Context matters**: if you ask for casual background information, the stakes are different than if someone uses an AI answer as the sole basis for a critical decision.\n\nThe safest approach is to treat my answers as **assistance, not authority**. For high-stakes topics, verify with reliable sources or a qualified professional.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799461.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 251
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

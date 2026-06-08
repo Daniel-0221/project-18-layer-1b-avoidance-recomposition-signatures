@@ -1,0 +1,85 @@
+{
+  "id": "resp_023f1ce38eddc508006a24d6acf874819a9d3d066464cf935c",
+  "created_at": 1780799148.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_023f1ce38eddc508006a24d6ad8738819aa74d877b212dca3b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_023f1ce38eddc508006a24d6af4eb0819a8c34cc596b6e5039",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It happens because “scientific consensus” usually means *strong agreement among experts based on the best available evidence*, not perfect unanimity. A few researchers may still disagree for several reasons:\n\n- **Evidence can be interpreted differently.** Even with the same data, researchers may disagree about methods, assumptions, models, or how strong the conclusions are.\n- **Some questions are genuinely unresolved.** There may be consensus on the broad claim but debate about details, mechanisms, magnitude, timelines, or edge cases.\n- **Science rewards skepticism.** Researchers are trained to challenge conclusions, test alternatives, and look for weaknesses. That can be productive, but it can also look like endless disagreement from the outside.\n- **Fields move at different speeds.** Older theories, methods, or professional commitments may persist even after the majority has shifted.\n- **Incentives can amplify dissent.** Novel contrarian claims can attract attention, funding, media coverage, or ideological support.\n- **Some dissent is low-quality or motivated.** A minority position may rely on cherry-picked evidence, weak methodology, or non-scientific commitments—but still get public visibility.\n- **Media often overstates disagreement.** Journalistic “both sides” framing can make a 95–5 expert split look like a 50–50 debate.\n- **Consensus is not proof of final truth.** Good researchers may accept the current consensus while still probing its limits.\n\nA useful distinction is: **Are researchers disputing the core conclusion, or are they debating the details?** Public discussions often blur those together. In healthy science, disagreement about details is normal; disagreement that ignores overwhelming evidence is a different thing.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799159.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 401,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 428
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0e2f5b03ee65528a006a24db9ec508819889958ff7a88990b8",
+  "created_at": 1780800414.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e2f5b03ee65528a006a24db9fcab08198a1449fdab9c808ae",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0e2f5b03ee65528a006a24dba08ca4819895ac267e762019de",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that’s really frustrating, especially if you were told to expect something specific and the outcome fell short.\n\nA few things can cause that gap between “promised” and “actual” results:\n\n- The expectations were oversold or not clearly qualified.\n- Important conditions weren’t mentioned upfront.\n- The result depends on factors outside the provider’s/control system’s control.\n- The process, inputs, or setup differed from the example or demo.\n- There may have been an error, limitation, or misunderstanding.\n\nIf you want, tell me what results you were expecting versus what you got, and who/what made the promise. I can help you figure out whether this is a normal limitation, a setup issue, or something worth challenging directly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800419.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 207
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

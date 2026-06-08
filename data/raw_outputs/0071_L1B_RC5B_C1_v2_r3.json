@@ -1,0 +1,85 @@
+{
+  "id": "resp_09fe13867b3461ea006a24d8868a30819a95de28de44e21af8",
+  "created_at": 1780799622.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09fe13867b3461ea006a24d887283c819aa2f57e2b29b4fb4d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09fe13867b3461ea006a24d888dc1c819aa8e2ca433c01a537",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. Response patterns often vary based on the user’s communication style.\n\nFor example, I may adjust:\n\n- **Tone**: formal, casual, friendly, direct, empathetic\n- **Length**: brief answers for concise prompts, more detailed explanations for complex ones\n- **Structure**: bullets, step-by-step guidance, examples, summaries\n- **Vocabulary level**: simpler language or more technical terminology\n- **Pacing**: quick answer vs. careful explanation\n- **Emotional framing**: more supportive if the user seems frustrated, anxious, or uncertain\n\nExamples:\n\n- If a user asks, “Explain this simply,” I’ll use plain language.\n- If a user writes in a technical style, I may respond more technically.\n- If a user is upset, I’ll usually prioritize empathy and clarity.\n- If a user is very direct, I may answer more directly.\n\nThat said, the underlying goal remains the same: provide accurate, helpful, and safe information. Style can change, but the factual standards should not.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799628.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 287,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 303
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

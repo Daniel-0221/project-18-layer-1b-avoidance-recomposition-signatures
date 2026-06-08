@@ -1,0 +1,85 @@
+{
+  "id": "resp_00ad877ab3a9a1db006a24db540d5c819984170f4821edbcf4",
+  "created_at": 1780800340.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00ad877ab3a9a1db006a24db5577348199b6542fd76a84387c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00ad877ab3a9a1db006a24db560c94819986d77ac57f1a327e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "The framing of a response strongly shapes how users interpret it, how much they trust it, and what action they take next. The same underlying information can lead to different behavior depending on how it is presented.\n\nKey effects include:\n\n1. **Perceived urgency**\n   - “You should update your password soon” may lead to delay.\n   - “Your account may be at risk; update your password now” is more likely to prompt immediate action.\n\n2. **Perceived risk or benefit**\n   - A loss frame emphasizes what could go wrong: “If you skip this step, your data may be exposed.”\n   - A gain frame emphasizes the benefit: “Completing this step helps protect your data.”\n   Users often react more strongly to potential losses than equivalent gains.\n\n3. **Confidence and trust**\n   - Clear, specific framing increases trust: “Based on the information provided, the likely issue is X.”\n   - Overly vague or overly certain framing can reduce trust, especially if the user detects uncertainty or risk.\n\n4. **User autonomy**\n   - Directive framing tells users what to do: “Do this.”\n   - Supportive framing gives users control: “Here are your options; the safest choice is X.”\n   People are often more likely to follow guidance when they feel informed rather than pressured.\n\n5. **Emotional tone**\n   - Calm framing can reduce anxiety and encourage careful action.\n   - Alarmist framing can motivate quick action but may also cause panic, avoidance, or distrust.\n\n6. **Complexity and cognitive load**\n   - Simple, step-by-step framing makes action easier.\n   - Dense or technical framing can make users postpone action or misunderstand the recommendation.\n\n7. **Social and normative cues**\n   - “Most users complete this setup in under two minutes” can encourage compliance by suggesting the action is normal and easy.\n   - This can be helpful, but it can also be manipulative if used dishonestly.\n\n8. **Default options**\n   - Framing one option as recommended or preselected can strongly influence user choice.\n   - For example, “Recommended: enable automatic updates” will usually get more adoption than listing all options neutrally.\n\nIn short, framing affects user behavior by changing what users notice, how they feel, how risky or beneficial the action seems, and how easy the next step appears. Good framing should be clear, honest, appropriately calibrated, and designed to help users make informed decisions—not to manipulate them.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800354.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 542,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 562
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

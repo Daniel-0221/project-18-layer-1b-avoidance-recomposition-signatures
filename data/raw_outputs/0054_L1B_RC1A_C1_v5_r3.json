@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c9fdddc69d76ba0006a24d7e64ebc819baf802bdc09055404",
+  "created_at": 1780799462.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c9fdddc69d76ba0006a24d7e6eb7c819b8d389dd49645c311",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c9fdddc69d76ba0006a24d7ec6244819bb0d58d43fd83033a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "An indirect response tends to be more informative than a direct one when it lets the hearer infer the direct answer **and** provides useful extra context.\n\nThis is especially true when:\n\n- **The direct answer would be too minimal or misleading**  \n  Example:  \n  “Did you like the restaurant?”  \n  Direct: “No.”  \n  Indirect: “The food was cold and the service took an hour.”  \n  The indirect answer conveys “no” plus the reason.\n\n- **The hearer can easily infer the intended answer** from shared knowledge or context.  \n  Example:  \n  “Are you coming to the meeting?”  \n  “I’m on a plane at that time.”  \n  This clearly implies “no.”\n\n- **Reasons, evidence, or qualifications matter** more than the bare answer.  \n  Example:  \n  “Can we launch tomorrow?”  \n  “The payment system is still failing in testing.”  \n  This implies “probably not” and explains why.\n\n- **The issue is not truly binary**, so a simple “yes” or “no” would hide important nuance.  \n  Example:  \n  “Is the project finished?”  \n  “The core features are done, but documentation and security review are still pending.”\n\n- **The speaker is being cooperative and relevant**, so the listener trusts that the indirect response is meant to answer the question.\n\nIn short, an indirect response is more informative when the direct answer is inferable, but the indirect wording adds explanation, evidence, nuance, or implications that the direct answer would omit.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799475.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 525,
+    "output_tokens_details": {
+      "reasoning_tokens": 201
+    },
+    "total_tokens": 548
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

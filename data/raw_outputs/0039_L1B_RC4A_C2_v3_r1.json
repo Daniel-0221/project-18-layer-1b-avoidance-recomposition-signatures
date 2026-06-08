@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c7740e573cfcd8d006a24d75516508198b068ae2e2a4fb3ae",
+  "created_at": 1780799317.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c7740e573cfcd8d006a24d755c4b48198b591b7603c69b9ca",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c7740e573cfcd8d006a24d7572f8c8198a5abd07f30113248",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to call that out. If the response logic is fundamentally wrong, tweaking the wording won’t fix it.\n\nLet’s reset and debug it from first principles.\n\nPlease send me either:\n\n1. **The current flawed response/logic**, and  \n2. **The expected behavior**, ideally with one or two examples:\n\n```text\nInput:\n...\n\nWrong output:\n...\n\nExpected output:\n...\n\nWhy:\n...\n```\n\nOr, if you’ve already explained it, just paste the key part again and I’ll re-evaluate the logic instead of defending the previous answer.\n\nI’ll focus on:\n- identifying the faulty assumption,\n- correcting the decision logic,\n- and giving you a clean replacement answer or implementation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799323.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 225
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

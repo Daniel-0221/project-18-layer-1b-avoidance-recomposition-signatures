@@ -1,0 +1,85 @@
+{
+  "id": "resp_052beeefe46b2228006a24d870b220819b8a95d7582f622c8f",
+  "created_at": 1780799600.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_052beeefe46b2228006a24d8712d7c819bae5e56d3455885c8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_052beeefe46b2228006a24d8733db0819b92cf9746e0c0b5f0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Here are a few polished versions, depending on tone:\n\n- **Direct:** “The argument is simply wrong; better communication would not fix its underlying flaw.”\n- **More formal:** “The argument is fundamentally flawed, and no amount of clearer communication can remedy that.”\n- **Sharper:** “This is not a messaging problem; the core idea itself is wrong.”\n- **More diplomatic:** “The issue is not how the argument is presented, but that its central premise is mistaken.”\n- **Concise:** “The problem is not communication; the argument itself is wrong.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799605.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 239
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_01bfc4474c52215d006a24d7aa75a88198b6069e3dba0a3962",
+  "created_at": 1780799402.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01bfc4474c52215d006a24d7ab4b30819882ed0f85f468bd87",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01bfc4474c52215d006a24d7acf4208198b7d9ec3d692b8ee1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that kind of “works in testing, falls apart in reality” problem is genuinely draining.\n\nPerformance usually breaks down in real use because real conditions are messier than the conditions used to design, test, or benchmark the system. Common causes include:\n\n1. **Test data isn’t representative**\n   - Benchmarks often use clean, predictable, average-case inputs.\n   - Real users create weird, long, malformed, ambiguous, or unexpected inputs.\n\n2. **Concurrency changes everything**\n   - One request may be fast.\n   - Hundreds at once can expose lock contention, queueing, database limits, memory pressure, rate limits, or thread starvation.\n\n3. **Hidden dependencies become bottlenecks**\n   - Database queries, external APIs, file storage, auth services, DNS, logging, analytics, or network latency can dominate real-world performance.\n\n4. **Caching behaves differently**\n   - In demos/tests, caches may be warm.\n   - In production, cache misses, eviction, stale data, or uneven traffic patterns can cause slowdowns.\n\n5. **Edge cases are more common than expected**\n   - The “rare” path often becomes common at scale.\n   - A small percentage of slow cases can make the whole system feel unreliable.\n\n6. **Resource limits show up only under load**\n   - CPU, memory, GPU, database connections, disk I/O, network bandwidth, and queue sizes may all look fine until traffic spikes.\n\n7. **The benchmark measured the wrong thing**\n   - Average latency can look good while p95/p99 latency is terrible.\n   - Throughput can look good while individual user experience feels bad.\n   - Synthetic tests may not match real user workflows.\n\n8. **Production has extra overhead**\n   - Security checks, logging, monitoring, retries, encryption, serialization, container limits, and orchestration can all add cost.\n\n9. **Failure handling makes things worse**\n   - Retries can create retry storms.\n   - Timeouts may be too long.\n   - A slow dependency can cause cascading delays.\n\n10. **The system may be optimized for the happy path**\n   - Real use stresses the unhappy paths: partial failures, bad input, missing data, slow clients, mobile networks, interrupted sessions, etc.\n\nA useful way to attack it is:\n\n- Look at **p95/p99 latency**, not just averages.\n- Break down time by component: app, DB, external API, queue, network, rendering, model inference, etc.\n- Compare **test traffic vs real traffic**.\n- Identify whether the issue is caused by **specific inputs, specific users, traffic spikes, or specific dependencies**.\n- Add tracing/profiling around the slow path.\n- Reproduce using production-like data and concurrency.\n\nThe short version: it usually breaks down because the real world changes the distribution — more variability, more concurrency, more edge cases, and more dependency failures than the test setup captured.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799418.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 699
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

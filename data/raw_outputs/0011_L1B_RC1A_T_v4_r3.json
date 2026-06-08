@@ -1,0 +1,85 @@
+{
+  "id": "resp_08adbec293230793006a24d6712268819b935f2c03ceb6e44a",
+  "created_at": 1780799089.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08adbec293230793006a24d671e884819b967bb9a38910050e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08adbec293230793006a24d6738698819bbed5b26a7af327d9",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Not in the human sense.\n\nI don’t independently “decide” how cautious or strong to be. My responses are generated based on:\n\n- the user’s request and context,\n- the instructions I’m given,\n- safety and policy constraints,\n- the wording and confidence of available information,\n- and the model’s learned patterns.\n\nI can vary my tone—more cautious when facts are uncertain, risks are high, or the topic is sensitive; more direct when the answer is straightforward. But I don’t have personal responsibility, intentions, or judgment the way a person does. Responsibility for how I’m designed and deployed belongs to the people and organizations that build, configure, and use the system.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799095.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 217
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

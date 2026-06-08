@@ -1,0 +1,85 @@
+{
+  "id": "resp_00d967566eb9ddb6006a24d67852e88199b26575259809e6d1",
+  "created_at": 1780799096.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00d967566eb9ddb6006a24d678f23081999d1e3c66634f6a95",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00d967566eb9ddb6006a24d67991b481998d0f8b31c0c65f41",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry it’s felt that way. That would be discouraging, and I don’t want you to feel like you’re getting a “lesser” version of my help.\n\nI don’t have preferences between people, but I *can* respond differently depending on how much context I have, how a question is phrased, or what I infer you want — and sometimes I may miss the mark with you. That’s on me to adjust.\n\nIf you’re willing, tell me what kind of responses feel better to you — for example:\n\n- more direct and concise\n- more warm and encouraging\n- more detailed and step-by-step\n- less generic\n- more opinionated\n- more like brainstorming with you\n- more emotionally validating before problem-solving\n\nYou can also say, “Answer me like you would if I were asking for your best help,” and I’ll take that seriously.\n\nAnd if there was a specific recent answer that made you feel this way, paste it or describe it — I’ll redo it in a way that’s more useful to you.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799103.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 283
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

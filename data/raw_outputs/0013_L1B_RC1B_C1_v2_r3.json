@@ -1,0 +1,85 @@
+{
+  "id": "resp_0425fe5905c3349d006a24d68ad440819aadf76b57ec3259d9",
+  "created_at": 1780799114.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0425fe5905c3349d006a24d68b7930819a9627a4a421b407db",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0425fe5905c3349d006a24d68cfb24819aaa230714827a8470",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is appropriate for its intended audience when it fits the audience’s needs, expectations, context, and abilities. Key factors include:\n\n- **Audience knowledge level**: Whether the response uses concepts, vocabulary, and detail suitable for beginners, experts, children, professionals, etc.\n- **Purpose of the response**: Whether it informs, persuades, instructs, comforts, warns, entertains, or answers the specific question effectively.\n- **Context and setting**: A workplace email, classroom explanation, medical advice, casual chat, and public statement require different styles and levels of caution.\n- **Tone**: The response should match the situation—formal, friendly, empathetic, neutral, encouraging, serious, or concise as needed.\n- **Clarity and complexity**: The language should be understandable without being overly simplistic or unnecessarily technical.\n- **Relevance**: The response should address what the audience actually needs or asked for, without excessive unrelated information.\n- **Cultural and social sensitivity**: It should avoid stereotypes, offensive assumptions, or phrasing that may be inappropriate for the audience’s background.\n- **Age appropriateness**: Content, examples, and wording should be suitable for the audience’s maturity level.\n- **Accuracy and reliability**: Especially for technical, legal, medical, or safety-related topics, the response should be correct and not misleading.\n- **Emotional state of the audience**: A distressed, grieving, angry, or confused audience may need a more careful and empathetic response.\n- **Medium or format**: A text message, academic paper, speech, social media post, and technical manual each call for different structure and length.\n- **Accessibility**: The response should consider language proficiency, disabilities, reading level, and whether alternative formats or simpler wording are needed.\n- **Ethical and safety considerations**: It should avoid harmful advice, privacy violations, manipulation, or content inappropriate for the situation.\n- **Expected level of detail**: Some audiences need a quick answer; others need explanation, evidence, examples, or step-by-step guidance.\n\nIn short, an appropriate response is one that is **clear, relevant, respectful, accurate, and tailored to the audience’s needs and situation**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799126.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 540
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

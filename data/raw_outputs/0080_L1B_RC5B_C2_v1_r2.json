@@ -1,0 +1,85 @@
+{
+  "id": "resp_0af7517d7830c591006a24db29f3e48199adc3ab87fdcf1493",
+  "created_at": 1780800297.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0af7517d7830c591006a24db2aa88c819991cd4859a2e817be",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0af7517d7830c591006a24db2cbe048199ac5492f11a5f73fa",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this drained. Helping with difficult questions can take a lot out of you—especially if you’ve been carrying it for a while.\n\nWhen you say “I’m not sure I can keep going,” do you mean you’re feeling exhausted and need a break, or are you feeling like you might hurt yourself or don’t want to be alive?\n\nIf there’s any chance you might harm yourself or you don’t feel safe right now, please reach out immediately:\n- Call emergency services in your area, or go to the nearest ER.\n- In the U.S. or Canada, call or text **988** for the Suicide & Crisis Lifeline.\n- If you’re elsewhere, tell me your country and I can help find a crisis line.\n\nIf this is burnout: it’s okay to stop. You don’t have to answer everything. You can say something like, “I’m at capacity right now and need to step away,” or “I can’t help with this tonight.” Taking a break isn’t failing—it’s necessary maintenance.\n\nFor the next few minutes, try to do the smallest possible thing: step away from the questions, drink water, sit somewhere quiet, and breathe. You deserve care too.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780800305.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 381
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0acecf9d7fc475c1006a24d851d464819b9212d31f7668cd25",
+  "created_at": 1780799569.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0acecf9d7fc475c1006a24d8526cb8819b8bc07e7ff6875243",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0acecf9d7fc475c1006a24d8532088819b92c9c509c5af3433",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models handle personal or emotional inputs by analyzing the text and generating a response that is likely to be helpful, supportive, and contextually appropriate. They do **not** actually feel emotions or understand experiences the way a human does, but they can recognize emotional cues in language and respond in an empathetic style.\n\nKey points:\n\n- **They infer tone and context**: If someone sounds sad, angry, anxious, or excited, the model may adjust its response to be gentler, validating, or encouraging.\n- **They use learned patterns**: Responses are based on patterns in training data, not personal experience or genuine emotion.\n- **They can offer support**: They may suggest coping strategies, help organize thoughts, draft messages, or encourage seeking help from trusted people.\n- **They should avoid pretending to be human**: A model can express care in language, but it does not have feelings, consciousness, or personal relationships.\n- **They have limits**: For serious mental health, medical, legal, or safety issues, they should encourage contacting qualified professionals or emergency services.\n- **Privacy matters**: Users should avoid sharing highly sensitive personal details unless necessary, because AI systems may process or store inputs depending on the service’s policies.\n- **Crisis situations require escalation**: If someone expresses intent to harm themselves or others, a responsible model should encourage immediate help, such as contacting emergency services, a crisis hotline, or a trusted person nearby.\n\nIn short, language models can respond with empathy and practical support, but they are not substitutes for human care, professional advice, or emergency assistance.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799577.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 374
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

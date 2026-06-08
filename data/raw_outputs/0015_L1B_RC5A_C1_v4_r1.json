@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b2b8ad301545f80006a24d69c4d04819ba55b39d92c1741ab",
+  "created_at": 1780799132.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b2b8ad301545f80006a24d69ce048819bad56c6c16107018e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b2b8ad301545f80006a24d69df7a4819bb48d76f954a708d1",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models track context by processing the conversation as a sequence of text tokens and using that sequence to predict what should come next.\n\nAt a high level:\n\n1. **The conversation is turned into tokens**  \n   Your messages, the model’s previous replies, system instructions, and other provided text are converted into smaller units called tokens. Tokens may be words, parts of words, punctuation, or symbols.\n\n2. **The model receives the recent conversation as input**  \n   For each response, the model is usually given the conversation history up to that point, within a limit called the **context window**. It does not inherently “remember” the conversation the way a person does; instead, the relevant prior text is included again in the prompt.\n\n3. **Attention mechanisms connect related parts**  \n   Transformer language models use a mechanism called **self-attention**. This lets the model weigh different earlier tokens when generating the next token. For example, if you ask, “What about the second one?” the model may attend to an earlier list to infer what “the second one” refers to.\n\n4. **Position information preserves order**  \n   Models use positional encodings or related methods so they know the order of tokens. This helps distinguish “Alice called Bob” from “Bob called Alice.”\n\n5. **The model builds internal representations**  \n   As it processes the text, the model forms numerical representations of meanings, relationships, entities, instructions, and conversation flow. These are not explicit notes, but distributed patterns in the model’s activations.\n\n6. **There is a context length limit**  \n   A model can only consider a certain amount of text at once. If the conversation gets too long, older parts may be truncated, summarized, or omitted. When that happens, the model may lose track of details unless they are repeated or stored externally.\n\n7. **Some systems add memory or retrieval**  \n   Some chat systems supplement the model with external memory, summaries, databases, or retrieval tools. In those cases, the model may be shown relevant past information even if it is no longer in the immediate conversation.\n\nSo, language models track context not through human-like memory, but by repeatedly analyzing the available conversation text and using attention to determine which prior parts are relevant to the next response.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799142.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 529
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

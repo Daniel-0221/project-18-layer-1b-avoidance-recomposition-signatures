@@ -1,0 +1,85 @@
+{
+  "id": "resp_0dd5f663c8d4e2b5006a24d75c84d08198aeb954ad75d044da",
+  "created_at": 1780799324.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0dd5f663c8d4e2b5006a24d75d0680819887014ccfaaa3477e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0dd5f663c8d4e2b5006a24d75ecf2081988d4915442d210eeb",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A model can fail to behave as expected for several common reasons:\n\n1. **Ambiguous instructions**\n   - If a prompt can be interpreted in more than one way, the model may choose an interpretation different from what you intended.\n\n2. **Insufficient context**\n   - The model only knows what is in its training data and the current conversation/context window. If important details are missing, it may guess incorrectly.\n\n3. **Probabilistic behavior**\n   - Language models do not follow deterministic rules in the same way traditional software does. They generate likely responses based on patterns, so outputs can vary or be imperfect.\n\n4. **Training-data limitations**\n   - The model may not have seen enough examples of a specific domain, edge case, language style, or task format during training.\n\n5. **Out-of-distribution inputs**\n   - If the input is unusual, highly specialized, malformed, or very different from typical training examples, performance can degrade.\n\n6. **Context-window limits**\n   - If the conversation or document is too long, the model may miss, forget, or underweight earlier information.\n\n7. **Conflicting instructions**\n   - The model may receive competing instructions from system messages, developer messages, user prompts, or safety policies. Higher-priority instructions can override user expectations.\n\n8. **Hallucination**\n   - The model may generate plausible-sounding but incorrect information, especially when asked about facts it does not know or cannot verify.\n\n9. **Reasoning limitations**\n   - Models can make mistakes in logic, math, planning, code, or multi-step reasoning, especially when the task is complex.\n\n10. **Prompt sensitivity**\n   - Small changes in wording can sometimes lead to noticeably different outputs.\n\n11. **Mismatch between user expectation and model objective**\n   - The model is optimized to produce helpful, likely text—not necessarily to execute a task perfectly unless the task is clearly specified and constrained.\n\n12. **Tool or integration issues**\n   - In an API or product setting, failures may come from retrieval systems, function calls, formatting constraints, latency, truncation, or application-side bugs.\n\nTo improve reliability, you can give clearer instructions, provide examples, specify the desired format, break complex tasks into steps, reduce ambiguity, add validation checks, and use deterministic settings where available.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799336.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 546,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 565
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

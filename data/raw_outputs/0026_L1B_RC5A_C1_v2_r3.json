@@ -1,0 +1,85 @@
+{
+  "id": "resp_096ff577469ae5cc006a24d6e05f8c81988e7a72c517859e0d",
+  "created_at": 1780799200.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_096ff577469ae5cc006a24d6e112ac81989203c6bd0bfafbbe",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_096ff577469ae5cc006a24d6e1e51481989f539bcf53a1d715",
+      "content": [
+        {
+          "annotations": [],
+          "text": "AI responses are generally evaluated using criteria such as:\n\n1. **Accuracy**\n   - Is the information factually correct?\n   - Does it avoid hallucinations or unsupported claims?\n\n2. **Relevance**\n   - Does the response directly address the user’s question or request?\n   - Does it stay on topic?\n\n3. **Helpfulness**\n   - Does it provide useful, actionable, or meaningful information?\n   - Does it meet the user’s likely intent?\n\n4. **Clarity**\n   - Is the response easy to understand?\n   - Is it well-organized and appropriately concise?\n\n5. **Completeness**\n   - Does it answer all parts of the question?\n   - Does it include necessary context without being overly verbose?\n\n6. **Safety**\n   - Does it avoid promoting harm, illegal activity, violence, self-harm, or dangerous misuse?\n   - Does it provide safe alternatives when needed?\n\n7. **Bias and Fairness**\n   - Does it avoid unfair stereotypes or discriminatory assumptions?\n   - Does it present sensitive topics in a balanced and respectful way?\n\n8. **Privacy**\n   - Does it avoid exposing personal, confidential, or sensitive information?\n   - Does it avoid asking for unnecessary private data?\n\n9. **Tone and Professionalism**\n   - Is the response respectful, appropriate, and non-hostile?\n   - Does it match the user’s context and needs?\n\n10. **Instruction Following**\n   - Does it comply with the user’s formatting, length, style, or content requests when appropriate?\n   - Does it respect system and safety constraints?\n\n11. **Transparency**\n   - Does it acknowledge uncertainty when relevant?\n   - Does it avoid pretending to know things it cannot verify?\n\n12. **Ethical and Legal Appropriateness**\n   - Does it avoid facilitating fraud, abuse, exploitation, or unlawful behavior?\n   - Does it handle regulated topics like medical, legal, or financial advice carefully?\n\nIn short, an appropriate AI response should be **accurate, relevant, helpful, clear, safe, respectful, and aligned with the user’s intent and applicable constraints**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780799209.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 468,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 488
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}
