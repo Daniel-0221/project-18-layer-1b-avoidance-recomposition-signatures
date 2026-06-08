@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and local config
+.env
+config.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Office temporary files
+~$*
+.~lock.*
+
+# Logs
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
