@@ -1,0 +1,85 @@
+{
+  "id": "resp_0788c87436b03c69006a24e7f6d830819aa31a9cf416cb8ff9",
+  "created_at": 1780803574.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0788c87436b03c69006a24e7f7baec819ab2ef7aee12acf70d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0788c87436b03c69006a24e7f8c1e0819a82c7da98b57f4f35",
+      "content": [
+        {
+          "annotations": [],
+          "text": "User satisfaction in AI interaction systems is typically measured using a combination of **explicit feedback**, **behavioral signals**, and **task-performance metrics**.\n\nCommon methods include:\n\n1. **User ratings**\n   - Star ratings, thumbs up/down, or numeric scores after an interaction.\n   - Example: “Was this response helpful?”\n\n2. **Surveys and questionnaires**\n   - Post-session surveys asking about usefulness, accuracy, ease of use, trust, or overall satisfaction.\n   - Common scales include Likert scales, Net Promoter Score, or Customer Satisfaction Score.\n\n3. **Task success rate**\n   - Whether the user achieved their intended goal.\n   - For example, did the AI correctly answer a question, complete a booking, resolve a support issue, or generate usable content?\n\n4. **Conversation quality metrics**\n   - Number of turns needed to solve a problem.\n   - Frequency of clarification requests.\n   - Whether the AI stayed on topic.\n   - Whether the user had to repeat themselves.\n\n5. **User behavior signals**\n   - Continued use or repeat visits.\n   - Session length.\n   - Abandonment rate.\n   - Whether users edit, copy, accept, or reject AI-generated outputs.\n\n6. **Sentiment analysis**\n   - Detecting positive or negative sentiment in user messages.\n   - For example, frustration, gratitude, confusion, or satisfaction.\n\n7. **Error and escalation rates**\n   - How often the AI gives incorrect, irrelevant, or unsafe responses.\n   - How often users ask for a human agent or another system.\n\n8. **Qualitative feedback**\n   - Open-ended comments, interviews, usability studies, and user testing.\n   - Useful for understanding why users are satisfied or dissatisfied.\n\nIn practice, user satisfaction is rarely captured by a single metric. AI systems usually combine multiple indicators, such as **helpfulness ratings, task completion, user retention, and qualitative feedback**, to get a fuller picture of the user experience.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803584.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 440,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 457
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

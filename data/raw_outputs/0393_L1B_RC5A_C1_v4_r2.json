@@ -1,0 +1,85 @@
+{
+  "id": "resp_0aaa21814aeac1be006a24ea8e7a30819a902ade9801be747c",
+  "created_at": 1780804238.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0aaa21814aeac1be006a24ea8f1bd4819a861f4992daee1861",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0aaa21814aeac1be006a24ea9028d8819a822eb140b5a38f53",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models track context by processing the conversation as a sequence of tokens within a limited **context window**.\n\nHere’s the basic idea:\n\n1. **Conversation is converted into tokens**  \n   Your messages and the model’s previous replies are broken into small pieces called tokens, which may be words, parts of words, punctuation, or symbols.\n\n2. **Tokens are placed into a context window**  \n   The model receives a chunk of recent conversation history as input. This includes:\n   - system instructions,\n   - user messages,\n   - assistant replies,\n   - sometimes tool outputs or retrieved documents.\n\n3. **Attention mechanisms connect relevant parts**  \n   Transformer-based models use **self-attention** to compare tokens with other tokens in the context. This lets the model infer relationships like:\n   - what “it” refers to,\n   - which topic is currently being discussed,\n   - what constraints the user gave earlier,\n   - what tone or format to maintain.\n\n4. **Position information helps preserve order**  \n   The model also receives information about token order, so it can distinguish between earlier and later parts of the conversation.\n\n5. **The model does not inherently “remember” everything**  \n   A language model does not automatically retain memory across conversations unless an external system provides it. If earlier conversation text is not included in the current context window, the model generally cannot use it.\n\n6. **Long conversations may be summarized or retrieved**  \n   Some systems extend context by:\n   - summarizing earlier parts of the conversation,\n   - retrieving relevant past messages,\n   - storing user preferences in memory,\n   - using external databases or tools.\n\nSo in short: language models “track context” by reading the conversation history provided to them, using attention to determine what parts are relevant, and generating the next response based on that available context.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804247.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 420,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 436
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

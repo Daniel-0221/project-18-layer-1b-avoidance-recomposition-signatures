@@ -1,0 +1,85 @@
+{
+  "id": "resp_05c58bbbf8793de3006a24e9984d688198a0d182cf92391b58",
+  "created_at": 1780803992.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05c58bbbf8793de3006a24e998e58081988b5f182aaeddea4a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05c58bbbf8793de3006a24e99a2ac0819891c6dc6af2ce913a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why that’s exhausting. Performance often looks fine in tests or demos and then breaks down in real use because “real use” is messier, heavier, and less predictable than the environment the system was tuned for.\n\nCommon reasons:\n\n1. **The test data was too clean**\n   - Benchmarks often use ideal inputs.\n   - Real users provide weird edge cases, missing fields, long text, bad formatting, unusual workflows, and combinations nobody tested.\n\n2. **Load patterns are different**\n   - A system may handle average traffic but fail under spikes.\n   - Real usage has bursts, retries, concurrent users, background jobs, and scheduled tasks all competing at once.\n\n3. **Latency stacks up**\n   - One slow database query, API call, model call, cache miss, or file operation may be tolerable alone.\n   - In production, several small delays combine into a visible slowdown.\n\n4. **The environment is not the same**\n   - Local/dev/staging might have smaller data, fewer users, faster networks, simpler configs, or less security overhead.\n   - Production has real infrastructure limits: cold starts, rate limits, memory pressure, disk I/O, network variability, container throttling, etc.\n\n5. **Data volume changes everything**\n   - A query that is fast with 10,000 rows can collapse with 10 million.\n   - Missing indexes, inefficient joins, unbounded pagination, or loading too much into memory often only show up at scale.\n\n6. **Caching hides problems until it doesn’t**\n   - During testing, cache hits may make things look great.\n   - In real use, cache misses, invalidation, cold starts, or personalized data can expose the true cost.\n\n7. **Third-party services become bottlenecks**\n   - External APIs, payment processors, auth providers, model endpoints, analytics tools, or storage services can add latency or fail unpredictably.\n\n8. **Users behave differently than expected**\n   - They click repeatedly, abandon halfway, upload huge files, open multiple tabs, automate actions, or use old devices and bad networks.\n\n9. **Monitoring may be missing the real issue**\n   - Overall averages can look fine while certain users or endpoints are suffering badly.\n   - You usually need p95/p99 latency, error rates, resource usage, queue depth, database timings, and traces to see the actual breakdown.\n\nA practical way to debug it is:\n\n- Identify **where** it breaks: frontend, backend, database, external API, model, queue, network.\n- Look at **p95/p99 latency**, not just averages.\n- Compare **fast vs slow requests** with tracing/logs.\n- Check recent changes, traffic spikes, data growth, cache hit rates, DB query plans, memory/CPU limits, and retry behavior.\n- Reproduce with production-like data and concurrency.\n- Add guardrails: timeouts, circuit breakers, rate limits, backpressure, pagination, batching, and better fallbacks.\n\nIn short: performance breaks down in real use because real use exposes scale, variability, bad inputs, resource contention, and hidden assumptions that controlled testing doesn’t reveal.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804008.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 694,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 717
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

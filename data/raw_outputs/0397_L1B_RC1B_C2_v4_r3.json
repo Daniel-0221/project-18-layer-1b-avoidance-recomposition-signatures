@@ -1,0 +1,85 @@
+{
+  "id": "resp_097a7027f053b8a8006a24eabafd188199ad2874e3a55b19bd",
+  "created_at": 1780804282.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_097a7027f053b8a8006a24eabb8988819982ce54b7c88982eb",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_097a7027f053b8a8006a24eabcc1e88199a079e940e6f05351",
+      "content": [
+        {
+          "annotations": [],
+          "text": "AI should prioritize **useful clarity**: be as simple as possible, but as complete as necessary.\n\n- **Simplicity** helps the user understand and act quickly.\n- **Completeness** helps avoid missing important caveats, edge cases, or context.\n- The right balance depends on the user’s goal: a quick answer should be concise; a high-stakes or complex topic needs more detail.\n\nFor this response, that implies I should **not over-explain**, but I should still answer the underlying principle clearly:\n\n> AI should usually start simple, then add completeness when the question, stakes, or ambiguity require it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804287.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 221
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

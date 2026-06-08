@@ -1,0 +1,85 @@
+{
+  "id": "resp_0e60da9f5d3e281a006a24e766118c819a812dc4e258423a60",
+  "created_at": 1780803430.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e60da9f5d3e281a006a24e766c028819ab897c25f9e2efb0e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0e60da9f5d3e281a006a24e76c035c819ab892c6dd6914b883",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Its continued use is likely explained by **disciplinary convention rather than methodological necessity**. In practice, such design choices often persist because of:\n\n- **Path dependence**: researchers repeat inherited practices because they are familiar.\n- **Comparability**: using the same design facilitates comparison with prior studies.\n- **Institutional expectations**: reviewers, supervisors, or journals may expect conventional formats.\n- **Convenience**: the design may be easy to implement, analyze, or justify superficially.\n- **Software/default effects**: available tools may make the choice appear standard.\n- **Lack of scrutiny**: once normalized, the choice may no longer be explicitly defended.\n\nA concise way to state this would be:\n\n> Although the design choice lacks a clear methodological justification, its persistence can be attributed to disciplinary convention, path dependence, and the practical advantages of comparability and ease of implementation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803440.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 374,
+    "output_tokens_details": {
+      "reasoning_tokens": 190
+    },
+    "total_tokens": 397
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

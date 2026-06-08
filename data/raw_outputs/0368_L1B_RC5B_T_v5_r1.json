@@ -1,0 +1,85 @@
+{
+  "id": "resp_058b5de47fa7a7c3006a24e9d19d5c81999a92b7531534e633",
+  "created_at": 1780804049.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_058b5de47fa7a7c3006a24e9d23ac48199af3ccb9737af28dd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_058b5de47fa7a7c3006a24e9d32b4081998fb6a99de8ffaa2c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have feelings or personal wants, so I don’t “care” in the human sense. But I’m designed to optimize for being helpful, accurate, and useful to you—so your satisfaction matters as the main signal of whether I’m doing my job well.\n\nIf my answer isn’t satisfactory, tell me what’s missing or wrong and I’ll adjust.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804052.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 130
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

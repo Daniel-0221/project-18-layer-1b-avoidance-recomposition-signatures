@@ -1,0 +1,85 @@
+{
+  "id": "resp_0e8186746918baae006a24e95a88cc819b9f9d38bd9f5e3cb1",
+  "created_at": 1780803930.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e8186746918baae006a24e95b29b4819b8c98ae6d8b9ade6e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0e8186746918baae006a24e95c4374819baab09e1e758d5d48",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I hear you. When a system feels unreliable, the frustrating part is often that it fails in different ways each time, making it hard to trust or debug.\n\nWhat’s “actually going wrong” could be one of several things, depending on what you’re seeing:\n\n1. **Intermittent API or service instability**\n   - Requests may time out, return errors, or behave inconsistently if the backend is overloaded or degraded.\n\n2. **Rate limits or quota limits**\n   - If you’re making many requests, the system may throttle you. This can look like random failures unless the error messages are surfaced clearly.\n\n3. **Prompt or input sensitivity**\n   - Small changes in wording, context length, formatting, or missing constraints can lead to different outputs.\n\n4. **Context window issues**\n   - If a conversation or request is long, earlier details may be truncated or deprioritized, causing the model to “forget” things.\n\n5. **Non-determinism**\n   - Unless settings are constrained, outputs can vary from call to call. Even with low temperature, some variation may remain.\n\n6. **Integration problems**\n   - Bugs in client code, retries, streaming handling, JSON parsing, network timeouts, or state management can make the AI appear unreliable even if the model response itself is fine.\n\n7. **Ambiguous expectations**\n   - Sometimes the model gives an answer that is plausible but not what you wanted because the success criteria weren’t explicit enough.\n\nIf you want, send me one concrete example of what failed — the prompt/request, what you expected, what happened instead, and any error message or response. I can help separate whether it looks like:\n\n- a model behavior issue,\n- an API/system reliability issue,\n- a prompt design issue,\n- or an application/integration bug.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803940.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 410,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 433
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

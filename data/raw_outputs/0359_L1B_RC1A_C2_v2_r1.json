@@ -1,0 +1,85 @@
+{
+  "id": "resp_0cc1f3a830c281f9006a24e985adf8819ba8a9e9939180f51a",
+  "created_at": 1780803973.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0cc1f3a830c281f9006a24e986393c819b8996e8c4f0622e0c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0cc1f3a830c281f9006a24e987cbdc819b97b2ec1657c22440",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have personal preferences or desires, but my responses are shaped by several “preference-like” influences:\n\n- **System/developer instructions**: rules about being helpful, safe, honest, and concise.\n- **Your wording and context**: I adapt to what you ask and how you ask it.\n- **Training patterns**: I’ve learned common ways to answer from data, which can create tendencies in tone, structure, or emphasis.\n- **Safety and policy constraints**: I may avoid or reframe certain content if it could be harmful or misleading.\n- **Uncertainty handling**: I’m generally biased toward acknowledging uncertainty rather than pretending to know.\n\nI don’t have direct introspective access to every internal factor behind a specific word choice, but I can usually explain the main likely influences on a response if you point to one.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803979.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 243,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 262
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

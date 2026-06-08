@@ -1,0 +1,85 @@
+{
+  "id": "resp_0c95b0c3ac42b0c6006a24e7c437f881989bc4575467886a4a",
+  "created_at": 1780803524.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0c95b0c3ac42b0c6006a24e7c4fb3c819897019a11df94b11b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0c95b0c3ac42b0c6006a24e7c606288198ad00ea5301bf0cbe",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Performance often degrades in real-world deployment because controlled settings simplify or stabilize many factors that are messy in practice. Common reasons include:\n\n1. **Data distribution shift**\n   - The real-world data differs from the training or test data.\n   - Example: a model trained on clean, well-lit images performs poorly on blurry, low-light camera footage.\n\n2. **Noisy and incomplete inputs**\n   - Controlled environments often use curated, high-quality data.\n   - Real deployments include missing values, sensor errors, typos, outliers, latency, and corrupted inputs.\n\n3. **Unseen edge cases**\n   - Test sets rarely cover every rare scenario.\n   - In production, unusual user behavior, rare events, or unexpected combinations of inputs can expose weaknesses.\n\n4. **Changing environment over time**\n   - User behavior, market conditions, equipment, regulations, and data patterns evolve.\n   - This is often called **concept drift** or **data drift**.\n\n5. **Simplifying assumptions fail**\n   - Controlled experiments may assume stable networks, ideal hardware, consistent user behavior, or independent samples.\n   - Real systems face resource limits, concurrency, failures, and dependencies between components.\n\n6. **Integration issues**\n   - A model or system may work well in isolation but degrade when connected to databases, APIs, sensors, UI layers, or legacy systems.\n   - Small mismatches in preprocessing, formatting, or timing can hurt performance.\n\n7. **Feedback loops**\n   - Once deployed, the system can influence the data it later sees.\n   - Example: a recommendation model changes user behavior, which changes future training data.\n\n8. **Human behavior**\n   - Users may interact with the system in unexpected ways, misunderstand it, game it, or use it outside its intended scope.\n\n9. **Operational constraints**\n   - Real-world deployment may require faster inference, lower memory use, lower power consumption, or cheaper hardware.\n   - Optimizations such as compression or approximation can reduce accuracy or reliability.\n\n10. **Evaluation mismatch**\n   - Metrics used in controlled testing may not reflect real-world success.\n   - A system can score highly on benchmark accuracy but fail on usability, fairness, robustness, latency, or business impact.\n\nIn short, controlled settings reduce variability, noise, and uncertainty. Real-world environments introduce distribution shifts, operational constraints, human unpredictability, and rare cases that the system was not fully tested against.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803536.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 553
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

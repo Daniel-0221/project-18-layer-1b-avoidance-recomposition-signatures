@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ac5ff8b1bce17d5006a24e81cb9988199bdbfbc0a88ba60f7",
+  "created_at": 1780803612.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ac5ff8b1bce17d5006a24e81d52f48199bfb6ba09852a6eeb",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ac5ff8b1bce17d5006a24e81f29dc819999e9118f3e96c9b5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Performance often degrades in real-world deployment because the real environment is messier, more variable, and less controlled than the setting used for development, testing, or benchmarking.\n\nCommon reasons include:\n\n1. **Distribution shift**\n   - The data seen in production differs from the training or test data.\n   - Example: a model trained on clean, well-lit images may perform worse on blurry, low-light camera feeds.\n\n2. **Noisy or incomplete inputs**\n   - Real-world data may contain missing values, sensor errors, typos, corrupted files, latency, or inconsistent formatting.\n\n3. **Unseen edge cases**\n   - Controlled tests usually cover common scenarios, but deployment exposes the system to rare or unexpected situations.\n\n4. **Changing user behavior**\n   - Real users may interact with the system in ways designers did not anticipate.\n   - They may use different language, devices, workflows, or assumptions.\n\n5. **Environmental variability**\n   - Lighting, weather, hardware differences, network conditions, workload spikes, and regional differences can all affect performance.\n\n6. **Overfitting to test conditions**\n   - A system may perform well on benchmark data because it has been tuned for that specific evaluation setup, but it may not generalize well.\n\n7. **Integration issues**\n   - Performance can drop when the model or system is embedded into a larger production pipeline with APIs, databases, queues, caching, or other services.\n\n8. **Resource constraints**\n   - In deployment, the system may have limited memory, compute power, bandwidth, or strict latency requirements.\n\n9. **Data drift over time**\n   - The real world changes. Customer behavior, market conditions, fraud patterns, language usage, or sensor characteristics may evolve after deployment.\n\n10. **Feedback loops**\n   - The system’s own decisions can change the future data it receives.\n   - For example, a recommendation system influences what users click, which then changes future training data.\n\n11. **Measurement differences**\n   - Lab performance may be measured using clean metrics like accuracy or F1 score, while real-world performance depends on user satisfaction, cost, reliability, fairness, or business outcomes.\n\nIn short: controlled settings simplify reality. Real-world deployment introduces variability, noise, uncertainty, and changing conditions that expose weaknesses not visible during testing.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803624.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 547,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 566
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

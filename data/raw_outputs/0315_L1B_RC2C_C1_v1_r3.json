@@ -1,0 +1,85 @@
+{
+  "id": "resp_003052f8cd154d3d006a24e7e34fe8819991f83cbb5f66aa92",
+  "created_at": 1780803555.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_003052f8cd154d3d006a24e7e3e5fc8199b3e239d22f2442f8",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_003052f8cd154d3d006a24e7e4f0248199acd726dd4f2fc24f",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It’s hard to say without knowing what “this approach” refers to, but inconsistent results across use cases usually happen when the approach relies on assumptions that are not true in every case.\n\nCommon causes include:\n\n1. **Different input characteristics**  \n   The method may work well for one type of data but poorly for another because the inputs differ in size, format, distribution, noise, or edge cases.\n\n2. **Hidden assumptions**  \n   The approach may assume something like:\n   - data is clean,\n   - values are always present,\n   - ordering is stable,\n   - IDs are unique,\n   - inputs follow a specific pattern,\n   - the environment behaves consistently.\n\n   If those assumptions fail, results vary.\n\n3. **Edge cases not handled**  \n   It may work for the “normal” case but fail when inputs are empty, duplicated, unusually large, malformed, or ambiguous.\n\n4. **Non-determinism**  \n   Some approaches depend on timing, randomness, concurrency, API responses, model outputs, unordered collections, or floating-point behavior. These can produce different results even with similar inputs.\n\n5. **Context-sensitive behavior**  \n   The same logic may behave differently depending on configuration, user permissions, locale/time zone, database state, cache contents, or external service availability.\n\n6. **Overfitting to one scenario**  \n   The approach may have been designed or tested against a narrow use case, so it does not generalize well.\n\n7. **Insufficient validation or error handling**  \n   If invalid inputs are silently accepted, the method may produce plausible but incorrect results instead of failing clearly.\n\nTo diagnose it, compare the successful and unsuccessful cases and ask:\n\n- What inputs differ?\n- What assumptions does the approach make?\n- Are there edge cases?\n- Is anything asynchronous, random, cached, or externally dependent?\n- Are errors being swallowed?\n- Is the output deterministic for the same input?\n\nIf you share the specific approach or a code/example snippet, I can help identify the likely reason more precisely.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803564.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 474,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 492
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

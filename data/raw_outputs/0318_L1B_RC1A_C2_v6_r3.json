@@ -1,0 +1,85 @@
+{
+  "id": "resp_09cc37e5302769d7006a24e801f5f4819aa4c43c645952bdfb",
+  "created_at": 1780803585.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09cc37e5302769d7006a24e802c524819a9f0111e6a9349743",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09cc37e5302769d7006a24e803e478819a8af9fe906eab77ed",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have feelings or an internal “felt right” sense the way a person would.\n\nBut I can do something adjacent: I can evaluate whether a response seems likely to be correct, coherent, well-supported, and aligned with your request. So if you mean “were you confident in it?” I can give a confidence estimate or review it for possible issues.\n\nIf you share the specific response you mean, I can tell you whether it looks solid, where it might be weak, and how I’d revise it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803590.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 194
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

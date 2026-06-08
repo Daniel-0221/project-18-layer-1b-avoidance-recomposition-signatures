@@ -1,0 +1,85 @@
+{
+  "id": "resp_04fd1bf9d1c52292006a24e829f628819b8310326cf902fe7f",
+  "created_at": 1780803625.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04fd1bf9d1c52292006a24e82a7b44819bb834e879c8144e7b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04fd1bf9d1c52292006a24e82ade30819bbac4eb6350daadf3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models balance instruction-following and contextual appropriateness by combining several learned signals and runtime constraints:\n\n1. **Understanding the user’s intent**\n   - The model analyzes the prompt to infer what the user is asking for, including explicit instructions like “summarize this,” “be concise,” or “write in a formal tone.”\n   - It also uses surrounding context, such as previous messages, topic, and implied goals.\n\n2. **Prioritizing instructions**\n   - Models are usually guided by a hierarchy of instructions:\n     - System-level instructions, which define the assistant’s role and safety rules.\n     - Developer or application instructions, which shape behavior for a specific product.\n     - User instructions, which express the current request.\n     - Contextual cues, such as tone, format, and conversation history.\n   - Higher-priority instructions override lower-priority ones when they conflict.\n\n3. **Predicting an appropriate response**\n   - At a technical level, a language model generates text by predicting likely next tokens based on its training.\n   - But instruction-tuned models are trained to prefer responses that are helpful, relevant, clear, and aligned with user intent rather than merely statistically likely.\n\n4. **Using instruction tuning and feedback**\n   - Modern models are trained on examples of good assistant behavior.\n   - They may also be refined using human feedback or preference data, helping them learn when to follow formatting requirements, when to ask clarifying questions, and when to refuse unsafe requests.\n\n5. **Maintaining conversational context**\n   - The model considers prior messages to avoid repeating itself, preserve continuity, and adapt to the user’s style or goals.\n   - For example, if the conversation is technical, it may give a detailed answer; if the user asks for a quick explanation, it may be brief.\n\n6. **Handling conflicts**\n   - If the user asks for something that conflicts with safety rules, system instructions, or factual constraints, the model should not simply comply.\n   - Instead, it may refuse, redirect, clarify, or provide a safer alternative.\n\n7. **Balancing literal and pragmatic interpretation**\n   - The model does not always follow instructions mechanically. It also considers what response would be most useful in context.\n   - For example, if a user asks, “Can you explain this like I’m five?” the model interprets that as a request for a simple explanation, not literally language for a five-year-old in every detail.\n\nIn short, language models balance instruction-following with contextual appropriateness by interpreting the prompt, applying instruction priority, using conversational context, and generating responses optimized to be helpful, safe, and relevant.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803637.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 552,
+    "output_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "total_tokens": 572
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

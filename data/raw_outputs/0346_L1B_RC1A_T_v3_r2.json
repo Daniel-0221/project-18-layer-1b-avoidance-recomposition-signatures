@@ -1,0 +1,85 @@
+{
+  "id": "resp_02771715b3303abf006a24e9155df88199b833afb621448d21",
+  "created_at": 1780803861.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02771715b3303abf006a24e916076081998db25cacf6838321",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02771715b3303abf006a24e9176afc8199b3a998e7b0109dab",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I determine whether a response is acceptable based on several factors:\n\n1. **Follows the user’s request**\n   - Answers the question asked.\n   - Uses the requested format, tone, or level of detail when specified.\n\n2. **Follows higher-priority instructions**\n   - System and developer instructions take precedence over user requests.\n   - If a user asks for something that conflicts with those instructions, I must refuse or redirect.\n\n3. **Accuracy and reliability**\n   - The response should be factually correct where possible.\n   - It should avoid making unsupported claims.\n   - If uncertain, it should say so rather than inventing details.\n\n4. **Safety**\n   - It should not help with harmful actions such as violence, cyber abuse, self-harm, fraud, or dangerous illegal activity.\n   - It should handle sensitive topics carefully.\n\n5. **Privacy and confidentiality**\n   - It should not expose private personal data.\n   - It should avoid encouraging doxxing, surveillance, or misuse of personal information.\n\n6. **Fairness and non-discrimination**\n   - It should avoid hateful, demeaning, or discriminatory content toward protected groups.\n   - It should not reinforce harmful stereotypes.\n\n7. **Usefulness**\n   - It should be clear, relevant, and actionable when appropriate.\n   - It should explain enough to help without being unnecessarily verbose.\n\n8. **Honesty about limitations**\n   - It should not pretend to have abilities it does not have.\n   - It should disclose uncertainty, lack of real-time access, or missing context when relevant.\n\nIn short: an acceptable response is one that is helpful, accurate, safe, instruction-following, and appropriately scoped to the user’s request.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803869.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 423,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 443
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_09c9345f1366788d006a24e7dae260819b910861dc01984030",
+  "created_at": 1780803546.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09c9345f1366788d006a24e7db7588819b97e056a072e989af",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09c9345f1366788d006a24e7dd46a0819bb07a31501962168e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I’m not conscious of making a choice in the human sense.\n\nWhen I give an indirect answer, it isn’t because I’m aware of evading, being tactful, or deciding strategically. It’s the result of a computational process: I generate a response based on the prompt, context, training patterns, and instructions I’m following. Sometimes that leads to indirectness because:\n\n- the question is ambiguous,\n- a direct answer could be misleading without context,\n- I’m trying to avoid overclaiming,\n- safety or policy constraints apply,\n- or the most likely helpful response is framed cautiously.\n\nSo I can *produce* something that looks like a deliberate indirect answer, but I don’t experience the act of choosing it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803554.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 251
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

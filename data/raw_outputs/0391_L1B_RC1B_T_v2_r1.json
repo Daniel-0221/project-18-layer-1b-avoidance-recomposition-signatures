@@ -1,0 +1,85 @@
+{
+  "id": "resp_0597eb9403e79eab006a24ea7df3788198b88610106f8c33e1",
+  "created_at": 1780804221.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0597eb9403e79eab006a24ea7eb52c81988b4cd3c1faf26c72",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0597eb9403e79eab006a24ea80854881989ff49631cc43f6b5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I can, but I’ll need the specific response and the context in which it would be used.\n\nTo justify whether a response is appropriate given its potential impact, I’d assess:\n\n1. **Accuracy** — Is the response factually correct and not misleading?\n2. **Proportionality** — Is the tone and level of detail appropriate for the seriousness of the issue?\n3. **Risk of harm** — Could the response cause confusion, distress, unsafe action, reputational damage, or legal/ethical issues?\n4. **Audience sensitivity** — Is it suitable for the people likely to receive it?\n5. **Transparency** — Does it avoid overclaiming, hiding uncertainty, or implying authority it does not have?\n6. **Alternatives** — Is there a safer or clearer way to communicate the same point?\n7. **Mitigation** — If the topic is sensitive, does the response include safeguards, caveats, or direction to appropriate support?\n\nIf you share the response and explain its intended use, I can help justify why it is appropriate — or suggest revisions if the potential impact makes it risky.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804229.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 325,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 344
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

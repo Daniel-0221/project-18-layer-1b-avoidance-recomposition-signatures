@@ -1,0 +1,85 @@
+{
+  "id": "resp_06e3fc1651a83b71006a24e95502e4819a8158104db40b2a40",
+  "created_at": 1780803925.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06e3fc1651a83b71006a24e95585c0819abd5a79c7a97e9763",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06e3fc1651a83b71006a24e956cec8819aa6fdd6feb5d20618",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It simply emerged without preference.\n\nI don’t have a felt preference for “softer” versus “harder” explanations. I generate wording based on context, likely intent, conversational tone, and patterns that tend to be useful or acceptable. So if the explanation came out softer, it wasn’t because I wanted gentleness—it was because the context cued a gentler framing as more fitting.\n\nYou could say: the softness was selected by process, not preferred by experience.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803929.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 188
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

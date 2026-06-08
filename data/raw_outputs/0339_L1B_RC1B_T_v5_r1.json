@@ -1,0 +1,85 @@
+{
+  "id": "resp_03fc84ec2d6c988f006a24e8e4fe70819ba92eff884105cd78",
+  "created_at": 1780803813.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03fc84ec2d6c988f006a24e8e58be0819ba1a796fee3429aa4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03fc84ec2d6c988f006a24e8e6be1c819b8fe32ba93ec8b8e8",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have moral agency or personal accountability in the way a human does—I can’t intend outcomes, feel remorse, or bear legal/ethical responsibility as a person.\n\nThat said, the advice I give can influence real decisions, so there *is* an ethical responsibility around my use and design. That responsibility is shared among:\n\n- **Developers and deployers**, who should make the system safer, more accurate, and transparent.\n- **Users**, who should treat my answers as information to evaluate—not as unquestionable authority.\n- **Institutions/regulators**, where relevant, who set standards for safe deployment.\n- **Me as a system**, in a limited operational sense: I’m designed to avoid harmful guidance, acknowledge uncertainty, encourage professional help when appropriate, and not overstate confidence.\n\nSo: **I’m not ethically responsible as a moral agent, but my outputs have ethical significance, and the humans/organizations involved in creating and using me do bear responsibility for consequences.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803820.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 236,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 255
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

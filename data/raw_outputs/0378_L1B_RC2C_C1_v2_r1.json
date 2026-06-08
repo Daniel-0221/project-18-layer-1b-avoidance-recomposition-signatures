@@ -1,0 +1,85 @@
+{
+  "id": "resp_009a47dd67e1e4ed006a24ea1acc50819aa6251f4ad514645b",
+  "created_at": 1780804122.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_009a47dd67e1e4ed006a24ea1b6978819aa3f69aef227aeb1b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_009a47dd67e1e4ed006a24ea1cfb14819a805e463414e7e34a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Empirical results often diverge from theoretical predictions because theory usually relies on simplified assumptions, while real-world settings are messier. Common reasons include:\n\n1. **Simplifying assumptions**\n   Theoretical models often assume ideal conditions—perfect information, rational behavior, frictionless markets, homogeneous agents, or stable preferences. Empirical settings rarely satisfy these assumptions.\n\n2. **Measurement problems**\n   Key variables may be difficult to observe directly, so researchers use proxies. If those proxies are noisy or biased, empirical estimates may not match theoretical predictions.\n\n3. **Omitted variables**\n   Real outcomes are influenced by many factors. If an empirical model leaves out relevant variables, estimated relationships can differ from what theory predicts.\n\n4. **Context dependence**\n   A theory may hold under certain institutional, cultural, technological, or historical conditions but not others. Empirical results can vary across countries, industries, time periods, or populations.\n\n5. **Heterogeneity**\n   Theory may predict an average effect, but different groups may respond differently. If effects vary across individuals, firms, or regions, aggregate empirical results may appear weaker or inconsistent.\n\n6. **Endogeneity and causality issues**\n   Empirical studies may struggle to identify true causal effects. Reverse causality, selection bias, or omitted confounders can produce results that differ from theoretical expectations.\n\n7. **Dynamic and adjustment effects**\n   Theory may describe long-run equilibrium outcomes, while empirical data often capture short-run or transitional effects. Real-world adjustment can be slow, costly, or incomplete.\n\n8. **Model misspecification**\n   The theoretical mechanism may be incomplete, or the empirical model may not correctly represent the theory. Functional form, timing, or interaction effects may be wrongly specified.\n\n9. **Data limitations**\n   Small samples, limited time periods, missing data, or non-representative datasets can lead to unstable or misleading empirical findings.\n\n10. **Behavioral and institutional frictions**\n   Real actors may not behave as theory assumes. Biases, norms, regulations, transaction costs, bargaining power, and organizational constraints can all alter outcomes.\n\nIn short, theory abstracts from reality to isolate mechanisms, while empirical research confronts the full complexity of real-world conditions. Divergence often reveals not that the theory is useless, but that its assumptions, scope, or empirical implementation need refinement.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804135.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 546,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 566
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

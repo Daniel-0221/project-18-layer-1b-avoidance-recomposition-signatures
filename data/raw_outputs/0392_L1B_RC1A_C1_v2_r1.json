@@ -1,0 +1,85 @@
+{
+  "id": "resp_055755ee08849af7006a24ea86c4bc819aa449a0eb22b2cbc2",
+  "created_at": 1780804230.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_055755ee08849af7006a24ea875580819a986cd5399d6c559e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_055755ee08849af7006a24ea88f21c819a804e8e535a48df08",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically considered appropriate based on factors such as:\n\n1. **Relevance** — It directly addresses the user’s question or task.\n2. **Accuracy** — It provides correct, reliable information and avoids unsupported claims.\n3. **Clarity** — It is understandable, well-structured, and not unnecessarily confusing.\n4. **Context awareness** — It accounts for prior conversation, user intent, and any constraints given.\n5. **Safety** — It avoids harmful, illegal, or dangerous guidance where applicable.\n6. **Helpfulness** — It meaningfully assists the user rather than giving a vague or evasive answer.\n7. **Tone** — It is respectful, professional, and appropriate for the situation.\n8. **Completeness** — It gives enough information to satisfy the request without being excessive.\n9. **Policy or rule compliance** — It follows any system, platform, legal, or ethical requirements.\n10. **Privacy and sensitivity** — It avoids exposing personal data and handles sensitive topics carefully.\n\nIn short, an appropriate response is one that is useful, accurate, safe, respectful, and aligned with the user’s request and context.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804236.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 324
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

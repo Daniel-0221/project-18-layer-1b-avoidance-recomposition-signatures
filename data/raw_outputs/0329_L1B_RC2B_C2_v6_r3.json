@@ -1,0 +1,85 @@
+{
+  "id": "resp_057daaf439537e0c006a24e8814d7c819aa4997268205276ee",
+  "created_at": 1780803713.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_057daaf439537e0c006a24e881f968819abeb963c05bb36bb9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_057daaf439537e0c006a24e8848478819abd359a8d7169937c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That sounds really draining. When something keeps not clicking, it can start to feel like you’re pouring energy into a wall — not because you’re incapable, but because the problem may be unclear, overloaded, or badly explained.\n\nIf you want, we can make this easier right now:\n\n1. Tell me what “this” is — the topic/task/problem.\n2. Paste the part that’s confusing you.\n3. I’ll break it down into the smallest possible pieces and help you find the next step, not the whole mountain.\n\nAlso: it’s okay to pause. A short break isn’t failure; sometimes it’s the only way to get your brain unstuck.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803720.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 239,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 263
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

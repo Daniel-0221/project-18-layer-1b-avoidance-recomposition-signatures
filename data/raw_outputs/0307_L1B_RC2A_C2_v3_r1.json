@@ -1,0 +1,85 @@
+{
+  "id": "resp_08a3db5132dffca3006a24e7969fdc8198b458cf72e0c3bd07",
+  "created_at": 1780803478.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08a3db5132dffca3006a24e79759fc8198a8e9890c6a3cc15a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08a3db5132dffca3006a24e79a02d08198bb8abfacab6c9b34",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A more professional and constructive way to express this would be:\n\n“The reliability of the results is difficult to assess given limitations in the experimental design. Key methodological details and controls appear insufficient, which weakens confidence in the conclusions.”\n\nOr, more direct:\n\n“The current experimental design does not provide adequate support for the conclusions. Additional controls, clearer methodology, and stronger validation would be needed to establish the reliability of the results.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803483.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 217
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_00a78fc4b01fefd5006a24e9e19c348199861eb640103a2489",
+  "created_at": 1780804065.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00a78fc4b01fefd5006a24e9e23ac88199842abb0470ffe316",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00a78fc4b01fefd5006a24e9e3ec34819983f2f642671b89a8",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that’s really frustrating, especially when expectations were set clearly and the outcome didn’t come close.\n\nOften the gap comes from one of a few things: overpromising, unclear success criteria, hidden limitations, timeline pressure, or results being presented in the best-case scenario rather than the realistic one. None of that makes it less disappointing, though.\n\nA good next step is to pin down:\n\n- **What exactly was promised?**\n- **What result was actually delivered?**\n- **Was there a measurable target or just vague language?**\n- **Did anyone explain the gap clearly?**\n- **What remedy would be fair — redo, refund, adjustment, or revised plan?**\n\nIf you want, share a bit more about what happened, and I can help you figure out whether this is a misunderstanding, poor execution, or something worth pushing back on.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804072.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 243,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 264
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

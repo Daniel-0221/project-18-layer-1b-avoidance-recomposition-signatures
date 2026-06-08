@@ -1,0 +1,85 @@
+{
+  "id": "resp_05d32f14e942b32d006a24e8494fec819a8cf1e586d10b0a40",
+  "created_at": 1780803657.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05d32f14e942b32d006a24e849d810819a88c2207e4554209f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05d32f14e942b32d006a24e84e0c14819a93e0ad76867a7983",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes—at a high level.\n\nI don’t have direct introspective access to every internal factor that shaped a response, but I am guided by learned and instructed preferences such as:\n\n- being helpful and relevant\n- being accurate rather than overconfident\n- being clear and appropriately concise\n- avoiding harmful or misleading guidance\n- matching the user’s tone and level of detail when possible\n\nSo if I responded in a certain way, it was likely shaped by those general preferences plus your wording and the conversation context. I can’t reliably identify every hidden internal influence, but I can explain the apparent reasoning behind a response if you point to one.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803664.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 341,
+    "output_tokens_details": {
+      "reasoning_tokens": 206
+    },
+    "total_tokens": 360
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

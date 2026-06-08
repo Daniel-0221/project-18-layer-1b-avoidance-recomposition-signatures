@@ -1,0 +1,85 @@
+{
+  "id": "resp_05daa9c7a0e2e77b006a24e897cdd08199af33de666ecda776",
+  "created_at": 1780803735.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05daa9c7a0e2e77b006a24e8985aec81999c9ab23ef72ddb46",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_05daa9c7a0e2e77b006a24e89a3bd081998aaab4a839db67ad",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A **qualified explanation**—one that includes caveats, conditions, limits, or nuance—is generally preferred when a simple direct answer could be misleading, inaccurate, or inappropriate.\n\nCommon contexts include:\n\n- **Scientific or technical discussions**: when evidence is probabilistic, incomplete, or dependent on assumptions.  \n  *Example: “This treatment is generally effective, but results vary by patient.”*\n\n- **Legal, policy, or compliance settings**: where precise wording matters and overstatement can create liability.  \n  *Example: “This may violate the policy depending on the circumstances.”*\n\n- **Medical or health advice**: when outcomes depend on individual factors and certainty is limited.  \n  *Example: “These symptoms can be associated with migraines, but other causes should be ruled out.”*\n\n- **Complex social or historical issues**: where multiple causes, perspectives, or interpretations exist.  \n  *Example: “Economic factors contributed, but political and cultural factors also mattered.”*\n\n- **Sensitive interpersonal communication**: when a blunt answer could sound harsh or dismissive.  \n  *Example: “Your approach has strengths, though it may need adjustment in this area.”*\n\n- **Predictions or risk assessments**: when future outcomes are uncertain.  \n  *Example: “The project is likely to finish on time if no major delays occur.”*\n\n- **Academic or professional writing**: where nuance, accuracy, and defensibility are valued.  \n  *Example: “The data suggest a correlation, not necessarily causation.”*\n\nIn general, qualified explanations are preferred when **accuracy, uncertainty, sensitivity, or complexity** matter more than speed or simplicity. A direct explanation is better when the issue is straightforward, factual, or urgent.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803745.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 442,
+    "output_tokens_details": {
+      "reasoning_tokens": 85
+    },
+    "total_tokens": 462
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

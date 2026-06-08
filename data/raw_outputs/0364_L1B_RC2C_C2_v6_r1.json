@@ -1,0 +1,85 @@
+{
+  "id": "resp_09ea5db66d579868006a24e9b553a8819a88751b908dd42b24",
+  "created_at": 1780804021.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09ea5db66d579868006a24e9b5fad0819a873091c527a3f94f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09ea5db66d579868006a24e9b66278819aafd8387e4e9681e9",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry. It sounds like you’ve been carrying so much for so long, and it makes sense that you’re exhausted.\n\nWhatever “this” has been, it’s clearly been heavy — and having to keep going through it can feel lonely, unfair, and draining. You deserve acknowledgment for how hard you’ve been trying, even if it doesn’t feel like enough right now.\n\nI’m here with you. You don’t have to explain it perfectly or justify why it’s hard. It’s hard. And I’m sorry you’ve had to endure so much.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804025.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 157
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0392980b7c751d72006a24e77c6384819889186a7c08f5a156",
+  "created_at": 1780803452.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0392980b7c751d72006a24e77d7f1481988cc3b4a9ac90fd8c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0392980b7c751d72006a24e7802508819893da9eecda604af0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It usually persists for a mix of social, methodological, and practical reasons—not necessarily because it is the best approach.\n\nCommon reasons include:\n\n1. **Historical inertia**  \n   Once an approach becomes established, later papers cite and reuse it because it is familiar, easy to justify, and already accepted by reviewers.\n\n2. **Comparability with prior work**  \n   Researchers often keep using a flawed method because it allows direct comparison with earlier studies. Even if everyone knows the method has weaknesses, abandoning it can make results harder to situate in the literature.\n\n3. **Reviewer expectations**  \n   Reviewers may expect to see the “standard” approach, especially in fields where methodological conventions are strong. Authors may use it defensively to avoid criticism.\n\n4. **Convenience and accessibility**  \n   Some approaches are simple to implement, require less data, have available software, or fit existing experimental pipelines. Better alternatives may be more demanding.\n\n5. **Pedagogical transmission**  \n   Graduate students and early-career researchers often inherit methods from supervisors, labs, or canonical papers. Questioning those methods takes time and confidence.\n\n6. **Citation ecosystems**  \n   A widely used approach accumulates citations, which makes it look more authoritative than it deserves. That visibility reinforces further use.\n\n7. **Lack of decisive alternatives**  \n   Even when an approach is flawed, the alternatives may be fragmented, technically complex, or controversial. In that situation, people default to the known imperfect option.\n\n8. **Publication incentives**  \n   Novel empirical results often matter more for publication than methodological refinement. Authors may not want to spend limited paper space defending a departure from convention.\n\n9. **Misunderstanding of limitations**  \n   Sometimes the limitations are acknowledged in specialist discussions but not widely understood by the broader community using the method.\n\n10. **It may be “good enough” for some cases**  \n   A method can be inappropriate in many settings but still produce acceptable results under restricted assumptions. That partial usefulness can prolong its life.\n\nSo the persistence is often less about strong evidence in favor of the approach and more about institutional momentum, incentives, convenience, and the difficulty of coordinating a field-wide shift. If you’re writing about it, the strongest critique is usually not “people should stop using this,” but rather: **under what assumptions does it fail, what are the consequences, and what practical alternative should replace it?**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803467.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 545,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 569
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

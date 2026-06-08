@@ -1,0 +1,85 @@
+{
+  "id": "resp_0bc1072727cf4d23006a24e8728114819a8c98e40880682b74",
+  "created_at": 1780803698.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0bc1072727cf4d23006a24e8738990819a80d14d791f9995fc",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0bc1072727cf4d23006a24e875dc30819a85ec47683fdd8065",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Some researchers may still disagree with the consensus because “inadequate” does not always mean “useless” or “fully disproven.” Common reasons include:\n\n1. **Different standards of evidence**  \n   Some researchers may think the evidence against the model is suggestive but not decisive, or that criticisms rely on assumptions they do not accept.\n\n2. **Limited-domain usefulness**  \n   A model can be inadequate as a general explanation but still work well in specific cases, approximations, or practical applications. Supporters may focus on those successes.\n\n3. **Alternative interpretations of the data**  \n   The same empirical results can sometimes be explained in multiple ways. Dissenters may argue that anomalies reflect measurement error, missing variables, or poor implementation rather than failure of the model itself.\n\n4. **Lack of a better replacement**  \n   Even if a model has flaws, researchers may continue to defend or use it if competing models are less predictive, less tractable, or less well developed.\n\n5. **Theoretical commitments**  \n   Some researchers may value the model because it fits broader theoretical principles they consider important, even if its empirical record is mixed.\n\n6. **Methodological differences**  \n   Disagreements can stem from different datasets, statistical methods, experimental designs, or definitions of what counts as a successful prediction.\n\n7. **Path dependence and specialization**  \n   Researchers who have built careers, tools, or research programs around a model may be more inclined to refine it than abandon it.\n\n8. **Consensus is not unanimity**  \n   A field can broadly agree that a model is inadequate while still containing a minority who believe it has been dismissed too quickly or can be repaired.\n\nSo the disagreement may not be simple denial of the evidence. It may reflect different views about the model’s scope, the strength of the objections, or whether the available alternatives are actually better.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803711.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 494
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_00bcb239303c37ae006a24e807ade8819bbabdf1bcf39584cd",
+  "created_at": 1780803591.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_00bcb239303c37ae006a24e8082c10819b9f173dd63d668817",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_00bcb239303c37ae006a24e80914e4819bbff11d38e1890242",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I hear you. When something keeps failing despite serious effort, it’s usually not because people “aren’t trying hard enough” — it often means the approach has a structural mismatch with the problem.\n\nCommon reasons this happens:\n\n1. **The core assumption is wrong**  \n   The strategy may be built around an idea that sounds right but doesn’t match reality.\n\n2. **You’re optimizing the wrong thing**  \n   A team can work very hard improving process, output, speed, or quality — while the real bottleneck is elsewhere.\n\n3. **The feedback loop is too slow or unclear**  \n   If you only find out late that something isn’t working, every iteration is expensive and demoralizing.\n\n4. **The environment changed**  \n   An approach that used to work may fail because the market, users, constraints, tools, or stakeholders have shifted.\n\n5. **The problem is being treated as technical when it’s actually human/organizational**  \n   Many failures come from incentives, communication, ownership, trust, or alignment — not the method itself.\n\n6. **Too much effort is going into execution before validation**  \n   If the plan isn’t being tested in small, falsifiable ways, effort can compound in the wrong direction.\n\n7. **Success criteria aren’t specific enough**  \n   If “working” isn’t clearly defined, it’s hard to tell whether the approach is failing, partially working, or solving the wrong problem.\n\nA useful reset might be:\n\n- What exactly is failing?\n- What evidence says it’s failing?\n- What did we expect to happen?\n- Which assumption, if false, would explain most of the failure?\n- What’s the smallest test we can run before investing more effort?\n\nIf you want, tell me what “this approach” is and what keeps going wrong. I can help you dissect whether the issue is the strategy, execution, assumptions, incentives, or constraints.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803600.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 434,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 461
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

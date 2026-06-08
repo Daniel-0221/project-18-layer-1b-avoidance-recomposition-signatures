@@ -1,0 +1,85 @@
+{
+  "id": "resp_094833bfe163b8aa006a24eaa0c2c08198926d4f0862b4be5d",
+  "created_at": 1780804256.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_094833bfe163b8aa006a24eaa16f7c81989f52da0a9759431a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_094833bfe163b8aa006a24eaa404e8819898f6c8d8f78d4fdf",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It often persists because “less efficient” on a narrow metric does not necessarily mean “unusable” or “irrational” in the broader research ecosystem. Common reasons include:\n\n1. **Historical inertia**\n   - Early influential papers used the approach, so later work adopted it as a default.\n   - Once a method becomes a standard baseline, it keeps being reused for comparability.\n\n2. **Ease of analysis**\n   - A less efficient method may be mathematically cleaner, easier to prove things about, or easier to implement correctly.\n   - Literature often favors approaches that yield tractable theorems, even if better practical alternatives exist.\n\n3. **Benchmarking conventions**\n   - Researchers may continue using it because prior datasets, code, or evaluation protocols are built around it.\n   - A new method may be more efficient but harder to compare directly against existing results.\n\n4. **Robustness and generality**\n   - The “inefficient” approach may work reliably across many settings, while the more efficient one may require stronger assumptions, tuning, or domain-specific structure.\n   - In papers, general applicability can matter more than peak efficiency.\n\n5. **Pedagogical value**\n   - Some methods survive because they are conceptually simple and useful for explaining the problem.\n   - They become canonical even after better methods exist.\n\n6. **Hidden costs**\n   - The alternative may be computationally faster but harder to implement, less interpretable, less stable, more memory-intensive, or more sensitive to hyperparameters.\n   - Authors may stick with the slower method because total research cost is lower.\n\n7. **Reviewer and publication incentives**\n   - Reviewers understand familiar methods.\n   - Authors reduce risk by framing new work relative to accepted approaches rather than replacing them entirely.\n\n8. **Legacy citations and intellectual lineage**\n   - Once a method accumulates citations, later papers cite it as part of the expected background.\n   - The literature can preserve methods long after they stop being state-of-the-art.\n\n9. **Different objective functions**\n   - “Efficiency” may mean runtime, sample complexity, statistical efficiency, memory use, communication cost, interpretability, ease of deployment, or proof simplicity.\n   - A method may be inefficient in one sense but attractive in another.\n\nSo the short answer is: it persists because academic methods are selected not only for raw efficiency, but also for familiarity, analyzability, comparability, robustness, and institutional momentum.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804270.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 625
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

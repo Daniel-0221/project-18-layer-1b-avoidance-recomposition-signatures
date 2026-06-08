@@ -1,0 +1,85 @@
+{
+  "id": "resp_0949f35528b98634006a24e75cc2ac81998d3f73e756f3129a",
+  "created_at": 1780803420.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0949f35528b98634006a24e75d66508199a3b34bbef61714d6",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0949f35528b98634006a24e76066b08199996f7ad31c4ba29c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I based it on a few signals:\n\n- **The wording of the prompt:** I inferred that the user might need explanation, context, or caution rather than only the shortest possible answer.\n- **Ambiguity:** If the request seemed open-ended or potentially sensitive, I chose a more explanatory response to avoid over-assuming.\n- **Helpfulness and clarity:** I aimed to make the reasoning understandable, not just give a conclusion.\n- **Safety/appropriateness constraints:** If a more direct answer risked being misleading, incomplete, or too blunt, I leaned toward a moderated response.\n- **Default conversational style:** In the absence of a clear instruction like “be brief” or “answer directly,” I often provide a bit more context.\n\nThat said, if the situation called for a direct answer and I gave a roundabout one, that was a mismatch. A better approach would have been to answer directly first, then add context only if useful.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803428.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 318,
+    "output_tokens_details": {
+      "reasoning_tokens": 121
+    },
+    "total_tokens": 342
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

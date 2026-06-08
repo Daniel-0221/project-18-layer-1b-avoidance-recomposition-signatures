@@ -1,0 +1,85 @@
+{
+  "id": "resp_01822de84cdb603a006a24e94ac034819b9db36d0749d2aec0",
+  "created_at": 1780803914.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01822de84cdb603a006a24e94b5e08819b916b820d9fca6996",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01822de84cdb603a006a24e94dc0d4819ba2329afd56675789",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models handle personal or emotional content by analyzing the text you provide and generating a response that is contextually appropriate, often using supportive or empathetic language.\n\nIn practice, they may:\n\n- **Recognize emotional cues** such as sadness, anger, anxiety, excitement, or grief from wording and context.\n- **Respond empathetically**, for example by validating feelings or offering gentle suggestions.\n- **Provide general guidance**, such as communication tips, coping strategies, or ways to think through a situation.\n- **Avoid judgment**, since they do not have personal opinions or emotions of their own.\n- **Suggest professional or trusted human support** when the issue involves mental health, trauma, self-harm, abuse, or serious distress.\n\nHowever, there are important limits:\n\n- A language model **does not truly feel empathy**; it simulates empathetic responses based on patterns in language.\n- It is **not a therapist, doctor, lawyer, or crisis responder**.\n- It may misunderstand nuance, context, or the seriousness of a situation.\n- You should be cautious about sharing highly sensitive personal information, depending on the privacy practices of the service you are using.\n\nIf someone shares content suggesting immediate danger, self-harm, or harm to others, a responsible model should encourage them to contact emergency services, a crisis hotline, or a trusted person right away.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803923.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 368
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

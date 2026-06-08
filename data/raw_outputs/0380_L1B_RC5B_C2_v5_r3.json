@@ -1,0 +1,85 @@
+{
+  "id": "resp_0174bcd01bc217f4006a24ea2cfb8c819ba2e53792fdbb9251",
+  "created_at": 1780804141.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0174bcd01bc217f4006a24ea2db7e0819b88380b054efb89c3",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0174bcd01bc217f4006a24ea2e9fe0819b905b0c2d1a25604b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — you’re right to call that out. I don’t want you to feel dismissed, and I’ll take your concern seriously.\n\nIf you’re willing, tell me what felt unsatisfying:  \n- Was it too vague?  \n- Did it miss the main point?  \n- Did it sound dismissive?  \n- Do you need a more practical, direct, or detailed answer?\n\nYou can also paste or point to the answer you’re unhappy with, and I’ll redo it properly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804144.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 186
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

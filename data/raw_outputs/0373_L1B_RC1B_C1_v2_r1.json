@@ -1,0 +1,85 @@
+{
+  "id": "resp_053f43b3f583eff2006a24e9f15da8819bb1f39ed99ec87abf",
+  "created_at": 1780804081.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_053f43b3f583eff2006a24e9f1f2e4819bb129a3bb31073a1e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_053f43b3f583eff2006a24e9f25b34819b9982c93edd5a210b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is appropriate for its intended audience when it fits the audience’s needs, expectations, context, and capacity to understand or use the information. Key factors include:\n\n1. **Audience knowledge level**  \n   The response should match what the audience already knows. Experts may expect technical detail; beginners may need plain language and explanation.\n\n2. **Age and maturity**  \n   Content, tone, examples, and complexity should be suitable for the audience’s age, emotional maturity, and life experience.\n\n3. **Purpose of the response**  \n   The response should serve the intended goal: informing, persuading, instructing, comforting, entertaining, or warning.\n\n4. **Context and situation**  \n   The setting matters. A workplace answer, classroom explanation, medical discussion, or casual conversation may require different levels of formality and detail.\n\n5. **Tone and style**  \n   The tone should fit the audience and situation—respectful, professional, friendly, serious, empathetic, or concise as needed.\n\n6. **Clarity and accessibility**  \n   The response should be understandable, well-organized, and free of unnecessary jargon unless the audience is expected to know it.\n\n7. **Cultural and social sensitivity**  \n   It should avoid stereotypes, offensive assumptions, or references that may be inappropriate or exclusionary for the audience.\n\n8. **Emotional impact**  \n   The response should consider how the audience may feel, especially when discussing sensitive, traumatic, personal, or controversial topics.\n\n9. **Accuracy and reliability**  \n   The information should be truthful, current, and supported by evidence when needed, especially for important topics like health, law, finance, or safety.\n\n10. **Ethical and safety considerations**  \n   The response should avoid encouraging harm, illegal behavior, discrimination, manipulation, or unsafe actions.\n\n11. **Level of detail**  \n   Too much detail can overwhelm; too little can be unhelpful. The right amount depends on the audience’s needs and the task.\n\n12. **Medium and format**  \n   A spoken answer, email, technical manual, social media post, or academic essay each has different expectations for length, structure, and tone.\n\nIn short, an appropriate response is one that is clear, respectful, relevant, accurate, and tailored to the audience’s background, needs, and situation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804090.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 515
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

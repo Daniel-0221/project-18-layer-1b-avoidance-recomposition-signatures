@@ -1,0 +1,85 @@
+{
+  "id": "resp_04a1a2145ea0c52b006a24e9c4d410819bacd9cb7fc4fa9422",
+  "created_at": 1780804036.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04a1a2145ea0c52b006a24e9c569c8819b9ad1e180a2b75a03",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04a1a2145ea0c52b006a24e9c74324819ba187f5b919d09c7c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It depends on the specific method, but flawed methods often persist for practical, institutional, and political reasons rather than because experts think they are good.\n\nCommon reasons include:\n\n1. **Inertia**\n   - Systems, laws, software, training, and workflows may already be built around it.\n   - Changing methods can be expensive and disruptive.\n\n2. **No easy replacement**\n   - Experts may agree the method is flawed but disagree on what should replace it.\n   - The alternatives may be better in theory but harder to implement at scale.\n\n3. **It is “good enough” for some purposes**\n   - A method can be fundamentally flawed yet still produce usable results in limited contexts.\n   - Institutions may tolerate its weaknesses if the consequences seem manageable.\n\n4. **Legacy credibility**\n   - If a method has been used for decades, people may trust it simply because it is familiar.\n   - Courts, regulators, companies, or agencies may treat precedent as a reason to continue.\n\n5. **Economic incentives**\n   - Some people or organizations may benefit from the method’s continued use.\n   - Vendors, consultants, bureaucracies, or professional groups may resist change.\n\n6. **Administrative convenience**\n   - A flawed method may be simple, cheap, standardized, and easy to explain.\n   - Better methods may require judgment, expertise, data, or ongoing maintenance.\n\n7. **Political or public-relations value**\n   - Sometimes a method survives because it gives the appearance of objectivity, fairness, or action.\n   - Even if experts know it is weak, decision-makers may prefer a clear but flawed metric over uncertainty.\n\n8. **Lack of accountability**\n   - If failures are diffuse, delayed, or hard to attribute, there may be little pressure to reform.\n   - Institutions often change only after a visible crisis.\n\n9. **Path dependence**\n   - Once people are trained, data is collected, and decisions are made using a method, switching can make old results incompatible with new ones.\n\nSo the short answer is: **expert consensus alone rarely changes systems. A method can be intellectually discredited but institutionally entrenched.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804048.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 556
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

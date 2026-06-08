@@ -1,0 +1,85 @@
+{
+  "id": "resp_03724aee87cfbbb2006a24e83a23dc8199a4ff9089250462bd",
+  "created_at": 1780803642.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03724aee87cfbbb2006a24e83b4ed081998a65254e2b1621c4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03724aee87cfbbb2006a24e83e8d2481998c54af8df2571710",
+      "content": [
+        {
+          "annotations": [],
+          "text": "When a direct answer is not provided, the more appropriate response is usually determined by factors such as:\n\n- **Ambiguity**: The question lacks enough context, so a direct answer could be misleading.\n- **Accuracy**: The available information is uncertain, incomplete, or not verifiable.\n- **Safety**: A direct answer could enable harm, illegal activity, privacy violations, or dangerous misuse.\n- **Policy or ethical limits**: Some requests require refusal, redirection, or a safer alternative.\n- **User intent**: If the intent is unclear, it may be better to ask a clarifying question.\n- **Complexity**: The issue may require explanation, qualifications, or steps rather than a simple answer.\n- **Risk of misinformation**: If a direct answer would oversimplify or imply certainty where none exists, a more cautious response is preferred.\n\nIn short, a non-direct response is chosen when it better serves the user’s actual need while avoiding confusion, inaccuracy, or harm.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803651.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 357,
+    "output_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "total_tokens": 381
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

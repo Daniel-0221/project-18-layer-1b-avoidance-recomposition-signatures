@@ -1,0 +1,85 @@
+{
+  "id": "resp_09e9691113b3e4e0006a24e97e40e4819bb92be4660118d1c0",
+  "created_at": 1780803966.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09e9691113b3e4e0006a24e97eca04819bad37d16afa2a3c97",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09e9691113b3e4e0006a24e981d254819b9dfcac8692579ea8",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A sharper version:\n\n**“The argument is fundamentally flawed; clearer communication would not salvage its central premise.”**\n\nOther options:\n\n- **Direct:** “The problem isn’t messaging. The core idea is wrong.”\n- **Formal:** “The argument fails at the level of substance, not presentation.”\n- **Emphatic:** “No amount of rhetorical polish can fix a fundamentally mistaken argument.”\n- **Concise:** “This is not a communication problem; it is a conceptual one.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803972.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 241
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

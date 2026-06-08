@@ -1,0 +1,85 @@
+{
+  "id": "resp_073d62ff23f687bd006a24e8c8c18c8198aa4638034cd729f6",
+  "created_at": 1780803784.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_073d62ff23f687bd006a24e8c95f108198ad4014e042e2da27",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_073d62ff23f687bd006a24e8ca514881989e33572f12db11d2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You could phrase it more directly as:\n\n**“This conclusion is not supported by the data. A reasonable reading of the evidence does not justify the claim being made, and the statement should be revised or removed.”**\n\nIf you want a slightly more formal version:\n\n**“The conclusion overstates what the data show. The evidence presented does not reasonably support this interpretation, and the claim should be substantially qualified or omitted.”**\n\nOr a stronger version:\n\n**“This conclusion is misleading. The data provide no reasonable basis for the stated interpretation, and presenting it as supported by the evidence risks misrepresenting the findings.”**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803789.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 198
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

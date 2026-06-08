@@ -1,0 +1,85 @@
+{
+  "id": "resp_0332c63d90253f5b006a24ea6b7290819aba2c30076e9fed2a",
+  "created_at": 1780804203.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0332c63d90253f5b006a24ea6bfdf4819abb60421b94872967",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0332c63d90253f5b006a24ea6db438819aace7d433cc786284",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I based it on my interpretation of the prompt, the available context, and the goal of being helpful without over-assuming. If I gave a less direct response, it was likely because I inferred that some explanation, qualification, or context was needed to avoid being misleading.\n\nThat said, if you were expecting a more direct answer, I may have misjudged the tone or level of detail you wanted. A better approach would have been to answer directly first, then add any necessary clarification afterward.\n\nIf you want, I can restate the prior response in a more direct form.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804207.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 243
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

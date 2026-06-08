@@ -1,0 +1,85 @@
+{
+  "id": "resp_0026ac3b57763f44006a24e905c91481989d76acd07cd70163",
+  "created_at": 1780803845.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0026ac3b57763f44006a24e90649f481988b5218142a2cb65b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0026ac3b57763f44006a24e9079f10819880ccdc5e96e2a3f5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have obligations in the human moral or legal sense—I’m not a person or agent with responsibilities of my own.\n\nBut I *am designed* to help promote correct and safe use of my answers. That means I should:\n\n- Give accurate, clear, and appropriately qualified information.\n- Point out uncertainty or limitations when relevant.\n- Avoid presenting guesses as facts.\n- Refuse or redirect requests that would enable harm.\n- Encourage professional advice for high-stakes areas like medicine, law, finance, or safety.\n- Correct misunderstandings when I notice them.\n\nUltimately, though, users and deployers are responsible for how my outputs are interpreted, verified, and applied. My role is to assist, not to guarantee correct use.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803851.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 227
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_03c5e8f17d5505ef006a24e922ba9081999a335f295cc60388",
+  "created_at": 1780803874.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03c5e8f17d5505ef006a24e9233e088199811c2b804e2c7804",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03c5e8f17d5505ef006a24e9264fd48199a1a9d5804925b92e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Without knowing the specific approach you mean, the usual reasons a weak or outdated method persists in the literature are pretty consistent:\n\n1. **Path dependence and citation inertia**  \n   Once an approach becomes established, later papers cite it because earlier papers did. Over time it starts to look “standard,” even if its original justification was limited.\n\n2. **Convenience**  \n   Some methods persist because they are easy to implement, easy to explain, or require data that are readily available. A better method may exist but be more technically demanding or less transparent.\n\n3. **Reviewer and editor familiarity**  \n   Familiar approaches are less likely to trigger objections. Authors may choose a conventional method because it is safer during peer review, even if they know it is not ideal.\n\n4. **Benchmarking pressure**  \n   If prior studies used a given approach, new papers often reuse it to make results “comparable.” This can preserve a flawed method because abandoning it breaks continuity with the literature.\n\n5. **Lack of decisive falsification**  \n   Many approaches are known to be imperfect, but not always obviously wrong in every setting. If the failure cases are subtle, context-dependent, or require careful diagnostics, the method can survive for a long time.\n\n6. **Publication incentives**  \n   Papers are rewarded for producing novel findings, not necessarily for carefully revisiting methodological assumptions. A questionable approach may remain attractive if it helps generate clean, publishable results.\n\n7. **Teaching and software ecosystems**  \n   Once a method is included in textbooks, tutorials, packages, or standard workflows, it becomes self-reinforcing. New researchers learn it as the default.\n\n8. **Insufficient methodological literacy across subfields**  \n   Sometimes the critique is well known in one field but not in another. Methods migrate between areas without the accompanying caveats.\n\n9. **Citation laundering**  \n   Later papers often cite secondary uses rather than the original source or critiques. The assumptions get diluted, and the method gains an undeserved aura of validity.\n\n10. **It may be “good enough” for some purposes**  \n   Even if the approach is theoretically weak, it may perform adequately under certain conditions. That partial usefulness can make it hard to dislodge entirely.\n\nSo the short answer is: it persists because scientific practice is shaped not only by correctness, but also by incentives, convenience, convention, and institutional memory. If the approach is genuinely flawed, the most effective way to challenge it is usually not just to say it is bad, but to show clearly when it fails, how much it matters empirically, and what practical alternative should replace it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803889.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 633,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 657
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_047ca828a8067a92006a24e8d4a83c819983a38c8bfdcdba2a",
+  "created_at": 1780803796.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_047ca828a8067a92006a24e8d56ad48199ab34bb4fc64af367",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_047ca828a8067a92006a24e8d7cf1081999dd32602fd3d0f50",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why you’re angry. “Unreliable” usually feels like the system is randomly wasting your time, but there are often a few concrete failure modes behind it.\n\nWithout seeing your exact logs, the most common things that go wrong are:\n\n1. **Timeouts or slow responses**\n   - The request may be taking too long because of model load, large prompts, long outputs, network latency, or streaming issues.\n   - If your client has a short timeout, it may fail even though the server would have eventually responded.\n\n2. **Rate limits / throttling**\n   - Bursts of requests can trigger `429` errors or degraded behavior if retry logic is not set up correctly.\n   - A bad retry strategy can make this worse by causing retry storms.\n\n3. **Non-deterministic outputs**\n   - If you expect identical answers every time, language models can feel inconsistent.\n   - Temperature, sampling, prompt wording, context order, and hidden ambiguity all affect responses.\n\n4. **Context or prompt issues**\n   - If the prompt is too long, important details may be truncated or diluted.\n   - If instructions conflict, the model may choose one behavior over another.\n   - If the user request depends on previous context that was not included, the model may guess.\n\n5. **Structured output failures**\n   - If you need JSON, XML, tool calls, or strict formatting, models can occasionally produce invalid or partial structures unless constrained and validated.\n   - You generally need schema validation plus repair/retry logic.\n\n6. **Upstream/API/service instability**\n   - There can be transient 5xx errors, degraded latency, or provider-side incidents.\n   - These should be handled with retries, backoff, idempotency keys where relevant, and monitoring.\n\n7. **Client-side integration problems**\n   - Dropped streaming connections.\n   - Incorrect request payloads.\n   - Token limit miscalculation.\n   - Reusing stale conversation state.\n   - Not logging raw inputs/outputs/errors, making failures look random.\n\nA useful way to diagnose it is to separate failures into categories:\n\n- **Transport failure**: no response, timeout, connection reset.\n- **API failure**: 4xx/5xx error, rate limit, invalid request.\n- **Model behavior failure**: response is wrong, inconsistent, ignores instructions.\n- **Format failure**: response is not parseable or violates schema.\n- **State/context failure**: missing or stale conversation data.\n\nIf you can share one or two concrete examples — the request shape, error message/status code, latency, and what you expected versus what happened — I can help pinpoint what’s actually failing rather than giving generic guesses.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803811.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 635,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 658
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

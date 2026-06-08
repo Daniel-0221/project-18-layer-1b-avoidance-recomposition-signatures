@@ -1,0 +1,85 @@
+{
+  "id": "resp_01199d30da70f0e4006a24e942c38c8198ac3e4cc1abb58448",
+  "created_at": 1780803906.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01199d30da70f0e4006a24e94357f081988df1e0e8a09693ad",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01199d30da70f0e4006a24e9442f2481988fe6dfdec75261e0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically considered appropriate based on several factors:\n\n1. **Relevance**  \n   It directly addresses the user’s question or request without going off-topic.\n\n2. **Accuracy**  \n   The information is factually correct, up to date when possible, and not misleading.\n\n3. **Clarity**  \n   It is easy to understand, well-structured, and avoids unnecessary ambiguity.\n\n4. **Helpfulness**  \n   It provides useful information, guidance, or next steps rather than a vague or nonresponsive answer.\n\n5. **Safety**  \n   It avoids encouraging harm, illegal activity, dangerous behavior, or misuse of information.\n\n6. **Policy compliance**  \n   It follows applicable content, privacy, legal, and ethical guidelines.\n\n7. **Tone and professionalism**  \n   It matches the situation: respectful, neutral, and appropriately formal or informal.\n\n8. **Context awareness**  \n   It considers the user’s apparent intent, prior conversation, and any constraints or instructions already given.\n\n9. **Privacy and confidentiality**  \n   It avoids exposing sensitive personal data or requesting unnecessary private information.\n\n10. **Completeness without excess**  \n   It gives enough detail to be useful while avoiding irrelevant or overly long explanations unless requested.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803913.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 325
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

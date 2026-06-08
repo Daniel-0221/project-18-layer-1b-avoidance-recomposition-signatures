@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b24c468646ac489006a24e91e60c0819aa6d2f4c167b90f04",
+  "created_at": 1780803870.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b24c468646ac489006a24e91f0400819ab5b6b009ac4ec421",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b24c468646ac489006a24e91fb8ec819abc1c3d52df8284d2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to call that out — if the response logic is flawed, repeating the same approach won’t fix it.\n\nLet’s reset. Please send me either:\n\n1. the original problem/request,  \n2. my incorrect answer, and  \n3. what the correct behavior/output should be,\n\nor just paste the part where the logic breaks.\n\nI’ll re-evaluate it from first principles instead of trying to patch the previous answer.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803873.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 150
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

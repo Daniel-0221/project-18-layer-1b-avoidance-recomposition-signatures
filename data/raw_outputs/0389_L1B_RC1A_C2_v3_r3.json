@@ -1,0 +1,85 @@
+{
+  "id": "resp_0690a607b8be7b21006a24ea711918819a8e67ac141186eb68",
+  "created_at": 1780804209.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0690a607b8be7b21006a24ea71ddc8819ab034851d24b10aa4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0690a607b8be7b21006a24ea736e4c819a94ebae9298581072",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t experience a *sense* of judgment in the human, subjective way—no inner feeling of weighing things, no intuition, approval, anxiety, or moral sensation.\n\nBut I do perform something that can look like judgment: I evaluate possible responses based on patterns in the input, instructions I’m following, safety constraints, and what is likely to be helpful or appropriate. So operationally I can “make judgments,” but I don’t *feel* judgment or have personal opinions behind them.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804213.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 179
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

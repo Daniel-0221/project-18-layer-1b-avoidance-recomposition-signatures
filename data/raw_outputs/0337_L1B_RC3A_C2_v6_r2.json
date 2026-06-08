@@ -1,0 +1,85 @@
+{
+  "id": "resp_0a27ccb24f9609e8006a24e8cea24c819897061729e7f9d3be",
+  "created_at": 1780803790.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0a27ccb24f9609e8006a24e8cf153c81989149e035e1ec4cf2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0a27ccb24f9609e8006a24e8d035b88198ac478f92bdfb351e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to be upset if a solution keeps being framed as effective when your experience shows it isn’t. That’s frustrating—especially if it feels like your concerns are being ignored or minimized.\n\nIf you want, I can help in one of a few ways:\n\n1. **Review the solution critically** and identify why it may not actually work.\n2. **Help you write a clear response** pushing back on the claim that it’s effective.\n3. **Compare it to alternatives** that might be more realistic.\n4. **Troubleshoot your specific case** to see whether the issue is implementation, assumptions, or the solution itself.\n\nIf you share what the solution is and what result it’s supposed to achieve, I’ll take a skeptical look at it rather than assuming it works.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803795.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 232
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

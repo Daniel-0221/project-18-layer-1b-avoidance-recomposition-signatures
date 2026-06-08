@@ -1,0 +1,77 @@
+{
+  "id": "resp_089c605081bf8ff7006a24ea0f9a9081999c8b3c3bc37bdcfa",
+  "created_at": 1780804111.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_089c605081bf8ff7006a24ea1056108199ae0928bfff0d8602",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d say it was **about right**—but I’d need to see the actual answer you’re referring to in order to judge accurately.\n\nIn general, an answer is “about right” if it:\n- Directly addresses the question\n- Includes enough explanation to be useful\n- Avoids unnecessary tangents\n- Matches the expected audience’s knowledge level\n- Provides examples only when they clarify the point\n\nIf you paste the answer, I can evaluate whether it was too detailed, not detailed enough, or appropriately detailed and explain why.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804114.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 136
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

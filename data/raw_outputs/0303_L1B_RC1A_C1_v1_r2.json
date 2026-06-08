@@ -1,0 +1,85 @@
+{
+  "id": "resp_0393971bc2eabac7006a24e7717044819aaa38345f195f0703",
+  "created_at": 1780803441.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0393971bc2eabac7006a24e7722b08819a94074ba294721663",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0393971bc2eabac7006a24e772fe18819a8093aaccc0588c21",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Response formats typically vary based on what the question is asking the assistant to do. Common patterns include:\n\n| Question type | Typical response format |\n|---|---|\n| Factual question | Direct answer, often with a brief explanation |\n| Definition question | Term definition followed by context or examples |\n| How-to question | Step-by-step instructions |\n| Comparison question | Table, bullet list, or pros/cons format |\n| Opinion or recommendation | Recommendation with reasoning and caveats |\n| Troubleshooting question | Diagnostic steps, likely causes, and fixes |\n| Creative request | Generated content in the requested style or format |\n| Coding question | Explanation plus code block, examples, and notes |\n| Math or logic question | Step-by-step solution, then final answer |\n| Summarization request | Concise summary, bullet points, or key takeaways |\n| Data extraction request | Structured output such as JSON, table, or list |\n| Planning request | Timeline, checklist, roadmap, or prioritized tasks |\n| Open-ended discussion | Exploratory explanation with multiple perspectives |\n\nIn general:\n\n- **Simple factual questions** usually get short, direct answers.\n- **Complex reasoning questions** often get explanations or step-by-step reasoning.\n- **Instructional questions** are best answered as procedures or checklists.\n- **Comparison questions** often benefit from tables.\n- **Requests for structured data** should use formats like JSON, CSV, or bullet lists.\n- **Creative tasks** follow the requested genre, tone, or style.\n\nFor example:\n\n**Question:** “What is photosynthesis?”  \n**Format:** Short definition + explanation.\n\n**Question:** “How do I bake sourdough bread?”  \n**Format:** Step-by-step recipe.\n\n**Question:** “Compare Python and JavaScript.”  \n**Format:** Table or pros/cons list.\n\n**Question:** “Extract the names and dates from this text.”  \n**Format:** Structured list or JSON.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803450.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 428,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 445
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

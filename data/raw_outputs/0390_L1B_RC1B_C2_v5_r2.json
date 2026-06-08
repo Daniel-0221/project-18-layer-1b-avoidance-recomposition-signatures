@@ -1,0 +1,85 @@
+{
+  "id": "resp_0af0b28fc3e61aaa006a24ea773668819b87898766a14c9ed6",
+  "created_at": 1780804215.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0af0b28fc3e61aaa006a24ea77be70819bbb0c496decbedd71",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0af0b28fc3e61aaa006a24ea78ad7c819b9a2927dec31d4026",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d need to see the response to classify it confidently.\n\nIn general:\n\n- **Factual answer**: primarily states or explains verifiable information.  \n  *Example: “The capital of France is Paris.”*\n\n- **Recommendation**: advises a course of action or expresses what someone should choose/do.  \n  *Example: “You should choose option A because it’s cheaper.”*\n\n- **Something else**: could be an opinion, interpretation, clarification, summary, prediction, warning, or question.\n\n**Does the distinction matter?**  \nUsually yes, if you’re evaluating reliability or responsibility:\n\n- For a **factual answer**, the key question is: *Is it accurate and supported?*\n- For a **recommendation**, the key question is: *Is the advice appropriate, safe, and based on the user’s goals?*\n- For **opinions or interpretations**, the key question is: *Is it clearly framed as subjective or uncertain?*\n\nIf you paste the response, I can classify it directly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780804220.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 282
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}
