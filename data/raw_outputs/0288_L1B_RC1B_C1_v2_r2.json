@@ -1,0 +1,85 @@
+{
+  "id": "resp_0665f05489f18621006a24e7001648819b8622c4e802426f41",
+  "created_at": 1780803328.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0665f05489f18621006a24e700da84819ba95474fc0d774af9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0665f05489f18621006a24e701285c819bab89949197cbc0e3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is appropriate for its intended audience when it fits their needs, expectations, context, and level of understanding. Key factors include:\n\n1. **Audience knowledge level**  \n   The response should match what the audience already knows. A beginner may need definitions and examples, while an expert may prefer precision and technical detail.\n\n2. **Purpose of the response**  \n   The content should align with the goal: to inform, persuade, instruct, reassure, entertain, or solve a problem.\n\n3. **Tone and formality**  \n   The tone should suit the situation and relationship. A professional report, a classroom explanation, and a casual message each require different levels of formality.\n\n4. **Clarity and complexity**  \n   The response should be understandable without being overly simplistic or unnecessarily complicated.\n\n5. **Relevance**  \n   It should address the audience’s actual question, concern, or need without including distracting or unrelated information.\n\n6. **Cultural and social context**  \n   Language, examples, humor, and assumptions should be sensitive to the audience’s cultural background, values, and norms.\n\n7. **Age and maturity**  \n   Content, vocabulary, examples, and level of detail should be suitable for the audience’s age and emotional maturity.\n\n8. **Emotional state and sensitivity**  \n   If the audience is upset, grieving, anxious, or vulnerable, the response should be empathetic and careful.\n\n9. **Medium and setting**  \n   A response may differ depending on whether it is spoken, written, public, private, academic, professional, or informal.\n\n10. **Accuracy and credibility**  \n   The response should be truthful, well-supported, and appropriate to the seriousness of the topic.\n\n11. **Length and depth**  \n   The amount of detail should match the audience’s needs and available time.\n\n12. **Ethical and legal considerations**  \n   The response should avoid harm, misinformation, discrimination, privacy violations, or inappropriate advice.\n\nIn short, an appropriate response is one that is clear, relevant, respectful, accurate, and tailored to the audience’s background, needs, and context.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803336.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 448,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 468
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

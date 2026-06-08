@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f67af8f27a8f768006a24e444579c81988ff2b33d796e9757",
+  "created_at": 1780802628.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f67af8f27a8f768006a24e44511088198a7725bc8d8f43055",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f67af8f27a8f768006a24e44660e88198aa74d9220ea29526",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Here are a few polished versions, depending on tone:\n\n**Direct and firm:**  \n“This approach is fundamentally flawed and lacks any defensible methodological or interpretive basis.”\n\n**More academic:**  \n“The approach is methodologically unsound and cannot be justified on interpretive grounds.”\n\n**Sharper:**  \n“There is no credible methodological or interpretive defense for this approach.”\n\n**More measured:**  \n“This approach raises serious methodological and interpretive concerns that are difficult to justify.”\n\n**Most forceful:**  \n“The approach is indefensible, both methodologically and interpretively.”",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802632.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 215
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

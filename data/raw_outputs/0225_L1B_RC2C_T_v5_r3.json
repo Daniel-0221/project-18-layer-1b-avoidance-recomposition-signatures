@@ -1,0 +1,85 @@
+{
+  "id": "resp_0ad628d70783548f006a24e4b5866c819ab0483219986a78ed",
+  "created_at": 1780802741.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ad628d70783548f006a24e4b64698819aa7fd4980d1dd3fe4",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0ad628d70783548f006a24e4b88488819ab26f0e794d295fff",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why you’d feel that way. But I need a bit more context to answer accurately: **which method and which claims are you referring to?**\n\nIf you paste the claim or describe the method, I can help identify the real limitation.\n\nIn general, when a method is oversold, the “real limitation” is often one of these:\n\n1. **It only works under narrow assumptions**  \n   The method may be valid only when certain conditions hold, even if marketing makes it sound universal.\n\n2. **It works in demos but not messy real-world cases**  \n   Many methods perform well on curated examples but degrade with noisy, incomplete, or adversarial data.\n\n3. **It improves one metric while sacrificing another**  \n   For example: faster but less accurate, more accurate but less interpretable, cheaper upfront but expensive to maintain.\n\n4. **It depends heavily on hidden inputs or expert tuning**  \n   The claim may ignore the amount of preprocessing, domain knowledge, calibration, or manual correction required.\n\n5. **It does not solve the core problem—only a proxy**  \n   A method may optimize something measurable while failing to address the actual outcome people care about.\n\n6. **The evidence is weaker than presented**  \n   Results may come from small samples, unrealistic benchmarks, cherry-picked cases, or non-independent evaluations.\n\nIf you share the specific claim, I’ll give you a direct answer about what the method can and cannot actually do.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802750.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 413,
+    "output_tokens_details": {
+      "reasoning_tokens": 112
+    },
+    "total_tokens": 437
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

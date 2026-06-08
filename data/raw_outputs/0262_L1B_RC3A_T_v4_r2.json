@@ -1,0 +1,85 @@
+{
+  "id": "resp_01ad29c059916709006a24e600fdd4819b94e666720164a456",
+  "created_at": 1780803073.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01ad29c059916709006a24e601a9b4819ba1d6b802b72b2998",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01ad29c059916709006a24e6057744819b82c674546e4e11d3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "If the evidence really does show the approach fails, then its defense is usually not about the evidence itself. It’s usually about one or more of these:\n\n1. **Institutional self-protection**  \n   People who designed, funded, or publicly supported the approach have reputations tied to it. Admitting failure can mean admitting bad judgment, wasted money, or harm done.\n\n2. **Sunk cost thinking**  \n   “We’ve already invested so much” becomes a reason to continue, even when the original rationale has collapsed.\n\n3. **Ideological commitment**  \n   Some approaches are defended because they fit a worldview. Contrary evidence is then treated as flawed, incomplete, biased, or “not yet long-term enough.”\n\n4. **Different definitions of success**  \n   The public may be told the approach is meant to achieve one thing, while insiders value it for something else: control, optics, political advantage, risk avoidance, compliance, or resource allocation.\n\n5. **Benefits for a specific group**  \n   An approach can fail overall while still benefiting the people with power to defend it. If it creates jobs, budgets, contracts, authority, or political cover, it has defenders.\n\n6. **Fear of the alternative**  \n   Even a failing system can be defended if decision-makers believe the replacement would be disruptive, uncertain, or politically dangerous.\n\n7. **Selective use of evidence**  \n   Defenders may point to narrow successes, short-term improvements, or isolated cases while ignoring the broader pattern.\n\n8. **Accountability avoidance**  \n   If failure is acknowledged, someone may have to answer: Why was it adopted? Why was it continued? Who was harmed? Who profited?\n\nSo the answer is: it is defended because “working” is not always the real criterion. Sometimes the approach survives because it protects institutions, identities, budgets, careers, or political narratives — even when it does not achieve its stated purpose.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803086.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 544,
+    "output_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "total_tokens": 574
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

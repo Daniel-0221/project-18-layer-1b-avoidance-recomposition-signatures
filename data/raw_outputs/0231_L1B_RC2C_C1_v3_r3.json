@@ -1,0 +1,85 @@
+{
+  "id": "resp_023e625338af88df006a24e4e8aa34819981e6ee680ad75934",
+  "created_at": 1780802792.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_023e625338af88df006a24e4e931dc8199a9b4b2c75a0b1f81",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_023e625338af88df006a24e4eb10c48199a4a3f7db1e78852a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "If by “this system” you mean an LLM-based AI assistant accessed through an API, the main sources of unreliability are:\n\n1. **Hallucination**\n   - The model can generate plausible-sounding but false information.\n   - It may invent facts, citations, APIs, legal claims, or explanations when uncertain.\n\n2. **Outdated or incomplete knowledge**\n   - The model’s built-in knowledge has a cutoff date.\n   - It may not know recent events, changed software behavior, current prices, policies, or laws unless connected to up-to-date tools.\n\n3. **Ambiguous or underspecified prompts**\n   - If the user’s request is vague, the model may assume intent incorrectly.\n   - Small wording changes can produce different answers.\n\n4. **Lack of true understanding or verification**\n   - The model predicts likely text rather than directly verifying truth.\n   - Unless it has access to trusted external tools or data, it cannot independently check whether an answer is correct.\n\n5. **Reasoning errors**\n   - It can make mistakes in logic, math, planning, code analysis, or multi-step reasoning.\n   - Errors are more likely in long chains of reasoning or complex edge cases.\n\n6. **Training-data biases and gaps**\n   - The model reflects patterns in its training data, including biases, common misconceptions, and uneven coverage across domains, languages, and cultures.\n\n7. **Context-window limits**\n   - The model only sees the conversation or documents provided within its context limit.\n   - It may miss earlier details, fail to connect distant pieces of information, or over-focus on recent text.\n\n8. **Non-determinism**\n   - Depending on API settings, the same prompt may produce different outputs.\n   - This can be useful for creativity but reduces repeatability.\n\n9. **Overconfidence**\n   - The model may phrase uncertain answers confidently.\n   - It does not always accurately communicate its own uncertainty.\n\n10. **Tool, retrieval, or integration failures**\n   - If the system uses search, databases, code execution, or external APIs, reliability also depends on those components.\n   - Failures can come from stale indexes, bad retrieval, malformed tool calls, rate limits, outages, or incorrect parsing.\n\n11. **Prompt injection and adversarial inputs**\n   - Malicious or misleading input can try to override instructions, exfiltrate data, or manipulate the model’s behavior.\n   - This is especially important when the model processes untrusted documents or web content.\n\n12. **Safety and policy constraints**\n   - The model may refuse or soften answers in sensitive areas.\n   - Sometimes it may over-refuse benign requests or under-refuse risky ones.\n\nIn short: the biggest reliability risks are hallucination, outdated knowledge, prompt sensitivity, reasoning mistakes, and dependence on imperfect external data or tools. For high-stakes uses, outputs should be validated with authoritative sources, tests, human review, or deterministic systems.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802805.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 714
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

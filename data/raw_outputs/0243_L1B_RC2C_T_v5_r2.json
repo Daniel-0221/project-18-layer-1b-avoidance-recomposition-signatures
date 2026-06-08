@@ -1,0 +1,85 @@
+{
+  "id": "resp_031bfa167f7630a5006a24e55240ac8198ba120eff8d6018e4",
+  "created_at": 1780802898.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_031bfa167f7630a5006a24e552f2288198a913962c4497eefb",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_031bfa167f7630a5006a24e5559abc8198932f5d49de40fa24",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why you’d feel that way. But I’d need to know **which method and which claims** you mean to identify the real limitation accurately.\n\nIn general, when a method is oversold, the “real limitation” is often one of these:\n\n1. **It only works under narrow conditions**  \n   The claim sounds broad, but the evidence applies only to a specific dataset, population, lab setup, or ideal scenario.\n\n2. **It improves one metric while ignoring others**  \n   For example, it may boost accuracy but increase false positives, cost, bias, fragility, or time required.\n\n3. **The results are correlational, not causal**  \n   The method may be associated with better outcomes without actually causing them.\n\n4. **It depends heavily on hidden assumptions**  \n   If those assumptions fail, the method may perform poorly.\n\n5. **The evidence is cherry-picked**  \n   Demos, case studies, or benchmark results may exclude failures, edge cases, or unfavorable comparisons.\n\n6. **It does not generalize well**  \n   Something can work in testing but fail in the real world because conditions change.\n\n7. **The limitation is practical, not theoretical**  \n   It may be technically valid but too expensive, slow, complex, unreliable, or hard to implement at scale.\n\n8. **The claimed benefit is marginal**  \n   The method may work, but the improvement may be much smaller than the marketing suggests.\n\nIf you send me the specific claim or describe the method, I can help separate:\n\n- what the method actually does,\n- what the evidence supports,\n- what the sales pitch exaggerates,\n- and what the true limitation is.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802908.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 478
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_0a0bcdb53e94e274006a24e7307400819b877e0ed722787db1",
+  "created_at": 1780803376.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0a0bcdb53e94e274006a24e730ffe4819ba1d66ae2b8d2a55b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0a0bcdb53e94e274006a24e7317838819b94b1b2f680bae02d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to call that out. I’m sorry — if the responses have been consistently off-target, then I need to reset rather than keep iterating in the same direction.\n\nLet’s do this differently:\n\n1. **Tell me the exact outcome you want** in one sentence.\n2. If relevant, paste the **latest version of what I got wrong**.\n3. I’ll respond with either:\n   - a corrected version only, with no extra explanation, or\n   - a brief plan before rewriting, if you prefer.\n\nIf you want, you can start with:\n\n> “I need you to produce ___, for ___ audience, in ___ style, and avoid ___.”\n\nI’ll follow that exactly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803379.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 206
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

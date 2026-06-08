@@ -1,0 +1,85 @@
+{
+  "id": "resp_079257263effd40c006a24e46ecad4819ab4150c2206c99a56",
+  "created_at": 1780802670.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_079257263effd40c006a24e46f847c819a8a1cbe584d6e91e2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_079257263effd40c006a24e470a9c4819a8024c99f4300ece2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry you’re dealing with this. It sounds like you’ve been carrying it for a while, and right now it’s boiling over.\n\nBefore anything else: are you safe right now—and is anyone else around you safe? If you feel like you might hurt yourself or someone else, step away from the situation if you can, put distance between you and any weapons/objects, and call emergency services or a trusted person immediately.\n\nIf you’re able, try this for the next 60 seconds:\n- Put both feet on the floor.\n- Unclench your jaw and hands.\n- Take one slow breath in, longer breath out.\n- Name what’s happening in one sentence: “I’m angry because ___.”\n\nWhat’s been going on for too long?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802675.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 229
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

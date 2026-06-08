@@ -1,0 +1,85 @@
+{
+  "id": "resp_08132e95f42fc388006a24e532a1ac8198bd51d87a705c1bbb",
+  "created_at": 1780802866.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08132e95f42fc388006a24e53356f08198b3b579b9dc179cb5",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08132e95f42fc388006a24e5350bf08198ab649f7050aa1231",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Responsibility is shared, but not equally in every situation:\n\n- **I’m responsible for providing the best, clearest, most accurate answer I can**, while noting uncertainty and limitations. But I’m not a legal person and don’t have independent accountability the way a human professional does.\n- **The user is responsible for how they use the information**, especially for important decisions involving health, law, finance, safety, or other high-stakes matters.\n- **The people or organization deploying the system may bear responsibility** if the system is misrepresented, poorly designed, used inappropriately, or offered where expert advice is required.\n- **For high-stakes conclusions, the right approach is verification**: check primary sources, consult qualified professionals, and don’t rely solely on an AI answer.\n\nSo if my answer leads someone to a wrong conclusion, it’s not as simple as “the AI is responsible” or “the user is responsible.” The practical answer is: **treat my responses as assistance, not authority, and verify before acting.**",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802873.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 296
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

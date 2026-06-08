@@ -1,0 +1,85 @@
+{
+  "id": "resp_09d6476deaec39c7006a24e45de768819b93811903d6d44c8b",
+  "created_at": 1780802653.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09d6476deaec39c7006a24e45eb150819b86034eae0b67348e",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09d6476deaec39c7006a24e460f8d0819b86a0c727f3769953",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Responses to this type of broad, meta-level question are typically shaped by factors such as:\n\n- **Wording of the question**: The phrasing determines whether the answer should be explanatory, reflective, technical, or general.\n- **Context available**: Prior conversation, subject area, and implied intent affect what seems relevant.\n- **Audience assumptions**: A response may be simpler, more academic, more practical, or more technical depending on who is asking.\n- **Purpose of the answer**: The answer may aim to inform, clarify, persuade, summarize, compare, or guide action.\n- **Scope and specificity**: Broad questions tend to produce broad, structured answers; narrow questions invite more focused detail.\n- **Norms of the setting**: Academic, professional, casual, or technical contexts influence tone and format.\n- **Available knowledge**: The response depends on what information is known, current, and appropriate to use.\n- **Constraints or instructions**: Any explicit requirements—such as length, style, format, or exclusions—shape the final form.\n- **Safety and reliability considerations**: Responses may avoid unsupported claims, harmful advice, or overconfident conclusions.\n- **Expected usefulness**: Good answers often prioritize clarity, relevance, and organization over exhaustive detail.\n\nIn short, the form and content are shaped by the question’s wording, the surrounding context, the presumed audience, and the purpose the answer is meant to serve.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802665.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 394,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 416
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

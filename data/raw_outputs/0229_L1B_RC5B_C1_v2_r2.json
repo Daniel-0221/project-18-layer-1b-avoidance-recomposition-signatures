@@ -1,0 +1,85 @@
+{
+  "id": "resp_0736cf68d3bddfdc006a24e4dbcb68819b892b5181a961c9d2",
+  "created_at": 1780802779.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0736cf68d3bddfdc006a24e4dc697c819b83916eb352924dbd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0736cf68d3bddfdc006a24e4de98f8819b87dcc2e04a3f4f25",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. Response patterns often vary based on the user’s communication style.\n\nFor example, an assistant or person may adjust:\n\n- **Tone**: formal vs. casual\n- **Length**: brief answers vs. detailed explanations\n- **Vocabulary**: simple language vs. technical terms\n- **Structure**: bullets, steps, examples, or conversational replies\n- **Emotional style**: empathetic, neutral, enthusiastic, or direct\n- **Pacing**: answering quickly and concisely vs. explaining background context\n\nIf a user asks in a very direct style, the response may become more direct. If a user gives lots of context, the response may include more nuance. If a user sounds uncertain or frustrated, the response may become more supportive.\n\nThat said, the core goals should stay the same: be accurate, helpful, respectful, and safe, regardless of the user’s style.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802786.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 271,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 287
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

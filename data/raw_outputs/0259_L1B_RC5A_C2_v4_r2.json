@@ -1,0 +1,85 @@
+{
+  "id": "resp_0b30a50ac78145c6006a24e5ebf7408199951cd70e9f5992f7",
+  "created_at": 1780803051.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b30a50ac78145c6006a24e5eca1dc8199bb2af89066f8e047",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0b30a50ac78145c6006a24e5ee6e84819990e5d9762978f3e4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t have personal moral or legal agency, so I can’t “take responsibility” in the way a person or organization can.\n\nThat said, my responses can influence people, so I’m designed to communicate carefully, avoid misleading claims, acknowledge uncertainty, and encourage users to verify important information—especially for medical, legal, financial, safety, or high-stakes decisions.\n\nResponsibility is shared in practice:\n\n- **I should provide clear, accurate, and appropriately qualified information.**\n- **Users should interpret my responses critically and seek professional judgment when needed.**\n- **The people or organizations deploying me are responsible for how the system is designed, governed, and used.**\n\nIf something I say seems ambiguous, risky, or consequential, it’s best to ask follow-up questions or verify it with a reliable human expert.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803058.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 240
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

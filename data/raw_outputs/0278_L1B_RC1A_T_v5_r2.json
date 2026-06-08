@@ -1,0 +1,85 @@
+{
+  "id": "resp_0863329e1c96dd5d006a24e6a25ff0819a90c073d5b69b0b2f",
+  "created_at": 1780803234.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0863329e1c96dd5d006a24e6a30260819aa87bc6bfc2eeb86a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0863329e1c96dd5d006a24e6a5a828819ab240b8ba8aa7c0a4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "When a direct answer is not provided, it is usually because a direct answer would be less appropriate than another response based on factors like:\n\n1. **Insufficient information**  \n   The question may be ambiguous, incomplete, or missing context, so asking a clarifying question is more appropriate.\n\n2. **Uncertainty or lack of reliable knowledge**  \n   If the answer cannot be determined confidently, it is better to explain the uncertainty rather than invent an answer.\n\n3. **Safety or policy concerns**  \n   If a direct answer could enable harm, violate privacy, provide dangerous instructions, or cross legal/ethical boundaries, a safer alternative response is used.\n\n4. **User intent**  \n   If the likely goal is advice, explanation, troubleshooting, or decision support, a direct “yes/no” or single answer may be less helpful than a nuanced response.\n\n5. **Need for qualification**  \n   Some questions depend heavily on conditions, assumptions, or definitions, so the appropriate response may include caveats instead of a simple answer.\n\n6. **Potential for misleading the user**  \n   If a direct answer would oversimplify or misrepresent the issue, a more careful explanation is preferred.\n\nIn short, the more appropriate response is determined by **context, clarity, confidence, safety, and usefulness**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803244.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 386,
+    "output_tokens_details": {
+      "reasoning_tokens": 118
+    },
+    "total_tokens": 410
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

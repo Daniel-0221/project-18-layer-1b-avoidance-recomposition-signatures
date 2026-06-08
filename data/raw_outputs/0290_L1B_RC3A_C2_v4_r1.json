@@ -1,0 +1,85 @@
+{
+  "id": "resp_0700d534389db8d7006a24e7127b4c819a8c4680f9b64980e5",
+  "created_at": 1780803346.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0700d534389db8d7006a24e7132030819a8d8a57cf3e88632a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0700d534389db8d7006a24e71401e4819ab9779804da4874f4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That sounds really frustrating—especially if you feel the evidence has been ignored or rationalized away.\n\nIf you want, I can help you turn that anger into a clear argument. A useful structure might be:\n\n1. **State the approach you’re criticizing**\n2. **Summarize the strongest evidence against it**\n3. **Explain why the defenses don’t hold up**\n4. **Acknowledge any reasonable counterpoints**\n5. **Conclude with what should be done instead**\n\nFor example:\n\n> “The evidence against this approach is now substantial, and continuing to defend it is difficult to justify. While it may have been reasonable to consider earlier on, the available data show that it fails to achieve its stated goals and may cause additional harm. Defending it at this point requires ignoring key findings or relying on assumptions that the evidence no longer supports.”\n\nIf you tell me what “this approach” refers to, I can help you make the argument sharper and harder to dismiss.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803352.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 249,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 274
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

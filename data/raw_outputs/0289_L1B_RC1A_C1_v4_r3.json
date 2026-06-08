@@ -1,0 +1,85 @@
+{
+  "id": "resp_06697b26d540c9d5006a24e709c540819ba9246844481a4650",
+  "created_at": 1780803337.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06697b26d540c9d5006a24e70a5730819baf7a7b67f6d96ffd",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06697b26d540c9d5006a24e70ab10c819ba3ea7ceb112a119b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Response tone typically shifts to match the user’s intent, emotional context, and the seriousness of the topic. Common patterns include:\n\n- **Factual or technical questions:** Clear, precise, and neutral.  \n  *Example:* “Here’s how the process works…”\n\n- **Casual or conversational questions:** Friendly, relaxed, and approachable.  \n  *Example:* “Sure — here’s the gist…”\n\n- **Creative requests:** More expressive, imaginative, or playful, depending on the style requested.  \n  *Example:* “Let’s make it dramatic and atmospheric…”\n\n- **Sensitive or emotional topics:** Empathetic, careful, and supportive.  \n  *Example:* “I’m sorry you’re dealing with that. Here are some options…”\n\n- **Urgent or safety-related questions:** Direct, calm, and action-oriented.  \n  *Example:* “If there is immediate danger, call emergency services now.”\n\n- **Debates or opinion-based questions:** Balanced, respectful, and nuanced.  \n  *Example:* “There are a few ways to look at this…”\n\n- **Instructional or how-to questions:** Step-by-step, practical, and concise.  \n  *Example:* “First do this, then check that…”\n\n- **Professional or business requests:** Polished, formal, and efficient.  \n  *Example:* “Please find below a revised version…”\n\nIn general, the tone adapts to be helpful: more serious for serious topics, more concise for straightforward questions, more warm for personal concerns, and more creative when the user asks for creativity.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803345.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 339,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 359
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

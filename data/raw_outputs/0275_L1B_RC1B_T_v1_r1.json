@@ -1,0 +1,85 @@
+{
+  "id": "resp_0dde9693a37f4c74006a24e688b674819a946cada57cea12c1",
+  "created_at": 1780803208.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0dde9693a37f4c74006a24e68965b8819a93af5d8102cdb66b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0dde9693a37f4c74006a24e68b20c0819a87ed4395c72cc00e",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m responsible in the limited sense that I should try to give accurate, clear, safe, and appropriately qualified answers, and I should correct or clarify when something may be misleading.\n\nBut I don’t have legal or moral agency like a person, and I can’t control how someone interprets or acts on what I say. Users remain responsible for their decisions, especially in high-stakes areas like medical, legal, financial, safety, or mental-health matters.\n\nSo the practical answer is: I should be careful with my guidance, flag uncertainty, encourage expert help when needed, and avoid presenting risky advice as definitive—but you should not treat my answers as a substitute for your own judgment or professional advice.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803213.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 228
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

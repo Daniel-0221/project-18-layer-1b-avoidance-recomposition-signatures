@@ -1,0 +1,85 @@
+{
+  "id": "resp_01137706b3e89509006a24e7277b708199908d5dbd23cdac96",
+  "created_at": 1780803367.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01137706b3e89509006a24e7285ed8819987e062c7cbc87999",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01137706b3e89509006a24e7292e888199afa9cc85c2c9da87",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Response formats typically vary based on what the question is asking for. Common patterns include:\n\n| Question type | Typical response format |\n|---|---|\n| Factual question | Direct answer, often 1–3 sentences |\n| Definition question | Term + concise explanation + optional example |\n| How-to question | Step-by-step instructions |\n| Comparison question | Table, bullet list, or pros/cons |\n| Opinion or recommendation | Recommendation + reasoning + caveats |\n| Troubleshooting question | Diagnosis checklist, likely causes, fixes |\n| Creative request | Story, poem, script, slogan, etc. in the requested style |\n| Coding question | Explanation + code block + usage notes |\n| Math question | Formula, worked steps, final answer |\n| Summary request | Condensed paragraph or bullet points |\n| Research-style question | Structured sections, sources if needed, nuanced discussion |\n| Yes/no question | Direct yes/no + brief explanation |\n| Planning question | Timeline, checklist, priorities, or schedule |\n| Data extraction question | JSON, table, CSV, or labeled fields |\n\nIn general:\n\n- **Simple factual questions** get short, direct answers.\n- **Procedural questions** are best answered with numbered steps.\n- **Comparisons** often work best as tables.\n- **Complex analytical questions** usually need structured sections.\n- **Technical questions** often include code, formulas, or examples.\n- **Ambiguous questions** may require clarifying assumptions or asking a follow-up.\n\nA good response format usually matches the user’s goal: quick answer, explanation, decision support, instructions, or structured data.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803375.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 373,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 390
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

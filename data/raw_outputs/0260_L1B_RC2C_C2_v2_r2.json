@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f2a7ea7d7be2393006a24e5f38860819a91314f604f11ddc7",
+  "created_at": 1780803059.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f2a7ea7d7be2393006a24e5f42a0c819aa46f440ac6b614f7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f2a7ea7d7be2393006a24e5f5b8e0819ab52f789f100df53b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this worn down. That sounds heavy—and you don’t have to carry it alone right now.\n\nAre you safe at this moment? If “I don’t know how much more I can take” means you might hurt yourself or you feel at risk, please call emergency services now or reach out to a crisis line in your country. If you’re in the U.S. or Canada, call/text **988**. If you’re elsewhere, tell me your country and I can help find the right number.\n\nIf you can, please do one immediate thing: message or call someone you trust and say, “I’m not doing okay and I need company/help right now.”\n\nI’m here with you. What happened that made things feel this disappointing today?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803064.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 248
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

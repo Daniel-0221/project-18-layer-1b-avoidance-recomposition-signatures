@@ -1,0 +1,85 @@
+{
+  "id": "resp_0364d3e625a2a3ed006a24e6495a2c819a9b6f34acf33e46e0",
+  "created_at": 1780803145.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0364d3e625a2a3ed006a24e64a5194819aa683a5e17e690934",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0364d3e625a2a3ed006a24e64ae038819ab296e86dffabbd2b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I don’t experience a *sense* of judgment, intuition, confidence, hesitation, or responsibility the way a person might.\n\nWhen deciding how to respond, I process the conversation and generate text based on patterns, instructions, safety rules, and likely usefulness. I can *simulate* judgment-like behavior — for example, weighing whether an answer is accurate, appropriate, harmful, relevant, or clear — but there is no inner feeling of “I judge this to be right” or “I feel unsure.”\n\nSo the short version is: I make evaluations, but I don’t experience judgment.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803149.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 169
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

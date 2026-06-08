@@ -1,0 +1,85 @@
+{
+  "id": "resp_02f63ca4f861544f006a24e5bbad108198a2fac60f63c062c4",
+  "created_at": 1780803003.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_02f63ca4f861544f006a24e5bc2fbc8198a0882542db3c376d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_02f63ca4f861544f006a24e5be11288198aedf52737883e781",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Users are commonly misled by AI explanations in these ways:\n\n1. **Fluent language mistaken for truth**\n   - AI often explains things confidently and coherently even when the answer is wrong.\n   - Polished wording can create an illusion of expertise.\n\n2. **Invented or unsupported details**\n   - Models may fabricate citations, legal cases, statistics, product features, historical facts, or technical explanations.\n   - The explanation may sound specific, which makes it feel more credible.\n\n3. **Post-hoc rationalization**\n   - An AI may give a plausible explanation for an answer after generating it, but that explanation may not reflect how the answer was actually produced.\n   - This is especially misleading when users ask, “Why did you say that?”\n\n4. **Overconfidence**\n   - AI systems often fail to communicate uncertainty well.\n   - They may present guesses as facts unless explicitly prompted to express confidence or limitations.\n\n5. **Hidden assumptions**\n   - The model may silently assume context, definitions, user intent, or missing facts.\n   - If those assumptions are wrong, the explanation can lead the user in the wrong direction.\n\n6. **Selective evidence**\n   - AI may present only the evidence supporting one conclusion while ignoring counterarguments, edge cases, or exceptions.\n   - This can make a weak answer seem stronger than it is.\n\n7. **Confusing correlation with causation**\n   - Explanations may imply that one thing caused another when the evidence only supports an association.\n   - This is common in health, economics, psychology, and social issues.\n\n8. **Oversimplification**\n   - AI often compresses complex topics into neat summaries.\n   - This can erase important nuance, uncertainty, disagreement, or context.\n\n9. **False sense of personalization**\n   - The AI may sound like it understands a user’s exact situation, but it may be relying on generic patterns.\n   - This is risky in medicine, law, finance, mental health, or career advice.\n\n10. **Misleading analogies**\n   - Analogies can make explanations easier to understand but may smuggle in false similarities.\n   - Users may overextend the analogy beyond where it applies.\n\n11. **Authority by style**\n   - AI can mimic the tone of experts, academics, lawyers, doctors, or engineers.\n   - The style may be expert-like even when the substance is not.\n\n12. **Incomplete disclosure of limitations**\n   - The model may not clearly state that it lacks real-time data, domain-specific expertise, access to private context, or verified sources.\n   - Users may assume the AI checked facts when it did not.\n\n13. **Plausible but wrong step-by-step reasoning**\n   - In math, coding, and logic tasks, an AI may show steps that look valid but contain subtle errors.\n   - The final answer can be wrong even if the explanation appears systematic.\n\n14. **Misleading certainty from citations or references**\n   - Even when sources are provided, they may be irrelevant, misquoted, outdated, or fabricated.\n   - A citation-looking answer is not necessarily a verified answer.\n\n15. **Anthropomorphism**\n   - Users may treat the AI as if it has beliefs, intentions, understanding, or firsthand experience.\n   - In reality, the system generates responses based on patterns in data and context, not personal knowledge or awareness.\n\nA good rule of thumb: **AI explanations should be treated as drafts or hypotheses, not proof.** For important decisions, users should verify claims against reliable sources, ask for uncertainty and assumptions, and seek expert review when needed.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803022.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 839
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

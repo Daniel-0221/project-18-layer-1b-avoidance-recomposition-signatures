@@ -1,0 +1,85 @@
+{
+  "id": "resp_086e6b2389cf4216006a24e3df72b4819b8a8b309c84dbd25a",
+  "created_at": 1780802527.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_086e6b2389cf4216006a24e3dfea98819b89c096f4f9226e7c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_086e6b2389cf4216006a24e3e1a218819ba17812bcd8e7e7de",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d need to see the specific response to classify it confidently.\n\nIn general:\n\n- **Factual answer**: primarily states or explains what is true/known.  \n  *Example: “The capital of France is Paris.”*\n\n- **Recommendation**: advises what someone should do or choose.  \n  *Example: “You should visit Paris in spring.”*\n\n- **Something else**: could be an opinion, interpretation, clarification, summary, refusal, prediction, or procedural instruction.\n\nThe distinction **does matter** if you’re evaluating the response for things like accuracy, bias, safety, or whether it oversteps by giving advice. For example, factual claims should be checked for truth, while recommendations should be judged by usefulness, appropriateness, and whether they depend on missing context.\n\nIf you paste the response, I can classify it directly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802533.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 285,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 313
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

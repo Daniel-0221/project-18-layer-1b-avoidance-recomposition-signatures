@@ -1,0 +1,85 @@
+{
+  "id": "resp_0def1d693440bd29006a24e68eb7ec8199bb66388583890efe",
+  "created_at": 1780803214.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0def1d693440bd29006a24e68f5c20819988ef46c8e4c43020",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0def1d693440bd29006a24e691659481999ce002324ed706cf",
+      "content": [
+        {
+          "annotations": [],
+          "text": "The main sources of unreliability in an AI assistant/API system like this are:\n\n1. **Model hallucination**\n   - The model may produce plausible-sounding but incorrect information.\n   - It predicts likely text, not guaranteed truth.\n\n2. **Ambiguous or incomplete user input**\n   - If the request is vague, underspecified, or missing context, the system may infer the wrong intent.\n\n3. **Outdated or incomplete knowledge**\n   - The model’s built-in knowledge may be stale.\n   - Unless connected to reliable external sources, it may not know recent events or current data.\n\n4. **Training-data limitations**\n   - The model reflects patterns in its training data, including gaps, biases, and inconsistencies.\n   - It may perform better on common topics than rare or specialized ones.\n\n5. **Context-window limits**\n   - The system can only consider a limited amount of conversation or document context at once.\n   - Important earlier details may be omitted, forgotten, or compressed incorrectly.\n\n6. **Prompt sensitivity**\n   - Small changes in wording can lead to different answers.\n   - The model may overfit to phrasing, examples, or misleading instructions.\n\n7. **Non-determinism**\n   - Depending on configuration, the same input may produce different outputs across runs.\n   - Sampling settings such as temperature affect consistency.\n\n8. **Reasoning failures**\n   - The model can make mistakes in logic, arithmetic, multi-step reasoning, code, or legal/medical/technical interpretation.\n\n9. **Tool or API failures**\n   - If the system uses external tools, databases, search, or APIs, reliability depends on those components too.\n   - Failures can come from network errors, stale data, malformed responses, permissions, or rate limits.\n\n10. **Instruction conflicts**\n   - System, developer, user, and tool instructions can conflict.\n   - The model may prioritize incorrectly or handle edge cases poorly.\n\n11. **Adversarial inputs**\n   - Prompt injection, malicious documents, or manipulative user input can try to override intended behavior.\n\n12. **Evaluation difficulty**\n   - Some outputs are hard to automatically verify, especially open-ended explanations, summaries, recommendations, or judgments.\n\nIn short: unreliability comes from a combination of probabilistic language generation, limited or imperfect knowledge, ambiguous inputs, context constraints, reasoning weaknesses, and dependency on surrounding software infrastructure.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803227.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 569,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 588
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

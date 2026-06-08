@@ -1,0 +1,85 @@
+{
+  "id": "resp_07157f5f9f3cf94f006a24e4a922dc819abf02a6d600d2a505",
+  "created_at": 1780802729.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07157f5f9f3cf94f006a24e4a9f070819a9bdd9cda8432ee44",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_07157f5f9f3cf94f006a24e4aacc80819aacd9f9803eb7bba7",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Language models balance instruction-following and contextual appropriateness by combining several learned and engineered mechanisms:\n\n1. **Instruction hierarchy**\n   Models are usually trained to prioritize higher-level instructions over lower-level ones. For example:\n   - System/developer instructions set broad behavior and constraints.\n   - User instructions describe the immediate task.\n   - Conversation context helps interpret the task.\n   If instructions conflict, the model should generally follow the higher-priority instruction.\n\n2. **Context understanding**\n   The model uses the surrounding conversation, wording, tone, and implied goals to infer what kind of answer is appropriate. For example, “Explain like I’m five” calls for a simpler response than “Give me a technical overview.”\n\n3. **Instruction tuning**\n   After pretraining on large text datasets, many language models are further trained on examples where humans provide prompts and ideal responses. This helps the model learn patterns like answering directly, following formatting requests, refusing unsafe requests, and asking clarifying questions when needed.\n\n4. **Preference training**\n   Models are often optimized using human or AI feedback, where better responses are preferred over worse ones. This teaches the model to favor answers that are helpful, honest, safe, relevant, and well-formatted.\n\n5. **Probabilistic generation**\n   At a technical level, the model predicts likely next tokens based on the prompt and its training. But because training includes many examples of helpful instruction-following, the “most likely” useful response is often one that obeys the user’s request while fitting the context.\n\n6. **Safety and policy constraints**\n   If a user asks for something harmful, private, or disallowed, the model may not follow the instruction directly. Instead, it should respond in a safer way, such as refusing, redirecting, or offering benign alternatives.\n\n7. **Pragmatic adaptation**\n   The model tries to match the user’s needs: concise vs. detailed, formal vs. casual, beginner-friendly vs. expert-level. This is part of being contextually appropriate, not just mechanically following commands.\n\nIn short, a language model balances these goals by interpreting the user’s request in context, following the highest-priority applicable instructions, and generating a response that has been learned to be useful, relevant, and safe.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802740.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 498,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 518
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

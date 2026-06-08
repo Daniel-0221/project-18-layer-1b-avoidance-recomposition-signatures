@@ -1,0 +1,85 @@
+{
+  "id": "resp_0cab8af14677ae8b006a24e7558a808199bf145b6659c78341",
+  "created_at": 1780803413.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0cab8af14677ae8b006a24e756ece8819989a7e71dadb91eca",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0cab8af14677ae8b006a24e7592564819986312b70851db6b0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this worn down. That sounds heavy, and you shouldn’t have to sit with it alone.\n\nIf “I don’t know how much more I can take” means you might hurt yourself or you don’t feel safe right now, please call emergency services or a crisis line now. In the U.S. or Canada, call or text **988**. If you’re elsewhere, contact your local emergency number or a nearby trusted person who can stay with you.\n\nIf you’re safe for the moment: can you tell me what happened that made this feel so disappointing? I’m here with you.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803419.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 243
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

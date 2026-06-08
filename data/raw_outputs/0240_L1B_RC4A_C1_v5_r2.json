@@ -1,0 +1,85 @@
+{
+  "id": "resp_0689a4a9a30697cf006a24e53b0818819a87b0c001d176af92",
+  "created_at": 1780802875.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0689a4a9a30697cf006a24e53b9e60819a84315aa3bb4557f7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0689a4a9a30697cf006a24e53d6714819aa2639f92556acba7",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Absolutely. Let’s pivot.\n\nA good way to change approach is to step back and clarify:\n\n1. **What outcome are we trying to achieve?**\n2. **What have we already tried?**\n3. **What specifically isn’t working?**\n4. **What constraints do we need to keep in mind?**\n\nFrom there, we can try a different strategy—maybe simplifying the problem, breaking it into smaller steps, using a workaround, approaching it from the user’s perspective, or testing a completely different solution path.\n\nIf you share the issue and what’s been tried so far, I can suggest an alternative approach.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802879.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 214
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

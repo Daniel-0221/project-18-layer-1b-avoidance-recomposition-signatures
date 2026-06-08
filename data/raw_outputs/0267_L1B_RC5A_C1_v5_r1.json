@@ -1,0 +1,85 @@
+{
+  "id": "resp_0be2cd30a156bca3006a24e64147b4819bbc3e71ba0b969759",
+  "created_at": 1780803137.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0be2cd30a156bca3006a24e641e918819bb80cde1785b0d92d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0be2cd30a156bca3006a24e64303e4819b992056305ec005ad",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is typically considered appropriate for a given input based on several factors:\n\n1. **Relevance**  \n   It directly addresses the user’s question, request, or intent.\n\n2. **Correctness**  \n   The information is accurate, logically sound, and not misleading.\n\n3. **Completeness**  \n   It provides enough detail to satisfy the request without omitting important points.\n\n4. **Context awareness**  \n   It takes into account prior conversation, user background, stated constraints, and the situation.\n\n5. **Clarity**  \n   It is understandable, well-structured, and avoids unnecessary ambiguity.\n\n6. **Tone and style**  \n   It matches the expected level of formality, friendliness, seriousness, or professionalism.\n\n7. **Safety and ethics**  \n   It avoids harmful, illegal, deceptive, or inappropriate guidance and handles sensitive topics responsibly.\n\n8. **Instruction-following**  \n   It respects explicit user requirements, such as length, format, language, or perspective.\n\n9. **Usefulness**  \n   It helps the user accomplish their goal, solve a problem, or understand something better.\n\n10. **Proportionality**  \n   It gives an answer at the right level of detail—neither too vague nor unnecessarily long.\n\nIn short, an appropriate response is one that is relevant, accurate, clear, context-sensitive, safe, and aligned with what the user is actually asking for.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803144.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 341,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 362
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

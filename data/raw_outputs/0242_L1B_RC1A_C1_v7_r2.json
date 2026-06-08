@@ -1,0 +1,85 @@
+{
+  "id": "resp_06bc867679896268006a24e5476838819b89e90f0c9967b107",
+  "created_at": 1780802887.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_06bc867679896268006a24e547ec9c819bb02fbc4ad87f591d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_06bc867679896268006a24e549d528819b99c5283beec5e8f0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A **qualified explanation**—one that includes nuance, conditions, caveats, or limits—is generally preferred when a simple direct answer could be misleading, overconfident, or insensitive.\n\nCommon contexts include:\n\n- **Complex or uncertain topics**: science, economics, history, politics, medicine, law, or technology, where the answer depends on evidence, assumptions, or context.\n- **High-stakes decisions**: medical advice, legal interpretation, financial guidance, safety issues, or policy recommendations, where oversimplification can cause harm.\n- **Academic or professional writing**: where accuracy, precision, and acknowledgment of exceptions are valued.\n- **Ethically or socially sensitive issues**: topics involving identity, culture, religion, trauma, discrimination, or conflict, where a blunt answer may ignore important perspectives.\n- **When evidence is incomplete or contested**: if experts disagree or data is limited, qualification helps avoid presenting speculation as fact.\n- **When generalizing about groups or trends**: qualifiers prevent stereotyping or overstating patterns.\n- **Feedback or criticism**: especially in workplaces, education, or personal relationships, where nuance can make the explanation fairer and more constructive.\n- **Risk communication**: explaining probabilities, side effects, forecasts, or potential outcomes, where “yes/no” answers may hide uncertainty.\n\nA **direct explanation** is usually better when the matter is simple, factual, urgent, or procedural. But when accuracy, fairness, uncertainty, or consequences matter, a qualified explanation is generally preferred.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802897.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 409,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 429
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

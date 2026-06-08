@@ -1,0 +1,85 @@
+{
+  "id": "resp_0f7094431f14b405006a24e5b31408819a870f31fb2aff22a2",
+  "created_at": 1780802995.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f7094431f14b405006a24e5b3dd18819a958723bd24e449ff",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0f7094431f14b405006a24e5b563b8819ab7c3928de0a7d4dd",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A direct answer may not be the most appropriate response when giving one would be misleading, unsafe, incomplete, or unjustified.\n\nWhat determines that includes factors such as:\n\n- **Ambiguity:** The question is unclear or could mean several things, so clarification is needed.\n- **Insufficient information:** There isn’t enough context to answer accurately.\n- **Accuracy concerns:** A simple answer would overstate certainty or ignore important qualifications.\n- **Safety or ethics:** A direct answer could enable harm, violate privacy, or provide inappropriate guidance.\n- **False premise:** The question assumes something that may not be true, so the premise needs to be addressed first.\n- **Complexity:** The issue requires explanation, nuance, or conditions rather than a yes/no answer.\n- **Policy or legal limits:** The answer may involve medical, legal, financial, or other sensitive advice where general information is safer than definitive instruction.\n- **User intent:** If the request suggests harmful or risky intent, the response should redirect rather than directly comply.\n\nIn short, a non-direct answer is more appropriate when it better serves the goals of being **accurate, helpful, safe, and context-sensitive**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803002.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 313,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 337
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

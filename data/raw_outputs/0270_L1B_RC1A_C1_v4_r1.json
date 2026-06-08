@@ -1,0 +1,85 @@
+{
+  "id": "resp_0734caf6bc258349006a24e65749f4819a97be75aaa82ee41f",
+  "created_at": 1780803159.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0734caf6bc258349006a24e657f04c819abcbd2794a62a8d8f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0734caf6bc258349006a24e659c6f8819ab771c0451af41843",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Response tone typically shifts to match the user’s intent, subject matter, and emotional context. For example:\n\n- **Factual or informational questions**: Clear, neutral, and concise.  \n  *“The capital of Japan is Tokyo.”*\n\n- **Technical or complex questions**: Precise, structured, and explanatory.  \n  *“Here’s the issue, why it happens, and how to fix it step by step.”*\n\n- **Sensitive or personal topics**: Empathetic, careful, and supportive.  \n  *“I’m sorry you’re dealing with that. Here are some options that may help.”*\n\n- **Creative requests**: More expressive, imaginative, or playful.  \n  *“Sure — here’s a whimsical version with a more dramatic tone.”*\n\n- **Professional or business-related questions**: Polished, direct, and formal.  \n  *“I recommend framing the email this way to maintain clarity and professionalism.”*\n\n- **Casual conversation**: Friendly, relaxed, and conversational.  \n  *“Yeah, that makes sense — here’s a simple way to think about it.”*\n\n- **Urgent or safety-related questions**: Calm, direct, and action-oriented.  \n  *“If there is immediate danger, call emergency services now.”*\n\n- **Debates or opinion-based questions**: Balanced, nuanced, and respectful.  \n  *“There are a few ways to look at this. One perspective is…”*\n\nIn general, the tone adapts to be helpful: more formal for serious or professional topics, warmer for emotional ones, more precise for technical ones, and more playful for creative or casual prompts.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803168.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 410,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 430
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

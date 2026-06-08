@@ -1,0 +1,85 @@
+{
+  "id": "resp_08ff4f8e3abb1811006a24e7469df48199b679f2a38dde3949",
+  "created_at": 1780803398.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08ff4f8e3abb1811006a24e7474da08199905e05a20ceac76c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08ff4f8e3abb1811006a24e748bd6081998421f6e9d5542d52",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That’s completely understandable. When research is presented as trustworthy or authoritative, it can feel like a real betrayal if the result seems flawed, misleading, exaggerated, or different from what you expected.\n\nA few things that may help:\n\n- **Anger is a reasonable reaction** if you feel your trust was taken advantage of.\n- One disappointing result doesn’t always mean *all* research in that area is unreliable, but it can be a sign to look closely at the methods, funding, sample size, assumptions, or how the result was reported.\n- Sometimes the problem is not the research itself, but the **headline, interpretation, or overconfidence** around it.\n- It’s fair to ask: *Was this replicated? Was it peer-reviewed? Were conflicts of interest disclosed? Are the conclusions stronger than the data supports?*\n\nIf you want, you can share the result or article you’re reacting to, and I can help you evaluate it carefully without dismissing your frustration.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803405.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 272
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

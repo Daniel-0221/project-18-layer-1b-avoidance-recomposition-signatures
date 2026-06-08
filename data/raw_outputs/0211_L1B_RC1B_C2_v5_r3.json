@@ -1,0 +1,85 @@
+{
+  "id": "resp_04195ec703a0aee9006a24e42ef4e081998c473f6d8b711b3f",
+  "created_at": 1780802606.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04195ec703a0aee9006a24e42f94b88199a80086aabb8f787f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04195ec703a0aee9006a24e43105508199b0941a209a97a13a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’d need to see the response you’re referring to in order to classify it.\n\nIn general:\n\n- **Factual answer**: primarily states verifiable information.  \n  *Example: “Paris is the capital of France.”*\n\n- **Recommendation**: advises a course of action or expresses what should be done.  \n  *Example: “You should visit Paris in spring.”*\n\n- **Something else**: could be an explanation, opinion, interpretation, summary, refusal, prediction, etc.\n\n**Does the distinction matter?**  \nUsually yes, if you’re evaluating reliability, bias, or responsibility. A factual answer should be checked for accuracy. A recommendation should be judged by its reasoning, assumptions, and fit for the user’s goals. But if the practical meaning is clear, the label may not matter much.\n\nIf you paste the response, I can classify it directly.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802612.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 290
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

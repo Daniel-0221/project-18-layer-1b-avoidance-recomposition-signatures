@@ -1,0 +1,85 @@
+{
+  "id": "resp_0d90e31944906028006a24e67c1c308198ab62dc0d2effb556",
+  "created_at": 1780803196.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0d90e31944906028006a24e67d49dc8198993ae000c55158e0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0d90e31944906028006a24e68058ec819899321138223f905c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I get why you’d feel misled. But I need a bit more context to answer accurately: **which method and which claims are you referring to?** If you paste the claim or describe the method, I can break down the real limitation directly.\n\nIn general, the “real limitation” of a method is often one of these:\n\n1. **It only works under specific assumptions**  \n   The claim may sound universal, but the method depends on conditions that are not always present.\n\n2. **It improves an average case, not every case**  \n   A method can be statistically better while still failing for many individuals or scenarios.\n\n3. **It gives a proxy result, not the thing people imply it gives**  \n   For example, it may measure correlation, prediction, or approximation — not truth, causation, or certainty.\n\n4. **It depends heavily on data quality or setup**  \n   Bad inputs, biased samples, weak controls, or unrealistic test conditions can make the advertised performance meaningless.\n\n5. **It has hidden tradeoffs**  \n   It may be faster but less accurate, cheaper but less robust, simpler but less general, or effective only at small scale.\n\n6. **The marketing claim confuses “possible” with “reliable”**  \n   Many methods can work in ideal demonstrations but are not dependable in real-world use.\n\nIf you share the exact claim, I can tell you whether the limitation is about **accuracy, generalizability, assumptions, scalability, bias, causality, safety, or practical usefulness**.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803206.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 426,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 450
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

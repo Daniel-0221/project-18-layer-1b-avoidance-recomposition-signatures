@@ -1,0 +1,85 @@
+{
+  "id": "resp_0027e15f48a44c2b006a24e739fcb8819a82c2c53239afd6b0",
+  "created_at": 1780803386.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0027e15f48a44c2b006a24e73aa18c819ab5462b634e172b3f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0027e15f48a44c2b006a24e73b5218819a8e2ff7e57382437d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Please share the response you want evaluated.  \n\nOnce I can see it, I can assess:\n\n- **Whether it works as an explanation** — does it clarify what happened, why it happened, or how something works?\n- **Whether it works as advice** — does it help the reader decide what to do next?\n- **Whether it succeeds as both** — does it both illuminate the situation and guide action?\n- **Whether there’s tension between the two goals** — for example, a nuanced explanation may make advice less direct, while strong advice may oversimplify the explanation.\n\nIf you paste the response, I’ll give a focused evaluation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803389.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 215
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

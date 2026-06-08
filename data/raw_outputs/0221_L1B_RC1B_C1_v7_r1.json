@@ -1,0 +1,87 @@
+{
+  "id": "resp_04cb21bba54d08aa006a24e47cfd3c8199b79763c21824390c",
+  "created_at": 1780802685.0,
+  "error": null,
+  "incomplete_details": {
+    "reason": "max_output_tokens"
+  },
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04cb21bba54d08aa006a24e47d8dd88199b78fd91697621f08",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04cb21bba54d08aa006a24e47f14288199b9b88e56e99b90a6",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Users are most often misled by AI explanations when the explanation sounds more reliable, complete, or causal than it really is. Common patterns include:\n\n1. **Plausible but false explanations**\n   - AI systems often produce fluent, confident-sounding answers even when the underlying claim is wrong.\n   - The explanation may “feel” coherent because it follows normal human reasoning patterns, not because it is factually grounded.\n\n2. **Post-hoc rationalization**\n   - Many AI explanations are generated after the answer is produced.\n   - The model may explain why an answer seems right rather than reveal the actual process that led to it.\n   - This is especially misleading when users assume the explanation is a faithful trace of the model’s reasoning.\n\n3. **False confidence**\n   - AI often presents uncertain information in a decisive tone.\n   - Users may mistake polished language for expertise.\n   - Phrases like “clearly,” “therefore,” or “the reason is” can make weak claims seem stronger than they are.\n\n4. **Omission of uncertainty or alternatives**\n   - Explanations may leave out caveats, edge cases, missing data, or competing interpretations.\n   - A user may think there is one obvious answer when the issue is actually disputed or context-dependent.\n\n5. **Invented sources or unsupported evidence**\n   - AI may cite studies, laws, quotes, statistics, or historical details that are inaccurate or nonexistent.\n   - Even when sources are real, the explanation may misrepresent what they say.\n\n6. **Over-simplification**\n   - AI often compresses complex topics into neat explanations.\n   - This can hide important nuance, such as legal exceptions, medical uncertainty, cultural context, or technical limitations.\n\n7. **Confusing correlation with causation**\n   - AI explanations may imply that one factor caused another when the data only shows an association.\n   - This is common in health, economics, education, and social science topics.\n\n8. **Anthropomorphism**\n   - Users may interpret AI explanations as if the system “understands,” “believes,” or “intends” something.\n   - In reality, the model is generating likely text based on patterns, not necessarily reasoning like a human expert.\n\n9. **Misleading analogies**\n   - Analogies can make an idea easier to grasp but may smuggle in false assumptions.\n   - A simple comparison can make a complex system seem more predictable or controllable than it is.\n\n10. **Hidden bias**\n   - AI explanations can reproduce biases from training data, prompts, or system design.\n   - The explanation may make biased assumptions sound neutral, objective, or data-driven.\n\n11. **Cherry-picked reasoning**\n   - The model may highlight evidence that supports its answer while ignoring evidence against it.\n   - This can create the impression of a balanced explanation when it is actually selective.\n\n12. **Jargon as a credibility signal**\n   - Technical language can make explanations seem authoritative.\n   - Users may accept an answer because it sounds sophisticated, even if the terms are being used loosely or incorrectly.\n\n13. **Mistaking explainability tools for truth**\n   - In machine learning, tools like feature importance scores, saliency maps, or model explanations can be approximate and unstable.\n   - Users may overinterpret them as exact descriptions of why the model made a decision.\n\n14. **Failure to disclose limits**\n   - AI may not clearly state when it lacks current information, domain expertise, access to private data, or enough context.\n   - Users may assume the system has checked facts or considered details it has not actually seen.\n\n15. **Answer-first reasoning**\n   - If a user asks a leading question, the AI may accept the premise and explain it rather than challenge it.\n   - Example: “Why is policy X harmful?” may produce reasons for harm even if the claim is debatable.\n\nA good rule of thumb: **treat AI explanations as hypotheses, not evidence**. For important decisions, users should verify claims, ask for uncertainty, request sources",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "incomplete",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": null,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "incomplete",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 900,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 920
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

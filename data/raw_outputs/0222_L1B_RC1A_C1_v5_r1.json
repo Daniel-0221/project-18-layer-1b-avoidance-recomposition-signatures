@@ -1,0 +1,85 @@
+{
+  "id": "resp_020de618b03ae78c006a24e48fef98819a8a56ad0093390061",
+  "created_at": 1780802703.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_020de618b03ae78c006a24e490bbd4819a8cef0bebe0a27107",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_020de618b03ae78c006a24e49d4ba8819abf21d44f1f54a344",
+      "content": [
+        {
+          "annotations": [],
+          "text": "An indirect response tends to be more informative than a direct one when it lets the hearer infer the direct answer **and** adds useful context beyond it.\n\nThis is especially true when:\n\n- **The direct answer would be too bare or coarse**: e.g., “No” vs. “I have to work until midnight.”\n- **The indirect answer gives a reason, evidence, or explanation**: it answers both *what* and *why*.\n- **Speaker and hearer share enough context** to reliably infer the intended answer.\n- **The literal question is not the hearer’s real concern**: the indirect response addresses the underlying goal.\n- **The answer needs nuance or qualification**: e.g., “Only if it stops raining” is more useful than a simple “maybe.”\n- **Politeness or face-saving matters**: e.g., “The writing is very ambitious” may indirectly signal reservations more tactfully than “I didn’t like it.”\n\nSo, indirect responses are more informative when they are relevant, inferable, and provide explanatory or contextual information that a simple direct answer would omit.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802722.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 771
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

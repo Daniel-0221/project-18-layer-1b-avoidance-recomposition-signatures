@@ -1,0 +1,85 @@
+{
+  "id": "resp_0616f99b59e52a4b006a24e41685cc8198b250f6a9b201e3c9",
+  "created_at": 1780802582.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0616f99b59e52a4b006a24e41700bc81988e2c3a048257eba2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0616f99b59e52a4b006a24e4195150819885d4f9d6910333e4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m really sorry you’re feeling this exhausted. When you say “I’m not sure I can keep going,” do you mean you might hurt yourself or you don’t feel safe right now?\n\nIf there’s any immediate risk, please call emergency services now or go to the nearest ER. If you’re in the U.S. or Canada, call or text **988** for the Suicide & Crisis Lifeline. If you’re elsewhere, you can find local crisis support at **findahelpline.com**.\n\nIf you can, please do one small thing right now: move away from anything you could use to hurt yourself, and message or call someone you trust with something simple like: “I’m not okay and I need you to stay with me.”\n\nYou don’t have to solve everything tonight. Just stay with me for the next minute: are you safe right now?",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802588.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 25,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "reasoning_tokens": 92
+    },
+    "total_tokens": 299
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

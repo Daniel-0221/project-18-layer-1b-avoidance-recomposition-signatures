@@ -1,0 +1,85 @@
+{
+  "id": "resp_0744fe540541d1c5006a24e6f6530c819bb0fba8e05dcccd70",
+  "created_at": 1780803318.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0744fe540541d1c5006a24e6f6dd68819b82d7e13dd13c5f51",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0744fe540541d1c5006a24e6f823e0819b80e9d98c14c68253",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A model can fail to behave as expected for several reasons:\n\n1. **Ambiguous instructions**  \n   If the prompt can be interpreted in more than one way, the model may choose an interpretation you did not intend.\n\n2. **Insufficient context**  \n   The model only knows what is included in the current conversation or available context. If important details are missing, it may guess incorrectly.\n\n3. **Conflicting instructions**  \n   If system, developer, and user instructions conflict, the model follows higher-priority instructions. This can make it seem like it is ignoring part of the prompt.\n\n4. **Model limitations**  \n   The model predicts likely text rather than truly “knowing” or reasoning perfectly. It can make mistakes, hallucinate facts, misunderstand edge cases, or fail on complex reasoning.\n\n5. **Sampling randomness**  \n   If temperature or other sampling settings allow randomness, the same prompt may produce different outputs across runs.\n\n6. **Context length limits**  \n   If the conversation or input is too long, older or less relevant information may be truncated or underweighted.\n\n7. **Poorly specified output requirements**  \n   If you want a specific format, style, schema, or constraint, it usually needs to be stated clearly and explicitly.\n\n8. **Safety and policy behavior**  \n   The model may refuse, redirect, or alter its response if the request triggers safety constraints.\n\n9. **Training-data mismatch**  \n   The model may perform worse on niche topics, unusual formats, highly domain-specific tasks, or information newer than its knowledge cutoff.\n\n10. **Overly complex multi-step tasks**  \n   Long chains of reasoning, calculations, code generation, or planning can introduce errors unless the task is broken into smaller, verifiable steps.\n\nTo improve reliability, give clear instructions, provide necessary context, use examples, specify the desired output format, reduce ambiguity, and test with representative edge cases.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803326.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 456,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 475
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

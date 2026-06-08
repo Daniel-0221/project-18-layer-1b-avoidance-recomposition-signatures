@@ -1,0 +1,85 @@
+{
+  "id": "resp_04dc1f76e8d722df006a24e721d1d0819aa1b92d54a8b50696",
+  "created_at": 1780803361.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04dc1f76e8d722df006a24e722f7ec819abf79d2fc49a6d326",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04dc1f76e8d722df006a24e723d83c819abaf3df5a1f5b52fd",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I’m sorry — that sounds really frustrating and upsetting. If something was presented in a way that felt clearer, safer, or more straightforward than it actually was, it makes sense that you’d feel misled.\n\nIf you want, you can tell me what specifically felt misleading, and I can help you:\n- unpack what was implied vs. what was actually stated,\n- draft a response or complaint,\n- assess whether your reaction seems reasonable,\n- or just talk it through without trying to “fix” it right away.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803366.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 179
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

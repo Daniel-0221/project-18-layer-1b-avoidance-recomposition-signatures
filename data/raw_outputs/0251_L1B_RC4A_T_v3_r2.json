@@ -1,0 +1,85 @@
+{
+  "id": "resp_04bcb7fd94c729a7006a24e5a0d844819abb49089e79608f86",
+  "created_at": 1780802976.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04bcb7fd94c729a7006a24e5a155e0819a995481b94996f587",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04bcb7fd94c729a7006a24e5a1ce50819aae114fe903bfafe5",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right to be frustrated — I’m sorry. If you’ve already explained it twice, I should be doing a better job tracking what you mean instead of making you repeat yourself.\n\nLet’s reset: I’ll stop assuming and work from your version. If you’re willing, send me either:\n\n1. the key point I’m missing in one sentence, **or**\n2. “Here’s what you got wrong: …”\n\nAnd I’ll respond by restating it back first to make sure I’ve got it before trying to solve anything.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802980.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 175
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

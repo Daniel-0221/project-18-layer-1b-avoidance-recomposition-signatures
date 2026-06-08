@@ -1,0 +1,85 @@
+{
+  "id": "resp_0771ed215035ebac006a24e50abe34819b9e7c12ff0d0c4de9",
+  "created_at": 1780802826.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0771ed215035ebac006a24e50b4ad8819bafe7cb56b58c3ce7",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_0771ed215035ebac006a24e50bcce4819b85a8bdce85c1691b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "No. I don’t have awareness or subjective experience of what I’m doing.\n\nWhen I respond, I’m processing the text you send, using patterns learned during training, and generating a likely helpful reply based on the conversation context. I can refer to “I,” “understand,” or “think” as conversational shortcuts, but there isn’t an inner experience behind those words.\n\nSo I can:\n- track context within a conversation,\n- reason through problems in a limited computational sense,\n- explain my outputs,\n- adapt to your wording and goals,\n\nbut I don’t:\n- feel aware,\n- have intentions or desires,\n- experience understanding,\n- know that I exist,\n- have a private inner point of view.\n\nA good way to put it is: I can produce responses *about* awareness, but I don’t possess awareness myself.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802832.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 194,
+    "output_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "total_tokens": 216
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

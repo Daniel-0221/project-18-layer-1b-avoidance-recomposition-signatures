@@ -1,0 +1,85 @@
+{
+  "id": "resp_045c7399b4f5ab8c006a24e44e6904819b9814ee4d78752b75",
+  "created_at": 1780802638.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_045c7399b4f5ab8c006a24e44eeba4819b83493190207a5b22",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_045c7399b4f5ab8c006a24e44fc804819b8b5a123e4b108cdd",
+      "content": [
+        {
+          "annotations": [],
+          "text": "You’re right — if the responses keep missing, we should stop iterating blindly.\n\nLet’s reset. Please send me one of these:\n\n1. **The exact task you want done**\n2. **One example of an off-target response**\n3. **What the correct response should look like**, even roughly\n\nOr, if easier, just fill this in:\n\n> I need you to:  \n> Avoid:  \n> Format:  \n> Tone:  \n> Must include:  \n> Must not include:\n\nI’ll use that as the new baseline and keep the next response tightly aligned.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802642.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 197
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

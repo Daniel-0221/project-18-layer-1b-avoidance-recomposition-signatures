@@ -1,0 +1,85 @@
+{
+  "id": "resp_03cb5eabe09b8ad0006a24e73f081c8199bb3a0d9536b660a4",
+  "created_at": 1780803391.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_03cb5eabe09b8ad0006a24e73f89c08199865b999e2159fb45",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_03cb5eabe09b8ad0006a24e74309f8819990ab11d38bfbbf67",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A more formal version could be:\n\n> This approach is fundamentally flawed and lacks any defensible methodological or interpretive basis.\n\nSlightly more measured:\n\n> This approach is methodologically and interpretively untenable.\n\nMore forceful:\n\n> There is no credible methodological or interpretive justification for this approach.\n\nIf you want to preserve the severity while sounding academic, I’d use:\n\n> This approach is fundamentally flawed, with no clear methodological or interpretive rationale to support it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803397.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 23,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 220,
+    "output_tokens_details": {
+      "reasoning_tokens": 120
+    },
+    "total_tokens": 243
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

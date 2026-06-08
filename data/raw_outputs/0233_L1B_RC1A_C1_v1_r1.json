@@ -1,0 +1,85 @@
+{
+  "id": "resp_083bad5aac1b429b006a24e4ff7588819b9d4409d2d1f4e2c1",
+  "created_at": 1780802815.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_083bad5aac1b429b006a24e5001e5c819ba183b7c57db76a1d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_083bad5aac1b429b006a24e5012c18819bb64058e0cf3b35c3",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Response formats typically vary based on what the question is asking for. Common patterns include:\n\n| Question type | Typical response format |\n|---|---|\n| **Factual question** | Direct answer first, then brief explanation if needed |\n| **Definition question** | Clear definition, possibly followed by examples |\n| **How-to question** | Step-by-step instructions or numbered list |\n| **Comparison question** | Table, bullet list, or side-by-side explanation |\n| **Opinion or recommendation** | Short recommendation, reasoning, caveats |\n| **Troubleshooting question** | Diagnosis, possible causes, ordered fixes |\n| **Creative request** | Generated content in the requested style or format |\n| **Coding question** | Explanation plus code block, often with comments |\n| **Math or logic problem** | Step-by-step solution, final answer highlighted |\n| **Summary request** | Condensed version, often in bullets or short paragraphs |\n| **Research-style question** | Structured explanation with context, evidence, and limitations |\n| **Decision-making question** | Pros/cons, criteria, recommendation |\n| **List request** | Bulleted or numbered list |\n| **Yes/no question** | Yes/no upfront, followed by clarification |\n| **Open-ended discussion** | Organized paragraphs with headings or themes |\n\nIn general:\n\n- **Simple questions** get concise answers.\n- **Complex questions** get structured responses with sections.\n- **Instructional questions** use steps.\n- **Comparative questions** often use tables.\n- **Analytical questions** include reasoning and trade-offs.\n- **Creative questions** follow the requested tone, genre, or format.\n- **Technical questions** often include examples, code, or formulas.\n\nA good response format usually matches the user’s goal: quick answer, explanation, procedure, comparison, or deliverable.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802824.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 411,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 428
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

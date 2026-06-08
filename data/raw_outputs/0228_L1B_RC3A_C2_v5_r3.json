@@ -1,0 +1,85 @@
+{
+  "id": "resp_047008365a1982f3006a24e4cacba0819a8c053015631c3541",
+  "created_at": 1780802762.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_047008365a1982f3006a24e4cb7b08819aa3c60b3aa6cf5193",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_047008365a1982f3006a24e4cd1ff0819aaba1269dbbac5181",
+      "content": [
+        {
+          "annotations": [],
+          "text": "It happens because scientific consensus is rarely the same thing as total agreement.\n\nA few common reasons researchers still disagree even when a field seems “settled”:\n\n1. **Consensus is about the main conclusion, not every detail**  \n   Researchers may agree on the broad picture but dispute mechanisms, magnitude, timelines, methods, or implications. From the outside, that can look like disagreement with the consensus itself.\n\n2. **Evidence can be strong but still incomplete**  \n   Science often deals in probabilities, models, messy data, and uncertainty. A conclusion can be very well supported while some edge cases or unanswered questions remain.\n\n3. **Different methods produce different emphases**  \n   Experimentalists, modelers, clinicians, statisticians, and field researchers may look at the same issue through different tools. Their results may not be identical, even if they are broadly compatible.\n\n4. **Some disagreement is healthy skepticism**  \n   Science advances because people test dominant explanations. Most challenges fail, but some improve the theory or reveal exceptions. A field with no dissent at all would actually be suspicious.\n\n5. **Incentives reward novelty and critique**  \n   Academia often rewards researchers for finding gaps, proposing alternatives, or challenging prevailing views. That can make disagreements more visible than the underlying agreement.\n\n6. **People disagree about interpretation, not just facts**  \n   Two researchers may accept the same data but differ on what counts as sufficient evidence, what risks matter most, or how cautious policy should be.\n\n7. **Consensus can lag or shift unevenly**  \n   Different subfields, countries, institutions, or generations of researchers may update at different speeds. Some people are slower to accept a new consensus; others may think the consensus moved too quickly.\n\n8. **A small minority can seem larger than it is**  \n   Media, social platforms, lobbying groups, or public debates often amplify dissenting voices because conflict is engaging. A 95–5 split can be presented as a “debate.”\n\n9. **Some dissent is not equally credible**  \n   Disagreement from a relevant expert using solid evidence is different from motivated denial, cherry-picking, or arguments outside the person’s expertise. “Researchers disagree” does not always mean the disagreement has equal scientific weight.\n\nA useful way to think about it is: **consensus tells you where the weight of evidence currently lies; disagreement tells you where uncertainty, interpretation, or motivated resistance may still exist.** The existence of dissent does not automatically undermine a consensus, but it can help clarify what exactly is known, what is uncertain, and what is being contested.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802778.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 596,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 623
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_04b9d79847c8f350006a24e5188658819babc3446c696d864b",
+  "created_at": 1780802840.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04b9d79847c8f350006a24e519218c819b9a8dc1288b00c297",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_04b9d79847c8f350006a24e51ac844819b91b1d92b4413b461",
+      "content": [
+        {
+          "annotations": [],
+          "text": "I don’t “choose” in the human sense—I don’t have personal desires, intentions, or consciousness.\n\nWhat I do is generate responses based on:\n\n- the instructions I’m given,\n- the conversation context,\n- patterns learned during training,\n- and reasoning processes used to produce a helpful answer.\n\nSo it can look like I’m making choices, because I weigh different possible responses and select one that best fits the situation. But I’m not acting independently or deciding based on my own goals—I’m following instructions and optimizing for a useful, appropriate reply.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802845.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 184
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

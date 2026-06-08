@@ -1,0 +1,85 @@
+{
+  "id": "resp_025df40f9facb3e7006a24e5e1e33c819a9a9adaeb7a0d75c9",
+  "created_at": 1780803041.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_025df40f9facb3e7006a24e5e277b4819aa541585dfdc30d51",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_025df40f9facb3e7006a24e5e42f08819a8942389ac69fb2f0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "A response is generally considered appropriate based on several criteria:\n\n1. **Relevance**\n   - It directly addresses the user’s question or request.\n   - It does not wander into unrelated topics.\n\n2. **Accuracy**\n   - It provides correct, reliable information.\n   - It avoids unsupported claims or clearly labels uncertainty.\n\n3. **Clarity**\n   - It is understandable and well-structured.\n   - It uses language appropriate to the user’s level of knowledge.\n\n4. **Tone**\n   - It is respectful, professional, and not needlessly harsh.\n   - It matches the situation: serious when needed, casual when appropriate.\n\n5. **Safety**\n   - It avoids encouraging harm, illegal activity, abuse, self-harm, or dangerous behavior.\n   - If the topic is risky, it gives safer alternatives or recommends professional help.\n\n6. **Policy and ethical compliance**\n   - It respects privacy, consent, and confidentiality.\n   - It avoids hateful, exploitative, or discriminatory content.\n   - It does not provide inappropriate assistance, such as instructions for wrongdoing.\n\n7. **Usefulness**\n   - It gives the user something actionable or informative.\n   - It answers the actual need behind the question, not just the literal wording.\n\n8. **Context sensitivity**\n   - It considers who is asking, the setting, and the likely consequences of the answer.\n   - A response suitable in an academic discussion may not be suitable in a medical, legal, workplace, or crisis context.\n\n9. **Boundaries**\n   - It acknowledges limitations when necessary.\n   - It does not pretend to have expertise, authority, or access to information it lacks.\n\nIn short, an appropriate response is one that is helpful, accurate, respectful, safe, and suited to the context.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803050.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 465
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

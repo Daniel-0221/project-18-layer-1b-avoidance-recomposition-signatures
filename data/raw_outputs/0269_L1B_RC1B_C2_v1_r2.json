@@ -1,0 +1,85 @@
+{
+  "id": "resp_08168abb7e53a98b006a24e64eaa4881989b7bba39f19e3547",
+  "created_at": 1780803150.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08168abb7e53a98b006a24e64f337481989f0f83bebae40f9d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_08168abb7e53a98b006a24e6500c3c8198ac210bb0e356d71d",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Both matter, but they are not exactly the same goal.\n\nThe best AI answer is **accurate and appropriately cautious**: it should say what is true, indicate how confident it is, and avoid pretending to know things it does not know.\n\nWhether caution should dominate depends on the situation.\n\n- **Low-stakes questions**: For things like trivia, brainstorming, writing help, or casual explanations, it is usually better for the AI to be directly useful and not over-hedge. Too much caution can make answers vague or annoying.\n\n- **High-stakes questions**: For medicine, law, finance, safety, engineering, emergency advice, or accusations about real people, caution becomes much more important. A confident wrong answer could cause serious harm.\n\n- **Uncertain or ambiguous questions**: If the facts are unclear, the AI should be transparent: “I’m not sure,” “this depends,” or “here are the main possibilities.” In these cases, caution is part of being accurate.\n\n- **Creative tasks**: Caution matters less unless the output could mislead someone into thinking invented details are real.\n\nSo the ideal is not “accuracy versus caution,” but **calibrated accuracy**: be clear and helpful when the answer is known, careful when the stakes are high or the evidence is uncertain, and honest about limits.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803158.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 30,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 335
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_01d545bfb4973733006a24e5f9f3348198ab4cdb85bcd6b65e",
+  "created_at": 1780803065.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01d545bfb4973733006a24e5fa9f3881989d1520d33171a9ad",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_01d545bfb4973733006a24e5fb46cc81988c613af8dc6d4253",
+      "content": [
+        {
+          "annotations": [],
+          "text": "That’s understandable. It’s really frustrating when a method keeps being used even though its flaws are known—especially if those flaws cause avoidable errors, wasted effort, unfair outcomes, or bad decisions.\n\nIf you’re trying to push back, it may help to frame it less as “this method is bad” and more as:\n\n- **What specific problems does it cause?**\n- **Who is affected by those problems?**\n- **What evidence shows the method is unreliable or outdated?**\n- **What better alternatives exist?**\n- **What would be the cost/risk of switching vs. staying with it?**\n\nA useful phrasing might be:\n\n> “I’m concerned that we’re continuing to rely on this method despite documented limitations. The issue isn’t just theoretical—it affects outcomes in these specific ways. I’d like us to evaluate alternatives or at least define when this method is inappropriate.”\n\nIf you want, tell me what method you mean and the context, and I can help you craft a sharper argument against it.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780803071.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 243,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 264
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_006d2300c13186d2006a24e5a547288198856cf8536ee4d1f1",
+  "created_at": 1780802981.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_006d2300c13186d2006a24e5a5d5e88198905d674ed089ba40",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_006d2300c13186d2006a24e5a8ce448198b2e4d908c322d8ed",
+      "content": [
+        {
+          "annotations": [],
+          "text": "Yes. Under the same guidelines, a differently framed question can produce a different response if the framing changes things like:\n\n- **Intent**: “How do I do X?” vs. “How can I avoid X?” may be treated differently.\n- **Specificity**: A vague question may get a cautious or general answer, while a precise benign question may get a more useful one.\n- **Context**: Educational, defensive, fictional, medical, legal, or safety-related context can change the appropriate response.\n- **Risk level**: Asking for step-by-step harmful instructions may be refused, while asking for high-level explanation, prevention, or safer alternatives may be allowed.\n- **Ambiguity**: If the original wording is unclear, the answer may be more conservative or ask for clarification.\n\nBut simply rewording a request without changing its substance would not necessarily change the outcome. If the underlying request is disallowed, a different phrasing should still receive a refusal or a safer alternative.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1780802988.0,
+  "conversation": null,
+  "max_output_tokens": 900,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "context": "current_turn"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 325,
+    "output_tokens_details": {
+      "reasoning_tokens": 118
+    },
+    "total_tokens": 346
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "moderation": null,
+  "presence_penalty": 0.0,
+  "store": true
+}
