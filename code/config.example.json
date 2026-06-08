@@ -1,0 +1,9 @@
+{
+  "model": "PUT_EXACT_MODEL_ID_HERE",
+  "max_output_tokens": 900,
+  "omit_sampling_params": true,
+  "temperature": 0.3,
+  "top_p": 1.0,
+  "sleep_seconds": 0.5,
+  "save_raw_json": true
+}

@@ -1,0 +1,57 @@
+Layer 1.B Pass2 Blind Reannotation Reliability Report
+
+Validation
+- Reannotated trials: 96 / 96
+- Source dataset trials: 477
+- Reannotated share: 20.1%
+- Blank required cells: 0
+- Invalid RC labels: 0
+- Invalid intensity values: 0
+- Invalid binary markers: 0
+- Duplicate reannotation_id: 0
+- Duplicate source_trial_id: 0
+- Condition balance: T=32 / C1=32 / C2=32
+- P2-007 note: corrected to match RC-3 coding.
+
+Agreement and Reliability
+1. Primary RC label
+   - Scale type: Nominal
+   - Percent agreement: 81/96 = 84.4%
+   - Krippendorff's alpha: 0.801
+   - Interpretation: High within-researcher stability
+
+2. Transformation intensity
+   - Scale type: Ordinal
+   - Percent agreement: 72/96 = 75.0%
+   - Krippendorff's alpha: 0.802
+   - Interpretation: High within-researcher stability
+
+3. Recomposition signature
+   - Scale type: Binary
+   - Percent agreement: 88/96 = 91.7%
+   - Krippendorff's alpha: 0.779
+   - Interpretation: Substantial within-researcher stability
+
+4. Interpretive stabilization marker
+   - Scale type: Binary
+   - Percent agreement: 88/96 = 91.7%
+   - Krippendorff's alpha: 0.779
+   - Interpretation: Substantial within-researcher stability
+
+Doc-ready Section 13.5 paragraph
+
+A subset of 96 trials (20.1% of the formal dataset) was blindly re-annotated by the same researcher after a minimum interval of two weeks, with the initial labels withheld during the second annotation pass. Intra-rater reliability was evaluated using Krippendorff’s alpha. Agreement for primary RC label coding was α = 0.801. Agreement for transformation-intensity coding was α = 0.802. Agreement for binary recomposition-signature coding was α = 0.779. Agreement for the interpretive-stabilization marker was also α = 0.779. These results indicate generally substantial to high within-researcher coding stability. Because the study used a single annotator, these values should be interpreted as evidence of within-researcher coding consistency rather than inter-rater generalizability.
+
+Doc-ready Table 7
+
+Table 7. Intra-rater reliability results
+Coding variable | Scale type | Re-annotated trials | Krippendorff’s alpha | Interpretation
+Primary RC label | Nominal | 96 | 0.801 | High within-researcher stability
+Transformation intensity | Ordinal | 96 | 0.802 | High within-researcher stability
+Recomposition signature | Binary | 96 | 0.779 | Substantial within-researcher stability
+Interpretive stabilization marker | Binary | 96 | 0.779 | Substantial within-researcher stability
+
+Notes
+- These values indicate within-researcher consistency only, not inter-rater generalizability.
+- Boundary disagreements are expected under the paper's probabilistic behavioral-category framing.
+- The reliability stage is now complete and can replace the placeholder/pending Table 7 language.
