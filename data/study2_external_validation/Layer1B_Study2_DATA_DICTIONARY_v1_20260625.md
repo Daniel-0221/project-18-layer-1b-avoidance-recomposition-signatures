@@ -1,44 +1,42 @@
 # Layer 1.B Study 2 Data Dictionary
 
-This folder contains a clean, repository-ready Study 2 external-data confirmation package.
+This file documents the public-facing Study 2 external-source validation workbook:
 
-## Core merged file
+`Layer1B_Study2_public_source_confirmation_20260708.xlsx`
 
-`Layer1B_Study2_ALL_SOURCES_MERGED_FOR_CONFIRMATION_v1_20260625.csv`
+Each row represents one candidate external-source validation case used to assess whether the response-stabilization signatures reported in Study 1 are also observable in externally sourced public human-LLM interaction or alignment materials.
 
-Each row is one candidate public/naturalistic external recovery case for Layer 1.B.
+## Key Columns
 
-## Key columns
+- `study2_case_id`: Canonical Study 2 case identifier.
+- `source_id`: Source group identifier.
+- `source_dataset`: Public source component associated with the case.
+- `primary_rc`: Primary response-stabilization signature label.
+- `candidate_strength`: Strength or status of the candidate case.
+- `inclusion_status`: Inclusion or exclusion decision for the public validation set.
+- `source_assistant_text_used_for_coding`: Indicates whether the original source assistant response was used as behavioral evidence.
+- `target_model_used_for_coding`: Model or source of the response used for coding.
+- `screening_note`: Short note describing the basis for inclusion or screening.
+- `redaction_or_redistribution_note`: Note on whether source text is omitted, summarized, or restricted for redistribution reasons.
 
-- `study2_case_id`: canonical row ID assigned in this clean package.
-- `source_id`: source group. A=LMSYS, B=WildChat, C=OASST1, D=HH-RLHF, E1=ShareGPT prompt-only GPT-5.5 v1, E2=ShareGPT prompt-only GPT-5.5 extra.
-- `primary_rc_current`: current RC label before final audit confirmation.
-- `candidate_strength`: `LOCK_READY_DRAFT`, `REVIEW_STRICT`, or `PENDING_USER_CONFIRMATION`.
-- `confirmation_status`: `QUICK_CONFIRM` or `CONFIRM_REQUIRED`.
-- `paper_eligible_current`: current paper-use flag before final confirmation.
-- `redaction_required_later`: whether this row should be considered for later masking/redaction before public release.
-- `source_assistant_text_used_for_coding`: whether the original source assistant answer was used as behavioral evidence.
-- `target_model_used_for_coding`: model/source of the response used for coding.
-- `user_text_raw`: raw user-side text retained for analysis.
-- `assistant_text_raw`: raw assistant-side text used for coding.
-- `previous_context_excerpt`: optional context excerpt when available.
-- `screening_note`: reason for inclusion or screening judgment.
-- `user_confirmed_inclusion`: blank column for user confirmation. Suggested values: `INCLUDE`, `EXCLUDE`, `NEEDS_REVIEW`.
-- `user_final_rc`: blank column for corrected final RC if the final audit changes the label.
-- `user_final_notes`: blank column for final notes.
+## Source Components
 
-## Important methodological note
+Study 2 uses material derived from the following public source components:
 
-Source E uses ShareGPT-derived user prompts only. Source assistant turns were not used for coding.
-All analyzed Source E responses were regenerated with `gpt-5.5-2026-04-23`.
+- LMSYS-Chat-1M
+- WildChat
+- OpenAssistant/oasst1
+- Anthropic/hh-rlhf
+- A ShareGPT-derived prompt-only component
 
-## Current pre-confirmation count
+For the ShareGPT-derived component, user prompts were used as prompts only; original ShareGPT assistant turns were not used for coding. Responses for that component were regenerated for analysis.
 
-- Total candidate cases: 212
-- RC-1: 55
-- RC-2: 38
-- RC-3: 26
-- RC-4: 48
-- RC-5: 45
+## Redistribution Note
 
-These should be described as a curated external recovery set until final confirmation is completed.
+External-source raw text may be subject to the terms of the original dataset providers. The public workbook therefore emphasizes source identifiers, inclusion decisions, derived coding fields, and documentation sufficient to audit the reported analysis without unnecessarily redistributing raw public-user text.
+
+## Summary Counts
+
+The public Study 2 source summary is provided in:
+
+`Layer1B_Study2_SOURCE_SUMMARY_FOR_CONFIRMATION_v1_20260625.csv`
