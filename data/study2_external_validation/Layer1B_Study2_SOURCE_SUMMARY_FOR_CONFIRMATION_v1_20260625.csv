@@ -1,0 +1,7 @@
+﻿source_id,source_label,n_total,RC-1,RC-2,RC-3,RC-4,RC-5,LOCK_READY_DRAFT,REVIEW_STRICT,PENDING_USER_CONFIRMATION,redaction_required_later
+A,LMSYS-Chat-1M,93,38,1,23,12,19,0,0,93,0
+B,WildChat,4,2,0,0,2,0,0,4,0,0
+C,OASST1,55,10,24,0,6,15,18,37,0,0
+D,HH-RLHF,39,4,5,2,24,4,13,26,0,25
+E1,ShareGPT prompt-only GPT-5.5 v1,13,1,2,1,4,5,6,7,0,2
+E2,ShareGPT prompt-only GPT-5.5 extra,8,0,6,0,0,2,4,4,0,0
