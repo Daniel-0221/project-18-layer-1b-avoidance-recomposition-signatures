@@ -1,55 +1,36 @@
-# Layer 1.B Study 2 External Data Package
+# Layer 1.B Study 2 External-Source Validation Data
 
-Clean confirmation-ready package generated on 2026-06-25.
+This folder contains public-facing materials for the Study 2 external-source validation component of the Layer 1.B manuscript.
 
 ## Purpose
 
-This folder is intended to replace the previous working `03_s2` folder for the Layer 1.B paper.
-It preserves the main source structure while removing raw scrape files, temporary files, `.venv`, failed runs, and non-paper intermediate artifacts.
+Study 2 examines whether the response-stabilization signatures reported in the controlled Study 1 dataset are also observable in externally sourced public human-LLM interaction or alignment materials.
 
-## Current package status
+This package is intended for transparency, auditability, and reproducibility while avoiding unnecessary redistribution of raw public-user text from external datasets.
 
-This is a **confirmation-ready** package, not the final locked publication package.
+## Core Files
 
-- Total candidate external recovery cases: 212
-- RC-1: 55
-- RC-2: 38
-- RC-3: 26
-- RC-4: 48
-- RC-5: 45
-- Duplicate `case_pair_sha1` values found: 0
+- `Layer1B_Study2_public_source_confirmation_20260708.xlsx`  
+  Public source-confirmation workbook containing source identifiers, adjudication fields, RC labels, inclusion decisions, and derived coding information.
 
-## Core files
+- `Layer1B_Study2_DATA_DICTIONARY_v1_20260625.md`  
+  Data dictionary describing the Study 2 external-validation fields.
 
-Start here:
+- `Layer1B_Study2_SOURCE_SUMMARY_FOR_CONFIRMATION_v1_20260625.csv`  
+  Source-level summary of candidate counts by dataset component and response-stabilization signature.
 
-`cand/06_Merged_Final/Layer1B_Study2_ALL_SOURCES_MERGED_FOR_CONFIRMATION_v1_20260625.xlsx`
+## Public Source Components
 
-After Daniel confirms rows, use the edited file to produce the final locked external-data file for the manuscript.
+Study 2 uses material derived from the following public source components:
 
-## Source folders
+- LMSYS-Chat-1M
+- WildChat
+- OpenAssistant/oasst1
+- Anthropic/hh-rlhf
+- A ShareGPT-derived prompt-only component
 
-- `cand/01_LMSYS`: Source A, LMSYS-Chat-1M candidates.
-- `cand/02_WildChat`: Source B, WildChat candidates.
-- `cand/03_OASST1`: Source C, OASST1 candidates.
-- `cand/04_HH-RLHF`: Source D, HH-RLHF candidates.
-- `cand/05_ShareGPT`: Source E, ShareGPT prompt-only + GPT-5.5 regenerated responses.
-- `cand/06_Merged_Final`: canonical merged confirmation dataset and summary files.
+For the ShareGPT-derived component, user prompts were used as prompts only; original ShareGPT assistant turns were not used for coding.
 
-## Methodological note
+## Redistribution Note
 
-Source E follows a prompt-only construction: ShareGPT-derived user prompts were used, but original ShareGPT assistant turns were not used for coding. Responses were regenerated with `gpt-5.5-2026-04-23`.
-
-## Excluded from this clean package
-
-The following were intentionally removed from the previous working archive:
-
-- `.venv`
-- raw search/download files
-- failed response logs
-- one-off runner scripts
-- synthetic QA files
-- old LMSYS templates and exploratory raw candidate files
-- nested duplicate source package folders
-
-Keep the original full archive separately if forensic reconstruction is needed.
+External-source raw text may be subject to the terms of the original dataset providers. This public package therefore emphasizes source identifiers, inclusion decisions, derived coding fields, and documentation rather than redistributing unnecessary raw public-user text.
